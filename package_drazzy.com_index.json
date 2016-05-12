@@ -240,7 +240,7 @@
       },
       "platforms": [
         {
-          "name": "ATtiny Modern",
+          "name": "ATtiny Modern(deprecated, use ATTinyCore instead)",
           "architecture": "avr",
           "version": "1.0.4",
           "category": "Contributed",
@@ -271,7 +271,7 @@
           ]
         },
         {
-          "name": "ATtiny Modern",
+          "name": "ATtiny Modern(deprecated, use ATTinyCore instead)",
           "architecture": "avr",
           "version": "1.0.5",
           "category": "Contributed",
@@ -302,7 +302,7 @@
           ]
         },
         {
-          "name": "ATtiny Modern",
+          "name": "ATtiny Modern(deprecated, use ATTinyCore instead)",
           "architecture": "avr",
           "version": "1.0.6",
           "category": "Contributed",
@@ -318,6 +318,34 @@
             {"name": "ATtiny841"},
             {"name": "ATtiny1634"},
             {"name": "ATtiny828"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            }
+          ]
+        },
+        {
+          "name": "ATtiny Modern(deprecated, use ATTinyCore instead)",
+          "architecture": "avr",
+          "version": "1.0.7-deprecation-notice",
+          "category": "Contributed",
+          "help": {
+            "online": ""
+          },
+          "url": "https://github.com/SpenceKonde/arduino-tiny-841/archive/v1.0.6.tar.gz",
+          "archiveFileName": "arduino-tiny-841-1.0.6.tar.gz",
+          "checksum": "SHA-256:f705cd4c6cda59ebc45eb74c7df749191f2ac5451d83aa57efdf2d477c152e98",
+          "size": "121546",
+          "boards": [
+            {"name": "ATTENTION! ATtiny Modern has been merged with ATTinyCore. If you have ATtiny Modern installed please click the Remove button and install ATTinyCore."}
           ],
           "toolsDependencies": [
             {
