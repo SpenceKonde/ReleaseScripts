@@ -38,18 +38,7 @@
             {"name": "ATtiny48"},
             {"name": "ATtiny88"}
           ],
-          "toolsDependencies": [
-            {
-              "packager": "arduino",
-              "name": "avr-gcc",
-              "version": "4.8.1-arduino5"
-            },
-            {
-              "packager": "arduino",
-              "name": "avrdude",
-              "version": "6.0.1-arduino5"
-            }
-          ]
+          "toolsDependencies": []
         },
         {
           "name": "ATTinyCore",
@@ -80,18 +69,7 @@
             {"name": "ATtiny48"},
             {"name": "ATtiny88"}
           ],
-          "toolsDependencies": [
-            {
-              "packager": "arduino",
-              "name": "avr-gcc",
-              "version": "4.8.1-arduino5"
-            },
-            {
-              "packager": "arduino",
-              "name": "avrdude",
-              "version": "6.0.1-arduino5"
-            }
-          ]
+          "toolsDependencies": []
         },
         {
           "name": "ATTinyCore",
@@ -122,18 +100,7 @@
             {"name": "ATtiny48"},
             {"name": "ATtiny88"}
           ],
-          "toolsDependencies": [
-            {
-              "packager": "arduino",
-              "name": "avr-gcc",
-              "version": "4.8.1-arduino5"
-            },
-            {
-              "packager": "arduino",
-              "name": "avrdude",
-              "version": "6.0.1-arduino5"
-            }
-          ]
+          "toolsDependencies": []
         },
         {
           "name": "ATTinyCore",
@@ -168,18 +135,7 @@
             {"name": "ATtiny48"},
             {"name": "ATtiny88"}
           ],
-          "toolsDependencies": [
-            {
-              "packager": "arduino",
-              "name": "avr-gcc",
-              "version": "4.8.1-arduino5"
-            },
-            {
-              "packager": "arduino",
-              "name": "avrdude",
-              "version": "6.0.1-arduino5"
-            }
-          ]
+          "toolsDependencies": []
         },
         {
           "name": "ATTinyCore",
@@ -214,18 +170,7 @@
             {"name": "ATtiny48"},
             {"name": "ATtiny88"}
           ],
-          "toolsDependencies": [
-            {
-              "packager": "arduino",
-              "name": "avr-gcc",
-              "version": "4.8.1-arduino5"
-            },
-            {
-              "packager": "arduino",
-              "name": "avrdude",
-              "version": "6.0.1-arduino5"
-            }
-          ]
+          "toolsDependencies": []
         }
       ],
       "tools": []
@@ -257,18 +202,7 @@
             {"name": "ATtiny1634"},
             {"name": "ATtiny828"}
           ],
-          "toolsDependencies": [
-            {
-              "packager": "arduino",
-              "name": "avr-gcc",
-              "version": "4.8.1-arduino5"
-            },
-            {
-              "packager": "arduino",
-              "name": "avrdude",
-              "version": "6.0.1-arduino5"
-            }
-          ]
+          "toolsDependencies": []
         },
         {
           "name": "ATtiny Modern(deprecated, use ATTinyCore instead)",
@@ -288,18 +222,7 @@
             {"name": "ATtiny1634"},
             {"name": "ATtiny828"}
           ],
-          "toolsDependencies": [
-            {
-              "packager": "arduino",
-              "name": "avr-gcc",
-              "version": "4.8.1-arduino5"
-            },
-            {
-              "packager": "arduino",
-              "name": "avrdude",
-              "version": "6.0.1-arduino5"
-            }
-          ]
+          "toolsDependencies": []
         },
         {
           "name": "ATtiny Modern(deprecated, use ATTinyCore instead)",
@@ -319,18 +242,7 @@
             {"name": "ATtiny1634"},
             {"name": "ATtiny828"}
           ],
-          "toolsDependencies": [
-            {
-              "packager": "arduino",
-              "name": "avr-gcc",
-              "version": "4.8.1-arduino5"
-            },
-            {
-              "packager": "arduino",
-              "name": "avrdude",
-              "version": "6.0.1-arduino5"
-            }
-          ]
+          "toolsDependencies": []
         },
         {
           "name": "ATtiny Modern(deprecated, use ATTinyCore instead)",
@@ -347,18 +259,7 @@
           "boards": [
             {"name": "ATTENTION! ATtiny Modern has been merged with ATTinyCore. If you have ATtiny Modern installed please click the Remove button and install ATTinyCore."}
           ],
-          "toolsDependencies": [
-            {
-              "packager": "arduino",
-              "name": "avr-gcc",
-              "version": "4.8.1-arduino5"
-            },
-            {
-              "packager": "arduino",
-              "name": "avrdude",
-              "version": "6.0.1-arduino5"
-            }
-          ]
+          "toolsDependencies": []
         }
       ],
       "tools": []
