@@ -381,6 +381,42 @@
             {"name": "ATtiny88"}
           ],
           "toolsDependencies": []
+        },
+        {
+          "name": "ATTinyCore",
+          "architecture": "avr",
+          "version": "1.2.2",
+          "category": "Contributed",
+          "help": {
+            "online": ""
+          },
+          "url": "https://github.com/SpenceKonde/ATTinyCore/archive/vg1.2.2.tar.gz",
+          "archiveFileName": "ATTinyCore-vg1.2.2.tar.gz",
+          "checksum": "SHA-256:2d566446b3d94c82279a188353ce400b3aecce6e283f1733ec7fb9b41001628f",
+          "size": "7034674",
+          "boards": [
+            {"name": "ATtiny441"},
+            {"name": "ATtiny841"},
+            {"name": "ATtiny1634"},
+            {"name": "ATtiny828"},
+            {"name": "ATtiny2313"},
+            {"name": "ATtiny4313"},
+            {"name": "ATtiny24"},
+            {"name": "ATtiny44"},
+            {"name": "ATtiny84"},
+            {"name": "ATtiny25"},
+            {"name": "ATtiny45"},
+            {"name": "ATtiny85"},
+            {"name": "ATtiny261"},
+            {"name": "ATtiny461"},
+            {"name": "ATtiny861"},
+            {"name": "ATtiny87"},
+            {"name": "ATtiny167"},
+            {"name": "ATtiny48"},
+            {"name": "ATtiny88"},
+            {"name": "ATtiny43"}
+          ],
+          "toolsDependencies": []
         }
       ],
       "tools": []
