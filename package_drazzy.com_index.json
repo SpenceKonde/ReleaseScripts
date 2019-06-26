@@ -494,6 +494,38 @@
       "tools": []
     },
     {
+      "name": "megaTinyCore",
+      "maintainer": "Spence Konde",
+      "websiteURL": "https://github.com/SpenceKonde/megaTinyCore",
+      "email": "",
+      "help": {
+        "online": ""
+      },
+      "platforms": [
+        {
+          "name": "megaTinyCore",
+          "architecture": "megaavr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "help": {
+            "online": ""
+          },
+          "url": "https://github.com/SpenceKonde/megaTinyCore/archive/1.0.0.tar.gz",
+          "archiveFileName": "megaTinyCore-1.0.0.tar.gz",
+          "checksum": "SHA-256:87288464427e3c878a70a06a2b88e2f4dc40fc8d29e6e43d04f3bc300850a911",
+          "size": "912253",
+          "boards": [
+            {"name": "ATtiny3216/1616/1606/816/806/416/406"},
+            {"name": "ATtiny1614/1604/814/804/414/404/214/204"},
+            {"name": "ATtiny412/402/212/202"},
+            {"name": "ATtiny3217/1617/1607/817/807"}
+          ],
+          "toolsDependencies": []
+        }
+      ],
+      "tools": []
+    },
+    {
       "name": "arduino-tiny-841",
       "maintainer": "Spence Konde",
       "websiteURL": "https://github.com/SpenceKonde/arduino-tiny-841",
