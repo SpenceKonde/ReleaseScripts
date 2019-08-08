@@ -38,7 +38,13 @@
             {"name": "ATtiny48"},
             {"name": "ATtiny88"}
           ],
-          "toolsDependencies": []
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino17"
+            }
+          ]
         },
         {
           "name": "ATTinyCore",
@@ -69,7 +75,13 @@
             {"name": "ATtiny48"},
             {"name": "ATtiny88"}
           ],
-          "toolsDependencies": []
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino17"
+            }
+          ]
         },
         {
           "name": "ATTinyCore",
@@ -100,7 +112,13 @@
             {"name": "ATtiny48"},
             {"name": "ATtiny88"}
           ],
-          "toolsDependencies": []
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino17"
+            }
+          ]
         },
         {
           "name": "ATTinyCore",
@@ -135,7 +153,13 @@
             {"name": "ATtiny48"},
             {"name": "ATtiny88"}
           ],
-          "toolsDependencies": []
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino17"
+            }
+          ]
         },
         {
           "name": "ATTinyCore",
@@ -170,7 +194,13 @@
             {"name": "ATtiny48"},
             {"name": "ATtiny88"}
           ],
-          "toolsDependencies": []
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino17"
+            }
+          ]
         },
         {
           "name": "ATTinyCore",
@@ -205,7 +235,13 @@
             {"name": "ATtiny48"},
             {"name": "ATtiny88"}
           ],
-          "toolsDependencies": []
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino17"
+            }
+          ]
         },
         {
           "name": "ATTinyCore",
@@ -240,7 +276,13 @@
             {"name": "ATtiny48"},
             {"name": "ATtiny88"}
           ],
-          "toolsDependencies": []
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino17"
+            }
+          ]
         },
         {
           "name": "ATTinyCore",
@@ -275,7 +317,13 @@
             {"name": "ATtiny48"},
             {"name": "ATtiny88"}
           ],
-          "toolsDependencies": []
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino17"
+            }
+          ]
         },
         {
           "name": "ATTinyCore",
@@ -310,7 +358,13 @@
             {"name": "ATtiny48"},
             {"name": "ATtiny88"}
           ],
-          "toolsDependencies": []
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino17"
+            }
+          ]
         },
         {
           "name": "ATTinyCore",
@@ -345,7 +399,13 @@
             {"name": "ATtiny48"},
             {"name": "ATtiny88"}
           ],
-          "toolsDependencies": []
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino17"
+            }
+          ]
         },
         {
           "name": "ATTinyCore",
@@ -380,7 +440,13 @@
             {"name": "ATtiny48"},
             {"name": "ATtiny88"}
           ],
-          "toolsDependencies": []
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino17"
+            }
+          ]
         },
         {
           "name": "ATTinyCore",
@@ -416,7 +482,13 @@
             {"name": "ATtiny88"},
             {"name": "ATtiny43"}
           ],
-          "toolsDependencies": []
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino17"
+            }
+          ]
         },
         {
           "name": "ATTinyCore",
@@ -452,7 +524,13 @@
             {"name": "ATtiny88"},
             {"name": "ATtiny43"}
           ],
-          "toolsDependencies": []
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino17"
+            }
+          ]
         },
         {
           "name": "ATTinyCore",
@@ -488,7 +566,13 @@
             {"name": "ATtiny88"},
             {"name": "ATtiny43"}
           ],
-          "toolsDependencies": []
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino17"
+            }
+          ]
         },
         {
           "name": "ATTinyCore",
@@ -524,7 +608,13 @@
             {"name": "ATtiny88"},
             {"name": "ATtiny43"}
           ],
-          "toolsDependencies": []
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino17"
+            }
+          ]
         }
       ],
       "tools": []
