@@ -905,7 +905,7 @@
           },
           "url": "https://github.com/SpenceKonde/megaTinyCore/archive/1.0.6.tar.gz",
           "archiveFileName": "megaTinyCore-1.0.6.tar.gz",
-          "checksum": "SHA-256:9f9597271562d8c36d2baae40b7a5613fdb8adc9d5a696b95daed76166363081",
+          "checksum": "SHA-256:df9b131a1123e295c2110b08ef5dd6480610fcecd12892544c2e188092b530b4",
           "size": "7997359",
           "boards": [
             {"name": "ATtiny3216/1616/1606/816/806/416/406"},
