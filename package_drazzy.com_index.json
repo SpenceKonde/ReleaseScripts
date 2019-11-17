@@ -964,7 +964,9 @@
               "packager": "arduino",
               "name": "arduinoOTA",
               "version": "1.3.0"
-            },
+            }
+          ]
+        },
         {
           "name": "megaTinyCore",
           "architecture": "megaavr",
