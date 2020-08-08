@@ -805,6 +805,52 @@
       ]
     },
     {
+      "name": "DxCore",
+      "maintainer": "Spence Konde",
+      "websiteURL": "https://github.com/SpenceKonde/DxCore",
+      "email": "",
+      "help": {
+        "online": ""
+      },
+      "platforms": [
+        {
+          "name": "DxCore",
+          "architecture": "megaavr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "help": {
+            "online": ""
+          },
+          "url": "https://github.com/SpenceKonde/megaTinyCore/archive/1.0.0.tar.gz",
+          "archiveFileName": "DxCore-1.0.0.tar.gz",
+          "checksum": "SHA-256:001a04f0ed405d6cdcab7680bfd09b73e24370559bc6cb6cbd3a8f9100508a28",
+          "size": "28388381",
+          "boards": [
+            {"name": "AVR128DA28,AVR128DA32,AVR128DA48,AVR128DA64"},
+            {"name": "AVR64DA28,AVR64DA32,AVR64DA48,AVR64DA64"},
+            {"name": "AVR32DA28,AVR32DA32,AVR32DA48"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino7"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino17"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "megaTinyCore",
       "maintainer": "Spence Konde",
       "websiteURL": "https://github.com/SpenceKonde/megaTinyCore",
