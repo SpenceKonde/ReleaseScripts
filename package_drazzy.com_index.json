@@ -848,7 +848,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tools": []
     },
     {
       "name": "megaTinyCore",
