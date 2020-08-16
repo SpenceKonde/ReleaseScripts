@@ -908,9 +908,9 @@
           "help": {
             "online": ""
           },
-          "url": "https://github.com/SpenceKonde/DxCore/archive/1.0.1.tar.gz",
+          "url": "https://github.com/SpenceKonde/DxCore/archive/1.0.1_.tar.gz",
           "archiveFileName": "DxCore-1.0.1_.tar.gz",
-          "checksum": "SHA-256:7f3392c073c45ab98587261ef752f127a62cfabfe122e99ff5f371ac920a695d",
+          "checksum": "SHA-256:8a8d32db3cc0c568d6e5e4eec14f65505e5772f9bad7d4231ec45722073aa84e",
           "size": "11469196",
           "boards": [
             {"name": "AVR128DA28,AVR128DA32,AVR128DA48,AVR128DA64"},
