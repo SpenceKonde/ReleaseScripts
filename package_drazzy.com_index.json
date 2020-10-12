@@ -1911,7 +1911,7 @@
           "checksum": "SHA-256:62576666c0370fde787f6ab24590bd8f4c063bed68ad6a314945630397ebe915",
           "size": "1514347",
           "boards": [
-            {"name": "BAD RELEASE - USE 2.1.1 INSTEAD  "},
+            {"name": "BAD RELEASE - USE 2.1.1 INSTEAD  "}
           ],
           "toolsDependencies": [
             {
