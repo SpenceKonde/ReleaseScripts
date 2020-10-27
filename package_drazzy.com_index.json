@@ -2105,6 +2105,42 @@
               "version": "1.3.0"
             }
           ]
+        },
+        {
+          "name": "megaTinyCore",
+          "architecture": "megaavr",
+          "version": "2.1.4",
+          "category": "Contributed",
+          "help": {
+            "online": ""
+          },
+          "url": "https://github.com/SpenceKonde/megaTinyCore/archive/2.1.4.tar.gz",
+          "archiveFileName": "megaTinyCore-2.1.4.tar.gz",
+          "checksum": "SHA-256:2925c6462823bd9505d114b65d7317a1fad04bdd19bc454815a0a3f5983f1b86",
+          "size": "377265",
+          "boards": [
+            {"name": "ATtiny3216/1616/1606/816/806/416/406"},
+            {"name": "ATtiny1614/1604/814/804/414/404/214/204"},
+            {"name": "ATtiny412/402/212/202"},
+            {"name": "ATtiny3217/1617/1607/817/807/417"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino7"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino17"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            }
+          ]
         }
       ],
       "tools": []
