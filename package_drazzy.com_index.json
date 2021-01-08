@@ -2227,7 +2227,7 @@
           "help": {
             "online": ""
           },
-          "url": "https://github.com/SpenceKonde/megaTinyCore/releases/download/2.2.1/megaTinyCore-2.2.1.tar.gz",
+          "url": "https://github.com/SpenceKonde/megaTinyCore/releases/download/2.2.1-manual/megaTinyCore-2.2.1.tar.gz",
           "archiveFileName": "megaTinyCore-2.2.1.tar.gz",
           "checksum": "SHA-256:93b7ccf038468da17320fdf255c6eb2e54f38edb46c9e9295fff7fa3cfdc4b9f",
           "size": "741852",
