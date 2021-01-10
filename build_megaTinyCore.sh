@@ -24,7 +24,7 @@ DOWNLOADED_FILE=$(echo $DOWNLOAD_URL | awk -F/ '{print $8}')
 # Add .tar.bz2 extension to downloaded file
 mv $DOWNLOADED_FILE ${DOWNLOADED_FILE}.tar.bz2
 
-# Extract downloaded file and place it in a folder (the #"v" part removes the v in the version number if it is present)
+# Extract downloaded file and place it in a folder (the #"v"} part removes the v in the version number if it is present)
 printf "\nExtracting folder ${DOWNLOADED_FILE}.tar.bz2 to $REPOSITORY-${DOWNLOADED_FILE#"v"}\n"
 mkdir -p "$REPOSITORY-${DOWNLOADED_FILE#"v"}" && tar -xzf ${DOWNLOADED_FILE}.tar.bz2 -C "$REPOSITORY-${DOWNLOADED_FILE#"v"}" --strip-components=1
 printf "Done!\n"
@@ -52,7 +52,7 @@ SHA256="SHA-256:$(shasum -a 256 "$REPOSITORY-${DOWNLOADED_FILE#"v"}.tar.bz2" | a
 # Create Github download URL
 URL="https://${AUTHOR}.github.io/${REPOSITORY}/$REPOSITORY-${DOWNLOADED_FILE#"v"}.tar.bz2"
 
-cp "package_${AUTHOR}_${REPOSITORY}_index.json" "package_${AUTHOR}_${REPOSITORY}_index.json.tmp"
+cp "package_drazzy.com_index.json" "package_drazzy.com_index.json.tmp"
 
 # Add new boards release entry
 jq -r                                   \
@@ -62,7 +62,7 @@ jq -r                                   \
 --arg checksum   $SHA256                \
 --arg file_size  $FILE_SIZE             \
 --arg file_name  $REPOSITORY-${DOWNLOADED_FILE#"v"}.tar.bz2  \
-'.packages[].platforms[.packages[].platforms | length] |= . +
+'(.packages[] | select(.name==$repository)).platforms[(.packages[] | select(.name==$repository)).platforms | length] |= . +
 {
   "name": $repository,
   "architecture": "megaavr",
@@ -95,7 +95,7 @@ jq -r                                   \
       "version": "1.3.0"
     }
   ]
-}' "package_${AUTHOR}_${REPOSITORY}_index.json.tmp" > "package_${AUTHOR}_${REPOSITORY}_index.json"
+}' "ppackage_drazzy.com_index.json.tmp" > "package_drazzy.com_index.json"
 
 # Remove files that's no longer needed
-rm -rf "$REPOSITORY-${DOWNLOADED_FILE#"v"}" "package_${AUTHOR}_${REPOSITORY}_index.json.tmp"
+rm -rf "$REPOSITORY-${DOWNLOADED_FILE#"v"}" "package_drazzy.com_index.json.tmp"
