@@ -95,7 +95,7 @@ jq -r                                   \
       "version": "1.3.0"
     }
   ]
-}' "ppackage_drazzy.com_index.json.tmp" > "package_drazzy.com_index.json"
+}' "package_drazzy.com_index.json.tmp" > "package_drazzy.com_index.json"
 
 # Remove files that's no longer needed
 rm -rf "$REPOSITORY-${DOWNLOADED_FILE#"v"}" "package_drazzy.com_index.json.tmp"
