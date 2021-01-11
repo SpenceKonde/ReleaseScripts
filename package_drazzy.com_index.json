@@ -22,21 +22,51 @@
           "checksum": "SHA-256:c647ad9efebbb44ce50153c0598b8152b6df381d0a77333e3f75c9afddad33bf",
           "size": "249576",
           "boards": [
-            {"name": "ATtiny2313"},
-            {"name": "ATtiny4313"},
-            {"name": "ATtiny24"},
-            {"name": "ATtiny44"},
-            {"name": "ATtiny84"},
-            {"name": "ATtiny25"},
-            {"name": "ATtiny45"},
-            {"name": "ATtiny85"},
-            {"name": "ATtiny261"},
-            {"name": "ATtiny461"},
-            {"name": "ATtiny861"},
-            {"name": "ATtiny87"},
-            {"name": "ATtiny167"},
-            {"name": "ATtiny48"},
-            {"name": "ATtiny88"}
+            {
+              "name": "ATtiny2313"
+            },
+            {
+              "name": "ATtiny4313"
+            },
+            {
+              "name": "ATtiny24"
+            },
+            {
+              "name": "ATtiny44"
+            },
+            {
+              "name": "ATtiny84"
+            },
+            {
+              "name": "ATtiny25"
+            },
+            {
+              "name": "ATtiny45"
+            },
+            {
+              "name": "ATtiny85"
+            },
+            {
+              "name": "ATtiny261"
+            },
+            {
+              "name": "ATtiny461"
+            },
+            {
+              "name": "ATtiny861"
+            },
+            {
+              "name": "ATtiny87"
+            },
+            {
+              "name": "ATtiny167"
+            },
+            {
+              "name": "ATtiny48"
+            },
+            {
+              "name": "ATtiny88"
+            }
           ],
           "toolsDependencies": []
         },
@@ -53,21 +83,51 @@
           "checksum": "SHA-256:cf30122e480074b02cd4deedce4f7474ab37a789277871a0798a66ee56d898ae",
           "size": "249892",
           "boards": [
-            {"name": "ATtiny2313"},
-            {"name": "ATtiny4313"},
-            {"name": "ATtiny24"},
-            {"name": "ATtiny44"},
-            {"name": "ATtiny84"},
-            {"name": "ATtiny25"},
-            {"name": "ATtiny45"},
-            {"name": "ATtiny85"},
-            {"name": "ATtiny261"},
-            {"name": "ATtiny461"},
-            {"name": "ATtiny861"},
-            {"name": "ATtiny87"},
-            {"name": "ATtiny167"},
-            {"name": "ATtiny48"},
-            {"name": "ATtiny88"}
+            {
+              "name": "ATtiny2313"
+            },
+            {
+              "name": "ATtiny4313"
+            },
+            {
+              "name": "ATtiny24"
+            },
+            {
+              "name": "ATtiny44"
+            },
+            {
+              "name": "ATtiny84"
+            },
+            {
+              "name": "ATtiny25"
+            },
+            {
+              "name": "ATtiny45"
+            },
+            {
+              "name": "ATtiny85"
+            },
+            {
+              "name": "ATtiny261"
+            },
+            {
+              "name": "ATtiny461"
+            },
+            {
+              "name": "ATtiny861"
+            },
+            {
+              "name": "ATtiny87"
+            },
+            {
+              "name": "ATtiny167"
+            },
+            {
+              "name": "ATtiny48"
+            },
+            {
+              "name": "ATtiny88"
+            }
           ],
           "toolsDependencies": []
         },
@@ -84,21 +144,51 @@
           "checksum": "SHA-256:6c7a749d6c0df8ddaac041d42c1c0c20d6a022fe3bf4bcb7dca3674c56c4fa89",
           "size": "250882",
           "boards": [
-            {"name": "ATtiny2313"},
-            {"name": "ATtiny4313"},
-            {"name": "ATtiny24"},
-            {"name": "ATtiny44"},
-            {"name": "ATtiny84"},
-            {"name": "ATtiny25"},
-            {"name": "ATtiny45"},
-            {"name": "ATtiny85"},
-            {"name": "ATtiny261"},
-            {"name": "ATtiny461"},
-            {"name": "ATtiny861"},
-            {"name": "ATtiny87"},
-            {"name": "ATtiny167"},
-            {"name": "ATtiny48"},
-            {"name": "ATtiny88"}
+            {
+              "name": "ATtiny2313"
+            },
+            {
+              "name": "ATtiny4313"
+            },
+            {
+              "name": "ATtiny24"
+            },
+            {
+              "name": "ATtiny44"
+            },
+            {
+              "name": "ATtiny84"
+            },
+            {
+              "name": "ATtiny25"
+            },
+            {
+              "name": "ATtiny45"
+            },
+            {
+              "name": "ATtiny85"
+            },
+            {
+              "name": "ATtiny261"
+            },
+            {
+              "name": "ATtiny461"
+            },
+            {
+              "name": "ATtiny861"
+            },
+            {
+              "name": "ATtiny87"
+            },
+            {
+              "name": "ATtiny167"
+            },
+            {
+              "name": "ATtiny48"
+            },
+            {
+              "name": "ATtiny88"
+            }
           ],
           "toolsDependencies": []
         },
@@ -115,25 +205,63 @@
           "checksum": "SHA-256:db2914be21f03c5f39e3dfea1d1d03f9168b7ed91a49a32def53eaaa82626dd7",
           "size": "345765",
           "boards": [
-            {"name": "ATtiny441"},
-            {"name": "ATtiny841"},
-            {"name": "ATtiny1634"},
-            {"name": "ATtiny828"},
-            {"name": "ATtiny2313"},
-            {"name": "ATtiny4313"},
-            {"name": "ATtiny24"},
-            {"name": "ATtiny44"},
-            {"name": "ATtiny84"},
-            {"name": "ATtiny25"},
-            {"name": "ATtiny45"},
-            {"name": "ATtiny85"},
-            {"name": "ATtiny261"},
-            {"name": "ATtiny461"},
-            {"name": "ATtiny861"},
-            {"name": "ATtiny87"},
-            {"name": "ATtiny167"},
-            {"name": "ATtiny48"},
-            {"name": "ATtiny88"}
+            {
+              "name": "ATtiny441"
+            },
+            {
+              "name": "ATtiny841"
+            },
+            {
+              "name": "ATtiny1634"
+            },
+            {
+              "name": "ATtiny828"
+            },
+            {
+              "name": "ATtiny2313"
+            },
+            {
+              "name": "ATtiny4313"
+            },
+            {
+              "name": "ATtiny24"
+            },
+            {
+              "name": "ATtiny44"
+            },
+            {
+              "name": "ATtiny84"
+            },
+            {
+              "name": "ATtiny25"
+            },
+            {
+              "name": "ATtiny45"
+            },
+            {
+              "name": "ATtiny85"
+            },
+            {
+              "name": "ATtiny261"
+            },
+            {
+              "name": "ATtiny461"
+            },
+            {
+              "name": "ATtiny861"
+            },
+            {
+              "name": "ATtiny87"
+            },
+            {
+              "name": "ATtiny167"
+            },
+            {
+              "name": "ATtiny48"
+            },
+            {
+              "name": "ATtiny88"
+            }
           ],
           "toolsDependencies": []
         },
@@ -150,25 +278,63 @@
           "checksum": "SHA-256:eafd5e2db5812764b6d6b8889c0cf4bfaa62dfefaf1cd139ba92898bd20bc85e",
           "size": "173202",
           "boards": [
-            {"name": "ATtiny441"},
-            {"name": "ATtiny841"},
-            {"name": "ATtiny1634"},
-            {"name": "ATtiny828"},
-            {"name": "ATtiny2313"},
-            {"name": "ATtiny4313"},
-            {"name": "ATtiny24"},
-            {"name": "ATtiny44"},
-            {"name": "ATtiny84"},
-            {"name": "ATtiny25"},
-            {"name": "ATtiny45"},
-            {"name": "ATtiny85"},
-            {"name": "ATtiny261"},
-            {"name": "ATtiny461"},
-            {"name": "ATtiny861"},
-            {"name": "ATtiny87"},
-            {"name": "ATtiny167"},
-            {"name": "ATtiny48"},
-            {"name": "ATtiny88"}
+            {
+              "name": "ATtiny441"
+            },
+            {
+              "name": "ATtiny841"
+            },
+            {
+              "name": "ATtiny1634"
+            },
+            {
+              "name": "ATtiny828"
+            },
+            {
+              "name": "ATtiny2313"
+            },
+            {
+              "name": "ATtiny4313"
+            },
+            {
+              "name": "ATtiny24"
+            },
+            {
+              "name": "ATtiny44"
+            },
+            {
+              "name": "ATtiny84"
+            },
+            {
+              "name": "ATtiny25"
+            },
+            {
+              "name": "ATtiny45"
+            },
+            {
+              "name": "ATtiny85"
+            },
+            {
+              "name": "ATtiny261"
+            },
+            {
+              "name": "ATtiny461"
+            },
+            {
+              "name": "ATtiny861"
+            },
+            {
+              "name": "ATtiny87"
+            },
+            {
+              "name": "ATtiny167"
+            },
+            {
+              "name": "ATtiny48"
+            },
+            {
+              "name": "ATtiny88"
+            }
           ],
           "toolsDependencies": []
         },
@@ -185,25 +351,63 @@
           "checksum": "SHA-256:b5b03ba5c1544f159804b8067bbb61e27fc5eaa1ba0b5cdc7ac08fd2bdefcf18",
           "size": "3951319",
           "boards": [
-            {"name": "ATtiny441"},
-            {"name": "ATtiny841"},
-            {"name": "ATtiny1634"},
-            {"name": "ATtiny828"},
-            {"name": "ATtiny2313"},
-            {"name": "ATtiny4313"},
-            {"name": "ATtiny24"},
-            {"name": "ATtiny44"},
-            {"name": "ATtiny84"},
-            {"name": "ATtiny25"},
-            {"name": "ATtiny45"},
-            {"name": "ATtiny85"},
-            {"name": "ATtiny261"},
-            {"name": "ATtiny461"},
-            {"name": "ATtiny861"},
-            {"name": "ATtiny87"},
-            {"name": "ATtiny167"},
-            {"name": "ATtiny48"},
-            {"name": "ATtiny88"}
+            {
+              "name": "ATtiny441"
+            },
+            {
+              "name": "ATtiny841"
+            },
+            {
+              "name": "ATtiny1634"
+            },
+            {
+              "name": "ATtiny828"
+            },
+            {
+              "name": "ATtiny2313"
+            },
+            {
+              "name": "ATtiny4313"
+            },
+            {
+              "name": "ATtiny24"
+            },
+            {
+              "name": "ATtiny44"
+            },
+            {
+              "name": "ATtiny84"
+            },
+            {
+              "name": "ATtiny25"
+            },
+            {
+              "name": "ATtiny45"
+            },
+            {
+              "name": "ATtiny85"
+            },
+            {
+              "name": "ATtiny261"
+            },
+            {
+              "name": "ATtiny461"
+            },
+            {
+              "name": "ATtiny861"
+            },
+            {
+              "name": "ATtiny87"
+            },
+            {
+              "name": "ATtiny167"
+            },
+            {
+              "name": "ATtiny48"
+            },
+            {
+              "name": "ATtiny88"
+            }
           ],
           "toolsDependencies": []
         },
@@ -220,25 +424,63 @@
           "checksum": "SHA-256:ed86fdebbd76f7f8e7de6aff6999088532b2a44ef85079d895a232c308b2534f",
           "size": "6397354",
           "boards": [
-            {"name": "ATtiny441"},
-            {"name": "ATtiny841"},
-            {"name": "ATtiny1634"},
-            {"name": "ATtiny828"},
-            {"name": "ATtiny2313"},
-            {"name": "ATtiny4313"},
-            {"name": "ATtiny24"},
-            {"name": "ATtiny44"},
-            {"name": "ATtiny84"},
-            {"name": "ATtiny25"},
-            {"name": "ATtiny45"},
-            {"name": "ATtiny85"},
-            {"name": "ATtiny261"},
-            {"name": "ATtiny461"},
-            {"name": "ATtiny861"},
-            {"name": "ATtiny87"},
-            {"name": "ATtiny167"},
-            {"name": "ATtiny48"},
-            {"name": "ATtiny88"}
+            {
+              "name": "ATtiny441"
+            },
+            {
+              "name": "ATtiny841"
+            },
+            {
+              "name": "ATtiny1634"
+            },
+            {
+              "name": "ATtiny828"
+            },
+            {
+              "name": "ATtiny2313"
+            },
+            {
+              "name": "ATtiny4313"
+            },
+            {
+              "name": "ATtiny24"
+            },
+            {
+              "name": "ATtiny44"
+            },
+            {
+              "name": "ATtiny84"
+            },
+            {
+              "name": "ATtiny25"
+            },
+            {
+              "name": "ATtiny45"
+            },
+            {
+              "name": "ATtiny85"
+            },
+            {
+              "name": "ATtiny261"
+            },
+            {
+              "name": "ATtiny461"
+            },
+            {
+              "name": "ATtiny861"
+            },
+            {
+              "name": "ATtiny87"
+            },
+            {
+              "name": "ATtiny167"
+            },
+            {
+              "name": "ATtiny48"
+            },
+            {
+              "name": "ATtiny88"
+            }
           ],
           "toolsDependencies": []
         },
@@ -255,25 +497,63 @@
           "checksum": "SHA-256:49927ff873c53f7ef335f584d9664bc0b7115a61b8eb6e555eee2653d6854701",
           "size": "6397502",
           "boards": [
-            {"name": "ATtiny441"},
-            {"name": "ATtiny841"},
-            {"name": "ATtiny1634"},
-            {"name": "ATtiny828"},
-            {"name": "ATtiny2313"},
-            {"name": "ATtiny4313"},
-            {"name": "ATtiny24"},
-            {"name": "ATtiny44"},
-            {"name": "ATtiny84"},
-            {"name": "ATtiny25"},
-            {"name": "ATtiny45"},
-            {"name": "ATtiny85"},
-            {"name": "ATtiny261"},
-            {"name": "ATtiny461"},
-            {"name": "ATtiny861"},
-            {"name": "ATtiny87"},
-            {"name": "ATtiny167"},
-            {"name": "ATtiny48"},
-            {"name": "ATtiny88"}
+            {
+              "name": "ATtiny441"
+            },
+            {
+              "name": "ATtiny841"
+            },
+            {
+              "name": "ATtiny1634"
+            },
+            {
+              "name": "ATtiny828"
+            },
+            {
+              "name": "ATtiny2313"
+            },
+            {
+              "name": "ATtiny4313"
+            },
+            {
+              "name": "ATtiny24"
+            },
+            {
+              "name": "ATtiny44"
+            },
+            {
+              "name": "ATtiny84"
+            },
+            {
+              "name": "ATtiny25"
+            },
+            {
+              "name": "ATtiny45"
+            },
+            {
+              "name": "ATtiny85"
+            },
+            {
+              "name": "ATtiny261"
+            },
+            {
+              "name": "ATtiny461"
+            },
+            {
+              "name": "ATtiny861"
+            },
+            {
+              "name": "ATtiny87"
+            },
+            {
+              "name": "ATtiny167"
+            },
+            {
+              "name": "ATtiny48"
+            },
+            {
+              "name": "ATtiny88"
+            }
           ],
           "toolsDependencies": []
         },
@@ -290,25 +570,63 @@
           "checksum": "SHA-256:ae4d9deb0dc00f3f673000782dc9ae62a432603f25364350fd1d18b37fcc12a5",
           "size": "6402856",
           "boards": [
-            {"name": "ATtiny441"},
-            {"name": "ATtiny841"},
-            {"name": "ATtiny1634"},
-            {"name": "ATtiny828"},
-            {"name": "ATtiny2313"},
-            {"name": "ATtiny4313"},
-            {"name": "ATtiny24"},
-            {"name": "ATtiny44"},
-            {"name": "ATtiny84"},
-            {"name": "ATtiny25"},
-            {"name": "ATtiny45"},
-            {"name": "ATtiny85"},
-            {"name": "ATtiny261"},
-            {"name": "ATtiny461"},
-            {"name": "ATtiny861"},
-            {"name": "ATtiny87"},
-            {"name": "ATtiny167"},
-            {"name": "ATtiny48"},
-            {"name": "ATtiny88"}
+            {
+              "name": "ATtiny441"
+            },
+            {
+              "name": "ATtiny841"
+            },
+            {
+              "name": "ATtiny1634"
+            },
+            {
+              "name": "ATtiny828"
+            },
+            {
+              "name": "ATtiny2313"
+            },
+            {
+              "name": "ATtiny4313"
+            },
+            {
+              "name": "ATtiny24"
+            },
+            {
+              "name": "ATtiny44"
+            },
+            {
+              "name": "ATtiny84"
+            },
+            {
+              "name": "ATtiny25"
+            },
+            {
+              "name": "ATtiny45"
+            },
+            {
+              "name": "ATtiny85"
+            },
+            {
+              "name": "ATtiny261"
+            },
+            {
+              "name": "ATtiny461"
+            },
+            {
+              "name": "ATtiny861"
+            },
+            {
+              "name": "ATtiny87"
+            },
+            {
+              "name": "ATtiny167"
+            },
+            {
+              "name": "ATtiny48"
+            },
+            {
+              "name": "ATtiny88"
+            }
           ],
           "toolsDependencies": []
         },
@@ -325,25 +643,63 @@
           "checksum": "SHA-256:6f68e52961c3b1706ac458792f047e9ca5cb37204d012f891cd49f5a81f3febe",
           "size": "6429419",
           "boards": [
-            {"name": "ATtiny441"},
-            {"name": "ATtiny841"},
-            {"name": "ATtiny1634"},
-            {"name": "ATtiny828"},
-            {"name": "ATtiny2313"},
-            {"name": "ATtiny4313"},
-            {"name": "ATtiny24"},
-            {"name": "ATtiny44"},
-            {"name": "ATtiny84"},
-            {"name": "ATtiny25"},
-            {"name": "ATtiny45"},
-            {"name": "ATtiny85"},
-            {"name": "ATtiny261"},
-            {"name": "ATtiny461"},
-            {"name": "ATtiny861"},
-            {"name": "ATtiny87"},
-            {"name": "ATtiny167"},
-            {"name": "ATtiny48"},
-            {"name": "ATtiny88"}
+            {
+              "name": "ATtiny441"
+            },
+            {
+              "name": "ATtiny841"
+            },
+            {
+              "name": "ATtiny1634"
+            },
+            {
+              "name": "ATtiny828"
+            },
+            {
+              "name": "ATtiny2313"
+            },
+            {
+              "name": "ATtiny4313"
+            },
+            {
+              "name": "ATtiny24"
+            },
+            {
+              "name": "ATtiny44"
+            },
+            {
+              "name": "ATtiny84"
+            },
+            {
+              "name": "ATtiny25"
+            },
+            {
+              "name": "ATtiny45"
+            },
+            {
+              "name": "ATtiny85"
+            },
+            {
+              "name": "ATtiny261"
+            },
+            {
+              "name": "ATtiny461"
+            },
+            {
+              "name": "ATtiny861"
+            },
+            {
+              "name": "ATtiny87"
+            },
+            {
+              "name": "ATtiny167"
+            },
+            {
+              "name": "ATtiny48"
+            },
+            {
+              "name": "ATtiny88"
+            }
           ],
           "toolsDependencies": []
         },
@@ -360,25 +716,63 @@
           "checksum": "SHA-256:292ee8feb89d4ffbc9695043fe905fb58a2ae58333d84c1faca17721f1afc74c",
           "size": "6429428",
           "boards": [
-            {"name": "ATtiny441"},
-            {"name": "ATtiny841"},
-            {"name": "ATtiny1634"},
-            {"name": "ATtiny828"},
-            {"name": "ATtiny2313"},
-            {"name": "ATtiny4313"},
-            {"name": "ATtiny24"},
-            {"name": "ATtiny44"},
-            {"name": "ATtiny84"},
-            {"name": "ATtiny25"},
-            {"name": "ATtiny45"},
-            {"name": "ATtiny85"},
-            {"name": "ATtiny261"},
-            {"name": "ATtiny461"},
-            {"name": "ATtiny861"},
-            {"name": "ATtiny87"},
-            {"name": "ATtiny167"},
-            {"name": "ATtiny48"},
-            {"name": "ATtiny88"}
+            {
+              "name": "ATtiny441"
+            },
+            {
+              "name": "ATtiny841"
+            },
+            {
+              "name": "ATtiny1634"
+            },
+            {
+              "name": "ATtiny828"
+            },
+            {
+              "name": "ATtiny2313"
+            },
+            {
+              "name": "ATtiny4313"
+            },
+            {
+              "name": "ATtiny24"
+            },
+            {
+              "name": "ATtiny44"
+            },
+            {
+              "name": "ATtiny84"
+            },
+            {
+              "name": "ATtiny25"
+            },
+            {
+              "name": "ATtiny45"
+            },
+            {
+              "name": "ATtiny85"
+            },
+            {
+              "name": "ATtiny261"
+            },
+            {
+              "name": "ATtiny461"
+            },
+            {
+              "name": "ATtiny861"
+            },
+            {
+              "name": "ATtiny87"
+            },
+            {
+              "name": "ATtiny167"
+            },
+            {
+              "name": "ATtiny48"
+            },
+            {
+              "name": "ATtiny88"
+            }
           ],
           "toolsDependencies": []
         },
@@ -395,26 +789,66 @@
           "checksum": "SHA-256:2d566446b3d94c82279a188353ce400b3aecce6e283f1733ec7fb9b41001628f",
           "size": "7034674",
           "boards": [
-            {"name": "ATtiny441"},
-            {"name": "ATtiny841"},
-            {"name": "ATtiny1634"},
-            {"name": "ATtiny828"},
-            {"name": "ATtiny2313"},
-            {"name": "ATtiny4313"},
-            {"name": "ATtiny24"},
-            {"name": "ATtiny44"},
-            {"name": "ATtiny84"},
-            {"name": "ATtiny25"},
-            {"name": "ATtiny45"},
-            {"name": "ATtiny85"},
-            {"name": "ATtiny261"},
-            {"name": "ATtiny461"},
-            {"name": "ATtiny861"},
-            {"name": "ATtiny87"},
-            {"name": "ATtiny167"},
-            {"name": "ATtiny48"},
-            {"name": "ATtiny88"},
-            {"name": "ATtiny43"}
+            {
+              "name": "ATtiny441"
+            },
+            {
+              "name": "ATtiny841"
+            },
+            {
+              "name": "ATtiny1634"
+            },
+            {
+              "name": "ATtiny828"
+            },
+            {
+              "name": "ATtiny2313"
+            },
+            {
+              "name": "ATtiny4313"
+            },
+            {
+              "name": "ATtiny24"
+            },
+            {
+              "name": "ATtiny44"
+            },
+            {
+              "name": "ATtiny84"
+            },
+            {
+              "name": "ATtiny25"
+            },
+            {
+              "name": "ATtiny45"
+            },
+            {
+              "name": "ATtiny85"
+            },
+            {
+              "name": "ATtiny261"
+            },
+            {
+              "name": "ATtiny461"
+            },
+            {
+              "name": "ATtiny861"
+            },
+            {
+              "name": "ATtiny87"
+            },
+            {
+              "name": "ATtiny167"
+            },
+            {
+              "name": "ATtiny48"
+            },
+            {
+              "name": "ATtiny88"
+            },
+            {
+              "name": "ATtiny43"
+            }
           ],
           "toolsDependencies": []
         },
@@ -431,26 +865,66 @@
           "checksum": "SHA-256:0c08e01138002f8b060faf961c6cf8d5f907082fabb02fec55d56f12f7c82525",
           "size": "7035195",
           "boards": [
-            {"name": "ATtiny441"},
-            {"name": "ATtiny841"},
-            {"name": "ATtiny1634"},
-            {"name": "ATtiny828"},
-            {"name": "ATtiny2313"},
-            {"name": "ATtiny4313"},
-            {"name": "ATtiny24"},
-            {"name": "ATtiny44"},
-            {"name": "ATtiny84"},
-            {"name": "ATtiny25"},
-            {"name": "ATtiny45"},
-            {"name": "ATtiny85"},
-            {"name": "ATtiny261"},
-            {"name": "ATtiny461"},
-            {"name": "ATtiny861"},
-            {"name": "ATtiny87"},
-            {"name": "ATtiny167"},
-            {"name": "ATtiny48"},
-            {"name": "ATtiny88"},
-            {"name": "ATtiny43"}
+            {
+              "name": "ATtiny441"
+            },
+            {
+              "name": "ATtiny841"
+            },
+            {
+              "name": "ATtiny1634"
+            },
+            {
+              "name": "ATtiny828"
+            },
+            {
+              "name": "ATtiny2313"
+            },
+            {
+              "name": "ATtiny4313"
+            },
+            {
+              "name": "ATtiny24"
+            },
+            {
+              "name": "ATtiny44"
+            },
+            {
+              "name": "ATtiny84"
+            },
+            {
+              "name": "ATtiny25"
+            },
+            {
+              "name": "ATtiny45"
+            },
+            {
+              "name": "ATtiny85"
+            },
+            {
+              "name": "ATtiny261"
+            },
+            {
+              "name": "ATtiny461"
+            },
+            {
+              "name": "ATtiny861"
+            },
+            {
+              "name": "ATtiny87"
+            },
+            {
+              "name": "ATtiny167"
+            },
+            {
+              "name": "ATtiny48"
+            },
+            {
+              "name": "ATtiny88"
+            },
+            {
+              "name": "ATtiny43"
+            }
           ],
           "toolsDependencies": []
         },
@@ -467,26 +941,66 @@
           "checksum": "SHA-256:fbf576cd54fcb45ba7d10bb3c923bc4901373cb26d8f9f5ec90775e3efbe89aa",
           "size": "7106886",
           "boards": [
-            {"name": "ATtiny441"},
-            {"name": "ATtiny841"},
-            {"name": "ATtiny1634"},
-            {"name": "ATtiny828"},
-            {"name": "ATtiny2313"},
-            {"name": "ATtiny4313"},
-            {"name": "ATtiny24"},
-            {"name": "ATtiny44"},
-            {"name": "ATtiny84"},
-            {"name": "ATtiny25"},
-            {"name": "ATtiny45"},
-            {"name": "ATtiny85"},
-            {"name": "ATtiny261"},
-            {"name": "ATtiny461"},
-            {"name": "ATtiny861"},
-            {"name": "ATtiny87"},
-            {"name": "ATtiny167"},
-            {"name": "ATtiny48"},
-            {"name": "ATtiny88"},
-            {"name": "ATtiny43"}
+            {
+              "name": "ATtiny441"
+            },
+            {
+              "name": "ATtiny841"
+            },
+            {
+              "name": "ATtiny1634"
+            },
+            {
+              "name": "ATtiny828"
+            },
+            {
+              "name": "ATtiny2313"
+            },
+            {
+              "name": "ATtiny4313"
+            },
+            {
+              "name": "ATtiny24"
+            },
+            {
+              "name": "ATtiny44"
+            },
+            {
+              "name": "ATtiny84"
+            },
+            {
+              "name": "ATtiny25"
+            },
+            {
+              "name": "ATtiny45"
+            },
+            {
+              "name": "ATtiny85"
+            },
+            {
+              "name": "ATtiny261"
+            },
+            {
+              "name": "ATtiny461"
+            },
+            {
+              "name": "ATtiny861"
+            },
+            {
+              "name": "ATtiny87"
+            },
+            {
+              "name": "ATtiny167"
+            },
+            {
+              "name": "ATtiny48"
+            },
+            {
+              "name": "ATtiny88"
+            },
+            {
+              "name": "ATtiny43"
+            }
           ],
           "toolsDependencies": []
         },
@@ -503,26 +1017,66 @@
           "checksum": "SHA-256:db0b7fca838436f04337d4faad47c109e10add1f8b716d689cec4858c8223afc",
           "size": "5569027",
           "boards": [
-            {"name": "ATtiny441"},
-            {"name": "ATtiny841"},
-            {"name": "ATtiny1634"},
-            {"name": "ATtiny828"},
-            {"name": "ATtiny2313"},
-            {"name": "ATtiny4313"},
-            {"name": "ATtiny24"},
-            {"name": "ATtiny44"},
-            {"name": "ATtiny84"},
-            {"name": "ATtiny25"},
-            {"name": "ATtiny45"},
-            {"name": "ATtiny85"},
-            {"name": "ATtiny261"},
-            {"name": "ATtiny461"},
-            {"name": "ATtiny861"},
-            {"name": "ATtiny87"},
-            {"name": "ATtiny167"},
-            {"name": "ATtiny48"},
-            {"name": "ATtiny88"},
-            {"name": "ATtiny43"}
+            {
+              "name": "ATtiny441"
+            },
+            {
+              "name": "ATtiny841"
+            },
+            {
+              "name": "ATtiny1634"
+            },
+            {
+              "name": "ATtiny828"
+            },
+            {
+              "name": "ATtiny2313"
+            },
+            {
+              "name": "ATtiny4313"
+            },
+            {
+              "name": "ATtiny24"
+            },
+            {
+              "name": "ATtiny44"
+            },
+            {
+              "name": "ATtiny84"
+            },
+            {
+              "name": "ATtiny25"
+            },
+            {
+              "name": "ATtiny45"
+            },
+            {
+              "name": "ATtiny85"
+            },
+            {
+              "name": "ATtiny261"
+            },
+            {
+              "name": "ATtiny461"
+            },
+            {
+              "name": "ATtiny861"
+            },
+            {
+              "name": "ATtiny87"
+            },
+            {
+              "name": "ATtiny167"
+            },
+            {
+              "name": "ATtiny48"
+            },
+            {
+              "name": "ATtiny88"
+            },
+            {
+              "name": "ATtiny43"
+            }
           ],
           "toolsDependencies": []
         },
@@ -539,26 +1093,66 @@
           "checksum": "SHA-256:c4cd9674f786195c8d31d0ddc17b78d313c0d55d367f8d760295af2fd338f9a7",
           "size": "5464877",
           "boards": [
-            {"name": "ATtiny441"},
-            {"name": "ATtiny841"},
-            {"name": "ATtiny1634"},
-            {"name": "ATtiny828"},
-            {"name": "ATtiny2313"},
-            {"name": "ATtiny4313"},
-            {"name": "ATtiny24"},
-            {"name": "ATtiny44"},
-            {"name": "ATtiny84"},
-            {"name": "ATtiny25"},
-            {"name": "ATtiny45"},
-            {"name": "ATtiny85"},
-            {"name": "ATtiny261"},
-            {"name": "ATtiny461"},
-            {"name": "ATtiny861"},
-            {"name": "ATtiny87"},
-            {"name": "ATtiny167"},
-            {"name": "ATtiny48"},
-            {"name": "ATtiny88"},
-            {"name": "ATtiny43"}
+            {
+              "name": "ATtiny441"
+            },
+            {
+              "name": "ATtiny841"
+            },
+            {
+              "name": "ATtiny1634"
+            },
+            {
+              "name": "ATtiny828"
+            },
+            {
+              "name": "ATtiny2313"
+            },
+            {
+              "name": "ATtiny4313"
+            },
+            {
+              "name": "ATtiny24"
+            },
+            {
+              "name": "ATtiny44"
+            },
+            {
+              "name": "ATtiny84"
+            },
+            {
+              "name": "ATtiny25"
+            },
+            {
+              "name": "ATtiny45"
+            },
+            {
+              "name": "ATtiny85"
+            },
+            {
+              "name": "ATtiny261"
+            },
+            {
+              "name": "ATtiny461"
+            },
+            {
+              "name": "ATtiny861"
+            },
+            {
+              "name": "ATtiny87"
+            },
+            {
+              "name": "ATtiny167"
+            },
+            {
+              "name": "ATtiny48"
+            },
+            {
+              "name": "ATtiny88"
+            },
+            {
+              "name": "ATtiny43"
+            }
           ],
           "toolsDependencies": [
             {
@@ -586,26 +1180,66 @@
           "checksum": "SHA-256:33a5530b4d901b2a9712aa30aee8c7083fb461eb86911a019ce237b482107027",
           "size": "5464866",
           "boards": [
-            {"name": "ATtiny441"},
-            {"name": "ATtiny841"},
-            {"name": "ATtiny1634"},
-            {"name": "ATtiny828"},
-            {"name": "ATtiny2313"},
-            {"name": "ATtiny4313"},
-            {"name": "ATtiny24"},
-            {"name": "ATtiny44"},
-            {"name": "ATtiny84"},
-            {"name": "ATtiny25"},
-            {"name": "ATtiny45"},
-            {"name": "ATtiny85"},
-            {"name": "ATtiny261"},
-            {"name": "ATtiny461"},
-            {"name": "ATtiny861"},
-            {"name": "ATtiny87"},
-            {"name": "ATtiny167"},
-            {"name": "ATtiny48"},
-            {"name": "ATtiny88"},
-            {"name": "ATtiny43"}
+            {
+              "name": "ATtiny441"
+            },
+            {
+              "name": "ATtiny841"
+            },
+            {
+              "name": "ATtiny1634"
+            },
+            {
+              "name": "ATtiny828"
+            },
+            {
+              "name": "ATtiny2313"
+            },
+            {
+              "name": "ATtiny4313"
+            },
+            {
+              "name": "ATtiny24"
+            },
+            {
+              "name": "ATtiny44"
+            },
+            {
+              "name": "ATtiny84"
+            },
+            {
+              "name": "ATtiny25"
+            },
+            {
+              "name": "ATtiny45"
+            },
+            {
+              "name": "ATtiny85"
+            },
+            {
+              "name": "ATtiny261"
+            },
+            {
+              "name": "ATtiny461"
+            },
+            {
+              "name": "ATtiny861"
+            },
+            {
+              "name": "ATtiny87"
+            },
+            {
+              "name": "ATtiny167"
+            },
+            {
+              "name": "ATtiny48"
+            },
+            {
+              "name": "ATtiny88"
+            },
+            {
+              "name": "ATtiny43"
+            }
           ],
           "toolsDependencies": [
             {
@@ -633,26 +1267,66 @@
           "checksum": "SHA-256:8732b0a15d9c78ad133329b469d524f5b2f3c31220ba117794c157db3ba8bc9e",
           "size": "5466106",
           "boards": [
-            {"name": "ATtiny441"},
-            {"name": "ATtiny841"},
-            {"name": "ATtiny1634"},
-            {"name": "ATtiny828"},
-            {"name": "ATtiny2313"},
-            {"name": "ATtiny4313"},
-            {"name": "ATtiny24"},
-            {"name": "ATtiny44"},
-            {"name": "ATtiny84"},
-            {"name": "ATtiny25"},
-            {"name": "ATtiny45"},
-            {"name": "ATtiny85"},
-            {"name": "ATtiny261"},
-            {"name": "ATtiny461"},
-            {"name": "ATtiny861"},
-            {"name": "ATtiny87"},
-            {"name": "ATtiny167"},
-            {"name": "ATtiny48"},
-            {"name": "ATtiny88"},
-            {"name": "ATtiny43"}
+            {
+              "name": "ATtiny441"
+            },
+            {
+              "name": "ATtiny841"
+            },
+            {
+              "name": "ATtiny1634"
+            },
+            {
+              "name": "ATtiny828"
+            },
+            {
+              "name": "ATtiny2313"
+            },
+            {
+              "name": "ATtiny4313"
+            },
+            {
+              "name": "ATtiny24"
+            },
+            {
+              "name": "ATtiny44"
+            },
+            {
+              "name": "ATtiny84"
+            },
+            {
+              "name": "ATtiny25"
+            },
+            {
+              "name": "ATtiny45"
+            },
+            {
+              "name": "ATtiny85"
+            },
+            {
+              "name": "ATtiny261"
+            },
+            {
+              "name": "ATtiny461"
+            },
+            {
+              "name": "ATtiny861"
+            },
+            {
+              "name": "ATtiny87"
+            },
+            {
+              "name": "ATtiny167"
+            },
+            {
+              "name": "ATtiny48"
+            },
+            {
+              "name": "ATtiny88"
+            },
+            {
+              "name": "ATtiny43"
+            }
           ],
           "toolsDependencies": [
             {
@@ -680,26 +1354,66 @@
           "checksum": "SHA-256:2896da1d34b74f5dc9eb3efaa980601f4f3330c0ad8de0637141c1ce685614c1",
           "size": "5466106",
           "boards": [
-            {"name": "ATtiny441"},
-            {"name": "ATtiny841"},
-            {"name": "ATtiny1634"},
-            {"name": "ATtiny828"},
-            {"name": "ATtiny2313"},
-            {"name": "ATtiny4313"},
-            {"name": "ATtiny24"},
-            {"name": "ATtiny44"},
-            {"name": "ATtiny84"},
-            {"name": "ATtiny25"},
-            {"name": "ATtiny45"},
-            {"name": "ATtiny85"},
-            {"name": "ATtiny261"},
-            {"name": "ATtiny461"},
-            {"name": "ATtiny861"},
-            {"name": "ATtiny87"},
-            {"name": "ATtiny167"},
-            {"name": "ATtiny48"},
-            {"name": "ATtiny88"},
-            {"name": "ATtiny43"}
+            {
+              "name": "ATtiny441"
+            },
+            {
+              "name": "ATtiny841"
+            },
+            {
+              "name": "ATtiny1634"
+            },
+            {
+              "name": "ATtiny828"
+            },
+            {
+              "name": "ATtiny2313"
+            },
+            {
+              "name": "ATtiny4313"
+            },
+            {
+              "name": "ATtiny24"
+            },
+            {
+              "name": "ATtiny44"
+            },
+            {
+              "name": "ATtiny84"
+            },
+            {
+              "name": "ATtiny25"
+            },
+            {
+              "name": "ATtiny45"
+            },
+            {
+              "name": "ATtiny85"
+            },
+            {
+              "name": "ATtiny261"
+            },
+            {
+              "name": "ATtiny461"
+            },
+            {
+              "name": "ATtiny861"
+            },
+            {
+              "name": "ATtiny87"
+            },
+            {
+              "name": "ATtiny167"
+            },
+            {
+              "name": "ATtiny48"
+            },
+            {
+              "name": "ATtiny88"
+            },
+            {
+              "name": "ATtiny43"
+            }
           ],
           "toolsDependencies": [
             {
@@ -727,26 +1441,66 @@
           "checksum": "SHA-256:e71e1ccf8ea4b8f09cd9586b3e256f5c90ee8b84fcbe1e04bcaa8e995826bfbc",
           "size": "4262785",
           "boards": [
-            {"name": "ATtiny441"},
-            {"name": "ATtiny841"},
-            {"name": "ATtiny1634"},
-            {"name": "ATtiny828"},
-            {"name": "ATtiny2313"},
-            {"name": "ATtiny4313"},
-            {"name": "ATtiny24"},
-            {"name": "ATtiny44"},
-            {"name": "ATtiny84"},
-            {"name": "ATtiny25"},
-            {"name": "ATtiny45"},
-            {"name": "ATtiny85"},
-            {"name": "ATtiny261"},
-            {"name": "ATtiny461"},
-            {"name": "ATtiny861"},
-            {"name": "ATtiny87"},
-            {"name": "ATtiny167"},
-            {"name": "ATtiny48"},
-            {"name": "ATtiny88"},
-            {"name": "ATtiny43"}
+            {
+              "name": "ATtiny441"
+            },
+            {
+              "name": "ATtiny841"
+            },
+            {
+              "name": "ATtiny1634"
+            },
+            {
+              "name": "ATtiny828"
+            },
+            {
+              "name": "ATtiny2313"
+            },
+            {
+              "name": "ATtiny4313"
+            },
+            {
+              "name": "ATtiny24"
+            },
+            {
+              "name": "ATtiny44"
+            },
+            {
+              "name": "ATtiny84"
+            },
+            {
+              "name": "ATtiny25"
+            },
+            {
+              "name": "ATtiny45"
+            },
+            {
+              "name": "ATtiny85"
+            },
+            {
+              "name": "ATtiny261"
+            },
+            {
+              "name": "ATtiny461"
+            },
+            {
+              "name": "ATtiny861"
+            },
+            {
+              "name": "ATtiny87"
+            },
+            {
+              "name": "ATtiny167"
+            },
+            {
+              "name": "ATtiny48"
+            },
+            {
+              "name": "ATtiny88"
+            },
+            {
+              "name": "ATtiny43"
+            }
           ],
           "toolsDependencies": [
             {
@@ -779,26 +1533,66 @@
           "checksum": "SHA-256:682635af6857891022ccd57351f475c3de2f4ccbfa4061190b5564cfbdba41fb",
           "size": "4313166",
           "boards": [
-            {"name": "ATtiny441"},
-            {"name": "ATtiny841"},
-            {"name": "ATtiny1634"},
-            {"name": "ATtiny828"},
-            {"name": "ATtiny2313"},
-            {"name": "ATtiny4313"},
-            {"name": "ATtiny24"},
-            {"name": "ATtiny44"},
-            {"name": "ATtiny84"},
-            {"name": "ATtiny25"},
-            {"name": "ATtiny45"},
-            {"name": "ATtiny85"},
-            {"name": "ATtiny261"},
-            {"name": "ATtiny461"},
-            {"name": "ATtiny861"},
-            {"name": "ATtiny87"},
-            {"name": "ATtiny167"},
-            {"name": "ATtiny48"},
-            {"name": "ATtiny88"},
-            {"name": "ATtiny43"}
+            {
+              "name": "ATtiny441"
+            },
+            {
+              "name": "ATtiny841"
+            },
+            {
+              "name": "ATtiny1634"
+            },
+            {
+              "name": "ATtiny828"
+            },
+            {
+              "name": "ATtiny2313"
+            },
+            {
+              "name": "ATtiny4313"
+            },
+            {
+              "name": "ATtiny24"
+            },
+            {
+              "name": "ATtiny44"
+            },
+            {
+              "name": "ATtiny84"
+            },
+            {
+              "name": "ATtiny25"
+            },
+            {
+              "name": "ATtiny45"
+            },
+            {
+              "name": "ATtiny85"
+            },
+            {
+              "name": "ATtiny261"
+            },
+            {
+              "name": "ATtiny461"
+            },
+            {
+              "name": "ATtiny861"
+            },
+            {
+              "name": "ATtiny87"
+            },
+            {
+              "name": "ATtiny167"
+            },
+            {
+              "name": "ATtiny48"
+            },
+            {
+              "name": "ATtiny88"
+            },
+            {
+              "name": "ATtiny43"
+            }
           ],
           "toolsDependencies": [
             {
@@ -878,9 +1672,15 @@
           "checksum": "SHA-256:001a04f0ed405d6cdcab7680bfd09b73e24370559bc6cb6cbd3a8f9100508a28",
           "size": "28388381",
           "boards": [
-            {"name": "AVR128DA28,AVR128DA32,AVR128DA48,AVR128DA64"},
-            {"name": "AVR64DA28,AVR64DA32,AVR64DA48,AVR64DA64"},
-            {"name": "AVR32DA28,AVR32DA32,AVR32DA48"}
+            {
+              "name": "AVR128DA28,AVR128DA32,AVR128DA48,AVR128DA64"
+            },
+            {
+              "name": "AVR64DA28,AVR64DA32,AVR64DA48,AVR64DA64"
+            },
+            {
+              "name": "AVR32DA28,AVR32DA32,AVR32DA48"
+            }
           ],
           "toolsDependencies": [
             {
@@ -913,12 +1713,24 @@
           "checksum": "SHA-256:a4fbf4d5caa6dd8182d0e299c8414328834512d2a351cd2d5df3fa97300d3262",
           "size": "31232569",
           "boards": [
-            {"name": "My toolchain version doesn't install correctly on Linux for reasons I don't understand, and may not work on mac."},
-            {"name": "Use 1.1.0 for all-platform, 128k DA-series-only support."},
-            {"name": "AVR128DA28,AVR128DA32,AVR128DA48,AVR128DA64"},
-            {"name": "AVR64DA28,AVR64DA32,AVR64DA48,AVR64DA64"},
-            {"name": "AVR32DA28,AVR32DA32,AVR32DA48"},
-            {"name": "AVR128DB28,AVR128DB32,AVR128DB48,AVR128DB64"}
+            {
+              "name": "My toolchain version doesn't install correctly on Linux for reasons I don't understand, and may not work on mac."
+            },
+            {
+              "name": "Use 1.1.0 for all-platform, 128k DA-series-only support."
+            },
+            {
+              "name": "AVR128DA28,AVR128DA32,AVR128DA48,AVR128DA64"
+            },
+            {
+              "name": "AVR64DA28,AVR64DA32,AVR64DA48,AVR64DA64"
+            },
+            {
+              "name": "AVR32DA28,AVR32DA32,AVR32DA48"
+            },
+            {
+              "name": "AVR128DB28,AVR128DB32,AVR128DB48,AVR128DB64"
+            }
           ],
           "toolsDependencies": [
             {
@@ -951,9 +1763,15 @@
           "checksum": "SHA-256:a4fbf4d5caa6dd8182d0e299c8414328834512d2a351cd2d5df3fa97300d3262",
           "size": "31232569",
           "boards": [
-            {"name": "AVR128DA28,AVR128DA32,AVR128DA48,AVR128DA64"},
-            {"name": "DB-series and 32/64k DA-series not supported by Arduino toolchain"},
-            {"name": "Non-linux platforms can install 1.1.0-a instead to support those parts"}
+            {
+              "name": "AVR128DA28,AVR128DA32,AVR128DA48,AVR128DA64"
+            },
+            {
+              "name": "DB-series and 32/64k DA-series not supported by Arduino toolchain"
+            },
+            {
+              "name": "Non-linux platforms can install 1.1.0-a instead to support those parts"
+            }
           ],
           "toolsDependencies": [
             {
@@ -986,12 +1804,24 @@
           "checksum": "SHA-256:eb4460db0575af6ec88c95db194a2ebce7cd8d4c5726e2c0c3ead58b9327f5fb",
           "size": "31260344",
           "boards": [
-            {"name": "My toolchain version doesn't install correctly on Linux for reasons I don't understand, and may not work on mac."},
-            {"name": "Use 1.1.0 for all-platform, 128k DA-series-only support."},
-            {"name": "AVR128DA28,AVR128DA32,AVR128DA48,AVR128DA64"},
-            {"name": "AVR64DA28,AVR64DA32,AVR64DA48,AVR64DA64"},
-            {"name": "AVR32DA28,AVR32DA32,AVR32DA48"},
-            {"name": "AVR128DB28,AVR128DB32,AVR128DB48,AVR128DB64"}
+            {
+              "name": "My toolchain version doesn't install correctly on Linux for reasons I don't understand, and may not work on mac."
+            },
+            {
+              "name": "Use 1.1.0 for all-platform, 128k DA-series-only support."
+            },
+            {
+              "name": "AVR128DA28,AVR128DA32,AVR128DA48,AVR128DA64"
+            },
+            {
+              "name": "AVR64DA28,AVR64DA32,AVR64DA48,AVR64DA64"
+            },
+            {
+              "name": "AVR32DA28,AVR32DA32,AVR32DA48"
+            },
+            {
+              "name": "AVR128DB28,AVR128DB32,AVR128DB48,AVR128DB64"
+            }
           ],
           "toolsDependencies": [
             {
@@ -1024,9 +1854,15 @@
           "checksum": "SHA-256:eb4460db0575af6ec88c95db194a2ebce7cd8d4c5726e2c0c3ead58b9327f5fb",
           "size": "31260344",
           "boards": [
-            {"name": "AVR128DA28,AVR128DA32,AVR128DA48,AVR128DA64"},
-            {"name": "DB-series and 32/64k DA-series not supported by Arduino toolchain"},
-            {"name": "Non-linux platforms can install 1.2.0-a instead to support those parts"}
+            {
+              "name": "AVR128DA28,AVR128DA32,AVR128DA48,AVR128DA64"
+            },
+            {
+              "name": "DB-series and 32/64k DA-series not supported by Arduino toolchain"
+            },
+            {
+              "name": "Non-linux platforms can install 1.2.0-a instead to support those parts"
+            }
           ],
           "toolsDependencies": [
             {
@@ -1048,7 +1884,7 @@
         }
       ],
       "tools": [
-          {
+        {
           "name": "avr-gcc",
           "version": "7.3.0-atmel3.6.1-azzy1",
           "systems": [
@@ -1120,10 +1956,18 @@
           "checksum": "SHA-256:87288464427e3c878a70a06a2b88e2f4dc40fc8d29e6e43d04f3bc300850a911",
           "size": "912253",
           "boards": [
-            {"name": "ATtiny3216/1616/1606/816/806/416/406"},
-            {"name": "ATtiny1614/1604/814/804/414/404/214/204"},
-            {"name": "ATtiny412/402/212/202"},
-            {"name": "ATtiny3217/1617/1607/817/807"}
+            {
+              "name": "ATtiny3216/1616/1606/816/806/416/406"
+            },
+            {
+              "name": "ATtiny1614/1604/814/804/414/404/214/204"
+            },
+            {
+              "name": "ATtiny412/402/212/202"
+            },
+            {
+              "name": "ATtiny3217/1617/1607/817/807"
+            }
           ],
           "toolsDependencies": [
             {
@@ -1156,10 +2000,18 @@
           "checksum": "SHA-256:a16cffad928e173ccb02f2af057a6449014b17a5b83e08133552f57e1e121a94",
           "size": "8088593",
           "boards": [
-            {"name": "ATtiny3216/1616/1606/816/806/416/406"},
-            {"name": "ATtiny1614/1604/814/804/414/404/214/204"},
-            {"name": "ATtiny412/402/212/202"},
-            {"name": "ATtiny3217/1617/1607/817/807/417"}
+            {
+              "name": "ATtiny3216/1616/1606/816/806/416/406"
+            },
+            {
+              "name": "ATtiny1614/1604/814/804/414/404/214/204"
+            },
+            {
+              "name": "ATtiny412/402/212/202"
+            },
+            {
+              "name": "ATtiny3217/1617/1607/817/807/417"
+            }
           ],
           "toolsDependencies": [
             {
@@ -1192,10 +2044,18 @@
           "checksum": "SHA-256:1d6584523e00f780a488026cffc7b028127861bd316ad4ca0fdd92a2b5e13cad",
           "size": "8123830",
           "boards": [
-            {"name": "ATtiny3216/1616/1606/816/806/416/406"},
-            {"name": "ATtiny1614/1604/814/804/414/404/214/204"},
-            {"name": "ATtiny412/402/212/202"},
-            {"name": "ATtiny3217/1617/1607/817/807/417"}
+            {
+              "name": "ATtiny3216/1616/1606/816/806/416/406"
+            },
+            {
+              "name": "ATtiny1614/1604/814/804/414/404/214/204"
+            },
+            {
+              "name": "ATtiny412/402/212/202"
+            },
+            {
+              "name": "ATtiny3217/1617/1607/817/807/417"
+            }
           ],
           "toolsDependencies": [
             {
@@ -1228,10 +2088,18 @@
           "checksum": "SHA-256:33bf921792d415b7798d58c98b045903ba94c1997b8e6da3581fb56cc34545c2",
           "size": "7991244",
           "boards": [
-            {"name": "ATtiny3216/1616/1606/816/806/416/406"},
-            {"name": "ATtiny1614/1604/814/804/414/404/214/204"},
-            {"name": "ATtiny412/402/212/202"},
-            {"name": "ATtiny3217/1617/1607/817/807/417"}
+            {
+              "name": "ATtiny3216/1616/1606/816/806/416/406"
+            },
+            {
+              "name": "ATtiny1614/1604/814/804/414/404/214/204"
+            },
+            {
+              "name": "ATtiny412/402/212/202"
+            },
+            {
+              "name": "ATtiny3217/1617/1607/817/807/417"
+            }
           ],
           "toolsDependencies": [
             {
@@ -1264,10 +2132,18 @@
           "checksum": "SHA-256:d7b46210fdab1cc62e39e7838086af5fdc337b5a68fdd69d3e9282a370bf3b98",
           "size": "7992688",
           "boards": [
-            {"name": "ATtiny3216/1616/1606/816/806/416/406"},
-            {"name": "ATtiny1614/1604/814/804/414/404/214/204"},
-            {"name": "ATtiny412/402/212/202"},
-            {"name": "ATtiny3217/1617/1607/817/807/417"}
+            {
+              "name": "ATtiny3216/1616/1606/816/806/416/406"
+            },
+            {
+              "name": "ATtiny1614/1604/814/804/414/404/214/204"
+            },
+            {
+              "name": "ATtiny412/402/212/202"
+            },
+            {
+              "name": "ATtiny3217/1617/1607/817/807/417"
+            }
           ],
           "toolsDependencies": [
             {
@@ -1300,10 +2176,18 @@
           "checksum": "SHA-256:9f9597271562d8c36d2baae40b7a5613fdb8adc9d5a696b95daed76166363081",
           "size": "7997359",
           "boards": [
-            {"name": "ATtiny3216/1616/1606/816/806/416/406"},
-            {"name": "ATtiny1614/1604/814/804/414/404/214/204"},
-            {"name": "ATtiny412/402/212/202"},
-            {"name": "ATtiny3217/1617/1607/817/807/417"}
+            {
+              "name": "ATtiny3216/1616/1606/816/806/416/406"
+            },
+            {
+              "name": "ATtiny1614/1604/814/804/414/404/214/204"
+            },
+            {
+              "name": "ATtiny412/402/212/202"
+            },
+            {
+              "name": "ATtiny3217/1617/1607/817/807/417"
+            }
           ],
           "toolsDependencies": [
             {
@@ -1336,10 +2220,18 @@
           "checksum": "SHA-256:df9b131a1123e295c2110b08ef5dd6480610fcecd12892544c2e188092b530b4",
           "size": "8000372",
           "boards": [
-            {"name": "ATtiny3216/1616/1606/816/806/416/406"},
-            {"name": "ATtiny1614/1604/814/804/414/404/214/204"},
-            {"name": "ATtiny412/402/212/202"},
-            {"name": "ATtiny3217/1617/1607/817/807/417"}
+            {
+              "name": "ATtiny3216/1616/1606/816/806/416/406"
+            },
+            {
+              "name": "ATtiny1614/1604/814/804/414/404/214/204"
+            },
+            {
+              "name": "ATtiny412/402/212/202"
+            },
+            {
+              "name": "ATtiny3217/1617/1607/817/807/417"
+            }
           ],
           "toolsDependencies": [
             {
@@ -1372,10 +2264,18 @@
           "checksum": "SHA-256:0c614daee0ab18a25884a9073579412271a2d5a3bd2561b007f5ab2afc3b744f",
           "size": "7825444",
           "boards": [
-            {"name": "ATtiny3216/1616/1606/816/806/416/406"},
-            {"name": "ATtiny1614/1604/814/804/414/404/214/204"},
-            {"name": "ATtiny412/402/212/202"},
-            {"name": "ATtiny3217/1617/1607/817/807/417"}
+            {
+              "name": "ATtiny3216/1616/1606/816/806/416/406"
+            },
+            {
+              "name": "ATtiny1614/1604/814/804/414/404/214/204"
+            },
+            {
+              "name": "ATtiny412/402/212/202"
+            },
+            {
+              "name": "ATtiny3217/1617/1607/817/807/417"
+            }
           ],
           "toolsDependencies": [
             {
@@ -1408,10 +2308,18 @@
           "checksum": "SHA-256:df9b131a1123e295c2110b08ef5dd6480610fcecd12892544c2e188092b530b4",
           "size": "8000372",
           "boards": [
-            {"name": "ATtiny3216/1616/1606/816/806/416/406"},
-            {"name": "ATtiny1614/1604/814/804/414/404/214/204"},
-            {"name": "ATtiny412/402/212/202"},
-            {"name": "ATtiny3217/1617/1607/817/807/417"}
+            {
+              "name": "ATtiny3216/1616/1606/816/806/416/406"
+            },
+            {
+              "name": "ATtiny1614/1604/814/804/414/404/214/204"
+            },
+            {
+              "name": "ATtiny412/402/212/202"
+            },
+            {
+              "name": "ATtiny3217/1617/1607/817/807/417"
+            }
           ],
           "toolsDependencies": [
             {
@@ -1444,10 +2352,18 @@
           "checksum": "SHA-256:ae3c23d24b89640943fbf236c0c50bd9c97d121712d3d9ebcdae161d33613a25",
           "size": "7960235",
           "boards": [
-            {"name": "ATtiny3216/1616/1606/816/806/416/406"},
-            {"name": "ATtiny1614/1604/814/804/414/404/214/204"},
-            {"name": "ATtiny412/402/212/202"},
-            {"name": "ATtiny3217/1617/1607/817/807/417"}
+            {
+              "name": "ATtiny3216/1616/1606/816/806/416/406"
+            },
+            {
+              "name": "ATtiny1614/1604/814/804/414/404/214/204"
+            },
+            {
+              "name": "ATtiny412/402/212/202"
+            },
+            {
+              "name": "ATtiny3217/1617/1607/817/807/417"
+            }
           ],
           "toolsDependencies": [
             {
@@ -1480,10 +2396,18 @@
           "checksum": "SHA-256:522f623ccdd5596d088d278167a5c3b5d03e613bf40a18b671201b468b3aad04",
           "size": "7960919",
           "boards": [
-            {"name": "ATtiny3216/1616/1606/816/806/416/406"},
-            {"name": "ATtiny1614/1604/814/804/414/404/214/204"},
-            {"name": "ATtiny412/402/212/202"},
-            {"name": "ATtiny3217/1617/1607/817/807/417"}
+            {
+              "name": "ATtiny3216/1616/1606/816/806/416/406"
+            },
+            {
+              "name": "ATtiny1614/1604/814/804/414/404/214/204"
+            },
+            {
+              "name": "ATtiny412/402/212/202"
+            },
+            {
+              "name": "ATtiny3217/1617/1607/817/807/417"
+            }
           ],
           "toolsDependencies": [
             {
@@ -1516,10 +2440,18 @@
           "checksum": "SHA-256:6c687c0d38bb5d4f1fc973fc97738fc3704fe5b4f46fac5e28b65958cab541be",
           "size": "7966200",
           "boards": [
-            {"name": "ATtiny3216/1616/1606/816/806/416/406"},
-            {"name": "ATtiny1614/1604/814/804/414/404/214/204"},
-            {"name": "ATtiny412/402/212/202"},
-            {"name": "ATtiny3217/1617/1607/817/807/417"}
+            {
+              "name": "ATtiny3216/1616/1606/816/806/416/406"
+            },
+            {
+              "name": "ATtiny1614/1604/814/804/414/404/214/204"
+            },
+            {
+              "name": "ATtiny412/402/212/202"
+            },
+            {
+              "name": "ATtiny3217/1617/1607/817/807/417"
+            }
           ],
           "toolsDependencies": [
             {
@@ -1552,10 +2484,18 @@
           "checksum": "SHA-256:d290876bacb196d8601d77cfc56020cae2b964621e29938578a4bd587c07c7b8",
           "size": "7966200",
           "boards": [
-            {"name": "ATtiny3216/1616/1606/816/806/416/406"},
-            {"name": "ATtiny1614/1604/814/804/414/404/214/204"},
-            {"name": "ATtiny412/402/212/202"},
-            {"name": "ATtiny3217/1617/1607/817/807/417"}
+            {
+              "name": "ATtiny3216/1616/1606/816/806/416/406"
+            },
+            {
+              "name": "ATtiny1614/1604/814/804/414/404/214/204"
+            },
+            {
+              "name": "ATtiny412/402/212/202"
+            },
+            {
+              "name": "ATtiny3217/1617/1607/817/807/417"
+            }
           ],
           "toolsDependencies": [
             {
@@ -1588,10 +2528,18 @@
           "checksum": "SHA-256:8eeb265f9fb0ecd5c09b9f5969217ca20e05971c954138c6fd3b0bd7a2fdf7e9",
           "size": "7966200",
           "boards": [
-            {"name": "ATtiny3216/1616/1606/816/806/416/406"},
-            {"name": "ATtiny1614/1604/814/804/414/404/214/204"},
-            {"name": "ATtiny412/402/212/202"},
-            {"name": "ATtiny3217/1617/1607/817/807/417"}
+            {
+              "name": "ATtiny3216/1616/1606/816/806/416/406"
+            },
+            {
+              "name": "ATtiny1614/1604/814/804/414/404/214/204"
+            },
+            {
+              "name": "ATtiny412/402/212/202"
+            },
+            {
+              "name": "ATtiny3217/1617/1607/817/807/417"
+            }
           ],
           "toolsDependencies": [
             {
@@ -1624,10 +2572,18 @@
           "checksum": "SHA-256:6d3063bc558010181e90bbaba4b3fcc9dac19ec873c0b1387dc54f6dd026e3e2",
           "size": "7966200",
           "boards": [
-            {"name": "ATtiny3216/1616/1606/816/806/416/406"},
-            {"name": "ATtiny1614/1604/814/804/414/404/214/204"},
-            {"name": "ATtiny412/402/212/202"},
-            {"name": "ATtiny3217/1617/1607/817/807/417"}
+            {
+              "name": "ATtiny3216/1616/1606/816/806/416/406"
+            },
+            {
+              "name": "ATtiny1614/1604/814/804/414/404/214/204"
+            },
+            {
+              "name": "ATtiny412/402/212/202"
+            },
+            {
+              "name": "ATtiny3217/1617/1607/817/807/417"
+            }
           ],
           "toolsDependencies": [
             {
@@ -1660,10 +2616,18 @@
           "checksum": "SHA-256:46ccad64d0ac27dfbbf80f0fe9156b592b91a627ae2437d422927e9ec538bd11",
           "size": "7976980",
           "boards": [
-            {"name": "ATtiny3216/1616/1606/816/806/416/406"},
-            {"name": "ATtiny1614/1604/814/804/414/404/214/204"},
-            {"name": "ATtiny412/402/212/202"},
-            {"name": "ATtiny3217/1617/1607/817/807/417"}
+            {
+              "name": "ATtiny3216/1616/1606/816/806/416/406"
+            },
+            {
+              "name": "ATtiny1614/1604/814/804/414/404/214/204"
+            },
+            {
+              "name": "ATtiny412/402/212/202"
+            },
+            {
+              "name": "ATtiny3217/1617/1607/817/807/417"
+            }
           ],
           "toolsDependencies": [
             {
@@ -1696,10 +2660,18 @@
           "checksum": "SHA-256:35a13fb70e2c2d237cfe34b52c3da07e1ce73b437bc0e0902b09e13661386798",
           "size": "7976996",
           "boards": [
-            {"name": "ATtiny3216/1616/1606/816/806/416/406"},
-            {"name": "ATtiny1614/1604/814/804/414/404/214/204"},
-            {"name": "ATtiny412/402/212/202"},
-            {"name": "ATtiny3217/1617/1607/817/807/417"}
+            {
+              "name": "ATtiny3216/1616/1606/816/806/416/406"
+            },
+            {
+              "name": "ATtiny1614/1604/814/804/414/404/214/204"
+            },
+            {
+              "name": "ATtiny412/402/212/202"
+            },
+            {
+              "name": "ATtiny3217/1617/1607/817/807/417"
+            }
           ],
           "toolsDependencies": [
             {
@@ -1732,10 +2704,18 @@
           "checksum": "SHA-256:ac1fa4c7367f8a2a8ab2e616eb82de2986b2e96d77deae5ad37c2136c7aae02e",
           "size": "7992135",
           "boards": [
-            {"name": "ATtiny3216/1616/1606/816/806/416/406"},
-            {"name": "ATtiny1614/1604/814/804/414/404/214/204"},
-            {"name": "ATtiny412/402/212/202"},
-            {"name": "ATtiny3217/1617/1607/817/807/417"}
+            {
+              "name": "ATtiny3216/1616/1606/816/806/416/406"
+            },
+            {
+              "name": "ATtiny1614/1604/814/804/414/404/214/204"
+            },
+            {
+              "name": "ATtiny412/402/212/202"
+            },
+            {
+              "name": "ATtiny3217/1617/1607/817/807/417"
+            }
           ],
           "toolsDependencies": [
             {
@@ -1768,10 +2748,18 @@
           "checksum": "SHA-256:569e7673abf5329a59050b97b9f73d92908b74b3606eb3e41ae50fc4b1da5f5e",
           "size": "7996915",
           "boards": [
-            {"name": "ATtiny3216/1616/1606/816/806/416/406"},
-            {"name": "ATtiny1614/1604/814/804/414/404/214/204"},
-            {"name": "ATtiny412/402/212/202"},
-            {"name": "ATtiny3217/1617/1607/817/807/417"}
+            {
+              "name": "ATtiny3216/1616/1606/816/806/416/406"
+            },
+            {
+              "name": "ATtiny1614/1604/814/804/414/404/214/204"
+            },
+            {
+              "name": "ATtiny412/402/212/202"
+            },
+            {
+              "name": "ATtiny3217/1617/1607/817/807/417"
+            }
           ],
           "toolsDependencies": [
             {
@@ -1804,10 +2792,18 @@
           "checksum": "SHA-256:27d49f16863b71ea687be17dd7530867cea97df0c52553247f4d2fd2c550a4dc",
           "size": "7998907",
           "boards": [
-            {"name": "ATtiny3216/1616/1606/816/806/416/406"},
-            {"name": "ATtiny1614/1604/814/804/414/404/214/204"},
-            {"name": "ATtiny412/402/212/202"},
-            {"name": "ATtiny3217/1617/1607/817/807/417"}
+            {
+              "name": "ATtiny3216/1616/1606/816/806/416/406"
+            },
+            {
+              "name": "ATtiny1614/1604/814/804/414/404/214/204"
+            },
+            {
+              "name": "ATtiny412/402/212/202"
+            },
+            {
+              "name": "ATtiny3217/1617/1607/817/807/417"
+            }
           ],
           "toolsDependencies": [
             {
@@ -1840,10 +2836,18 @@
           "checksum": "SHA-256:613277a497f8edc87e7486207b4ae11d2718369aa10b02230ceabf7d8236d5fe",
           "size": "8082211",
           "boards": [
-            {"name": "ATtiny3216/1616/1606/816/806/416/406"},
-            {"name": "ATtiny1614/1604/814/804/414/404/214/204"},
-            {"name": "ATtiny412/402/212/202"},
-            {"name": "ATtiny3217/1617/1607/817/807/417"}
+            {
+              "name": "ATtiny3216/1616/1606/816/806/416/406"
+            },
+            {
+              "name": "ATtiny1614/1604/814/804/414/404/214/204"
+            },
+            {
+              "name": "ATtiny412/402/212/202"
+            },
+            {
+              "name": "ATtiny3217/1617/1607/817/807/417"
+            }
           ],
           "toolsDependencies": [
             {
@@ -1876,10 +2880,18 @@
           "checksum": "SHA-256:50f87f194181632b44fcb3c0c8e31af8790a9e3d343bc9ed4bce5011f8e586b8",
           "size": "8002147",
           "boards": [
-            {"name": "ATtiny3216/1616/1606/816/806/416/406"},
-            {"name": "ATtiny1614/1604/814/804/414/404/214/204"},
-            {"name": "ATtiny412/402/212/202"},
-            {"name": "ATtiny3217/1617/1607/817/807/417"}
+            {
+              "name": "ATtiny3216/1616/1606/816/806/416/406"
+            },
+            {
+              "name": "ATtiny1614/1604/814/804/414/404/214/204"
+            },
+            {
+              "name": "ATtiny412/402/212/202"
+            },
+            {
+              "name": "ATtiny3217/1617/1607/817/807/417"
+            }
           ],
           "toolsDependencies": [
             {
@@ -1912,10 +2924,18 @@
           "checksum": "SHA-256:2d18645f1e6248618d2038c7a5d42596a44306bb417e665b9dc417ba8c9dcf09",
           "size": "8019760",
           "boards": [
-            {"name": "ATtiny3216/1616/1606/816/806/416/406"},
-            {"name": "ATtiny1614/1604/814/804/414/404/214/204"},
-            {"name": "ATtiny412/402/212/202"},
-            {"name": "ATtiny3217/1617/1607/817/807/417"}
+            {
+              "name": "ATtiny3216/1616/1606/816/806/416/406"
+            },
+            {
+              "name": "ATtiny1614/1604/814/804/414/404/214/204"
+            },
+            {
+              "name": "ATtiny412/402/212/202"
+            },
+            {
+              "name": "ATtiny3217/1617/1607/817/807/417"
+            }
           ],
           "toolsDependencies": [
             {
@@ -1948,10 +2968,18 @@
           "checksum": "SHA-256:60c2629d98a89f3919a21809b884547cae4a5fdde8de711d9329d3d05d510fe8",
           "size": "8023683",
           "boards": [
-            {"name": "ATtiny3216/1616/1606/816/806/416/406"},
-            {"name": "ATtiny1614/1604/814/804/414/404/214/204"},
-            {"name": "ATtiny412/402/212/202"},
-            {"name": "ATtiny3217/1617/1607/817/807/417"}
+            {
+              "name": "ATtiny3216/1616/1606/816/806/416/406"
+            },
+            {
+              "name": "ATtiny1614/1604/814/804/414/404/214/204"
+            },
+            {
+              "name": "ATtiny412/402/212/202"
+            },
+            {
+              "name": "ATtiny3217/1617/1607/817/807/417"
+            }
           ],
           "toolsDependencies": [
             {
@@ -1984,7 +3012,9 @@
           "checksum": "SHA-256:62576666c0370fde787f6ab24590bd8f4c063bed68ad6a314945630397ebe915",
           "size": "1514347",
           "boards": [
-            {"name": "BAD RELEASE - USE 2.1.3 INSTEAD  "}
+            {
+              "name": "BAD RELEASE - USE 2.1.3 INSTEAD  "
+            }
           ],
           "toolsDependencies": [
             {
@@ -2017,7 +3047,9 @@
           "checksum": "SHA-256:88702414b8dedd3037de079d2ad231ec4a82b759a24a9a94ce03b7b700e9b62f",
           "size": "1514400",
           "boards": [
-            {"name": "BAD RELEASE - USE 2.1.3 INSTEAD  "}
+            {
+              "name": "BAD RELEASE - USE 2.1.3 INSTEAD  "
+            }
           ],
           "toolsDependencies": [
             {
@@ -2050,7 +3082,9 @@
           "checksum": "SHA-256:d77ac621dedd4eae0ef5618063f56c4a702ada9c0d1fe0c017d6b7707e81fe51",
           "size": "1514403",
           "boards": [
-            {"name": "BAD RELEASE - USE 2.1.3 INSTEAD  "}
+            {
+              "name": "BAD RELEASE - USE 2.1.3 INSTEAD  "
+            }
           ],
           "toolsDependencies": [
             {
@@ -2083,10 +3117,18 @@
           "checksum": "SHA-256:f84bc1193ccb233d68b09dc091f5cd3c9dade1d0592d9bbb2428fa0bb2f0242f",
           "size": "1514688",
           "boards": [
-            {"name": "ATtiny3216/1616/1606/816/806/416/406"},
-            {"name": "ATtiny1614/1604/814/804/414/404/214/204"},
-            {"name": "ATtiny412/402/212/202"},
-            {"name": "ATtiny3217/1617/1607/817/807/417"}
+            {
+              "name": "ATtiny3216/1616/1606/816/806/416/406"
+            },
+            {
+              "name": "ATtiny1614/1604/814/804/414/404/214/204"
+            },
+            {
+              "name": "ATtiny412/402/212/202"
+            },
+            {
+              "name": "ATtiny3217/1617/1607/817/807/417"
+            }
           ],
           "toolsDependencies": [
             {
@@ -2119,10 +3161,18 @@
           "checksum": "SHA-256:2925c6462823bd9505d114b65d7317a1fad04bdd19bc454815a0a3f5983f1b86",
           "size": "377265",
           "boards": [
-            {"name": "ATtiny3216/1616/1606/816/806/416/406"},
-            {"name": "ATtiny1614/1604/814/804/414/404/214/204"},
-            {"name": "ATtiny412/402/212/202"},
-            {"name": "ATtiny3217/1617/1607/817/807/417"}
+            {
+              "name": "ATtiny3216/1616/1606/816/806/416/406"
+            },
+            {
+              "name": "ATtiny1614/1604/814/804/414/404/214/204"
+            },
+            {
+              "name": "ATtiny412/402/212/202"
+            },
+            {
+              "name": "ATtiny3217/1617/1607/817/807/417"
+            }
           ],
           "toolsDependencies": [
             {
@@ -2155,10 +3205,18 @@
           "checksum": "SHA-256:728c53c1fed60fa53610a4bbc180421000f00aefde2a838da3afd0f813d6ed16",
           "size": "377216",
           "boards": [
-            {"name": "ATtiny3216/1616/1606/816/806/416/406"},
-            {"name": "ATtiny1614/1604/814/804/414/404/214/204"},
-            {"name": "ATtiny412/402/212/202"},
-            {"name": "ATtiny3217/1617/1607/817/807/417"}
+            {
+              "name": "ATtiny3216/1616/1606/816/806/416/406"
+            },
+            {
+              "name": "ATtiny1614/1604/814/804/414/404/214/204"
+            },
+            {
+              "name": "ATtiny412/402/212/202"
+            },
+            {
+              "name": "ATtiny3217/1617/1607/817/807/417"
+            }
           ],
           "toolsDependencies": [
             {
@@ -2191,10 +3249,18 @@
           "checksum": "SHA-256:360537e4c4fe718b82666205badd6d5749a1f17c29621c34a4b07bbd1c34bc53",
           "size": "741852",
           "boards": [
-            {"name": "ATtiny3216/1616/1606/816/806/416/406"},
-            {"name": "ATtiny1614/1604/814/804/414/404/214/204"},
-            {"name": "ATtiny412/402/212/202"},
-            {"name": "ATtiny3217/1617/1607/817/807/417"}
+            {
+              "name": "ATtiny3216/1616/1606/816/806/416/406"
+            },
+            {
+              "name": "ATtiny1614/1604/814/804/414/404/214/204"
+            },
+            {
+              "name": "ATtiny412/402/212/202"
+            },
+            {
+              "name": "ATtiny3217/1617/1607/817/807/417"
+            }
           ],
           "toolsDependencies": [
             {
@@ -2232,10 +3298,18 @@
           "checksum": "SHA-256:93b7ccf038468da17320fdf255c6eb2e54f38edb46c9e9295fff7fa3cfdc4b9f",
           "size": "741852",
           "boards": [
-            {"name": "ATtiny3216/1616/1606/816/806/416/406"},
-            {"name": "ATtiny1614/1604/814/804/414/404/214/204"},
-            {"name": "ATtiny412/402/212/202"},
-            {"name": "ATtiny3217/1617/1607/817/807/417"}
+            {
+              "name": "ATtiny3216/1616/1606/816/806/416/406"
+            },
+            {
+              "name": "ATtiny1614/1604/814/804/414/404/214/204"
+            },
+            {
+              "name": "ATtiny412/402/212/202"
+            },
+            {
+              "name": "ATtiny3217/1617/1607/817/807/417"
+            }
           ],
           "toolsDependencies": [
             {
@@ -2257,6 +3331,47 @@
               "packager": "megaTinyCore",
               "version": "3.7.2-post1",
               "name": "python3"
+            }
+          ]
+        },
+        {
+          "name": "megaTinyCore",
+          "architecture": "megaavr",
+          "version": "2.2.3",
+          "category": "Contributed",
+          "url": "https://SpenceKonde.github.io/megaTinyCore/megaTinyCore-2.2.3.tar.bz2",
+          "archiveFileName": "megaTinyCore-2.2.3.tar.bz2",
+          "checksum": "SHA-256:94fbe345d8b744fc7071da2860e2e4252175b8a404c64268fa15d7df1e927475",
+          "size": "573046",
+          "boards": [
+            {
+              "name": "ATtiny3216/1616/1606/816/806/416/406"
+            },
+            {
+              "name": "ATtiny1614/1604/814/804/414/404/214/204"
+            },
+            {
+              "name": "ATtiny412/402/212/202"
+            },
+            {
+              "name": "ATtiny3217/1617/1607/817/807"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino7"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino17"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
             }
           ]
         }
@@ -2316,6 +3431,47 @@
               "size": "292"
             }
           ]
+        },
+        {
+          "name": "megaTinyCore",
+          "architecture": "megaavr",
+          "version": "2.2.2",
+          "category": "Contributed",
+          "url": "https://SpenceKonde.github.io/megaTinyCore/megaTinyCore-2.2.2.tar.bz2",
+          "archiveFileName": "megaTinyCore-2.2.2.tar.bz2",
+          "checksum": "SHA-256:44ee2c8ac3531e1582fed8c75437a7868a68412bd31fdda479069cf301c17f98",
+          "size": "573275",
+          "boards": [
+            {
+              "name": "ATtiny3216/1616/1606/816/806/416/406"
+            },
+            {
+              "name": "ATtiny1614/1604/814/804/414/404/214/204"
+            },
+            {
+              "name": "ATtiny412/402/212/202"
+            },
+            {
+              "name": "ATtiny3217/1617/1607/817/807"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino7"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino17"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            }
+          ]
         }
       ]
     },
@@ -2341,10 +3497,18 @@
           "checksum": "SHA-256:1e100474ed43ff639dce3dd217d119e725d122f3975ce94edb6f124fe554db48",
           "size": "116602",
           "boards": [
-            {"name": "ATtiny441"},
-            {"name": "ATtiny841"},
-            {"name": "ATtiny1634"},
-            {"name": "ATtiny828"}
+            {
+              "name": "ATtiny441"
+            },
+            {
+              "name": "ATtiny841"
+            },
+            {
+              "name": "ATtiny1634"
+            },
+            {
+              "name": "ATtiny828"
+            }
           ],
           "toolsDependencies": []
         },
@@ -2361,10 +3525,18 @@
           "checksum": "SHA-256:5c187a7d079827497d800d7c7c97405028b8a3a5fcc9453add9fe98e8aa6f41f",
           "size": "123605",
           "boards": [
-            {"name": "ATtiny441"},
-            {"name": "ATtiny841"},
-            {"name": "ATtiny1634"},
-            {"name": "ATtiny828"}
+            {
+              "name": "ATtiny441"
+            },
+            {
+              "name": "ATtiny841"
+            },
+            {
+              "name": "ATtiny1634"
+            },
+            {
+              "name": "ATtiny828"
+            }
           ],
           "toolsDependencies": []
         },
@@ -2381,10 +3553,18 @@
           "checksum": "SHA-256:f705cd4c6cda59ebc45eb74c7df749191f2ac5451d83aa57efdf2d477c152e98",
           "size": "121546",
           "boards": [
-            {"name": "ATtiny441"},
-            {"name": "ATtiny841"},
-            {"name": "ATtiny1634"},
-            {"name": "ATtiny828"}
+            {
+              "name": "ATtiny441"
+            },
+            {
+              "name": "ATtiny841"
+            },
+            {
+              "name": "ATtiny1634"
+            },
+            {
+              "name": "ATtiny828"
+            }
           ],
           "toolsDependencies": []
         },
@@ -2401,7 +3581,9 @@
           "checksum": "SHA-256:f705cd4c6cda59ebc45eb74c7df749191f2ac5451d83aa57efdf2d477c152e98",
           "size": "121546",
           "boards": [
-            {"name": "ATTENTION! ATtiny Modern has been merged with ATTinyCore. If you have ATtiny Modern installed please click the Remove button and install ATTinyCore."}
+            {
+              "name": "ATTENTION! ATtiny Modern has been merged with ATTinyCore. If you have ATtiny Modern installed please click the Remove button and install ATTinyCore."
+            }
           ],
           "toolsDependencies": []
         }
