@@ -38,6 +38,14 @@ rm -rf $REPOSITORY-${DOWNLOADED_FILE#"v"}/extras
 # Delete downloaded file and empty megaavr folder
 rm -rf ${DOWNLOADED_FILE}.tar.bz2 $REPOSITORY-${DOWNLOADED_FILE#"v"}/megaavr
 
+# Comment out the github/manual installation's tools.pymcuprog.cmd...
+sed -i 's/^tools.pymcuprog.cmd/#tools.pymcuprog.cmd/' $REPOSITORY-${DOWNLOADED_FILE#"v"}/platform.txt
+
+# 
+sed -i 's/^#REMOVE#//' $REPOSITORY-${DOWNLOADED_FILE#"v"}/platform.txt
+
+cp $REPOSITORY-${DOWNLOADED_FILE#"v"}/platform.txt platform.extract
+
 # Compress folder to tar.bz2
 printf "\nCompressing folder $REPOSITORY-${DOWNLOADED_FILE#"v"} to $REPOSITORY-${DOWNLOADED_FILE#"v"}.tar.bz2\n"
 tar -cjSf $REPOSITORY-${DOWNLOADED_FILE#"v"}.tar.bz2 $REPOSITORY-${DOWNLOADED_FILE#"v"}
