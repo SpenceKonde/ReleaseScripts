@@ -38,6 +38,13 @@ rm -rf $REPOSITORY-${DOWNLOADED_FILE#"v"}/extras
 # Delete downloaded file and empty megaavr folder
 rm -rf ${DOWNLOADED_FILE}.tar.bz2 $REPOSITORY-${DOWNLOADED_FILE#"v"}/megaavr
 
+# Comment out the github/manual installation's tools.pymcuprog.cmd...
+sed -i 's/^tools.pymcuprog.cmd/#tools.pymcuprog.cmd/' $REPOSITORY-${DOWNLOADED_FILE#"v"}/platform.txt
+
+#
+sed -i 's/^#REMOVE#//' $REPOSITORY-${DOWNLOADED_FILE#"v"}/platform.txt
+
+
 # Compress folder to tar.bz2
 printf "\nCompressing folder $REPOSITORY-${DOWNLOADED_FILE#"v"} to $REPOSITORY-${DOWNLOADED_FILE#"v"}.tar.bz2\n"
 tar -cjSf $REPOSITORY-${DOWNLOADED_FILE#"v"}.tar.bz2 $REPOSITORY-${DOWNLOADED_FILE#"v"}
@@ -107,6 +114,11 @@ jq -r                                   \
       "packager": "arduino",
       "name": "arduinoOTA",
       "version": "1.3.0"
+    },
+    {
+      "packager": "megaTinyCore",
+      "version": "3.7.2-post1",
+      "name": "python3"
     }
   ]
 }' "package_drazzy.com_index.json.tmp" > "package_drazzy.com_index.json"
