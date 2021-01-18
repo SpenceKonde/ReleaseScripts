@@ -101,6 +101,11 @@ jq -r                                   \
       "packager": "arduino",
       "name": "arduinoOTA",
       "version": "1.3.0"
+    },
+    {
+      "packager": "megaTinyCore",
+      "version": "3.7.2-post1",
+      "name": "python3"
     }
   ]
 }' "package_drazzy.com_index.json.tmp" > "package_drazzy.com_index.json"
