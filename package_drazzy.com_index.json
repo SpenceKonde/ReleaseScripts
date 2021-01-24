@@ -1937,11 +1937,11 @@
           "version": "7.3.0-atmel3.6.1-azduino3",
           "systems": [
             {
-              "size": "38550688",
-              "checksum": "SHA-256:a6914d8a6e8fae1e56b1fc31dc0598c7fd715973af18702669872885121cdc75",
-              "host": "aarch64-linux-gnu",
-              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino3-aarch64-pc-linux-gnu.tar.bz2",
-              "url": "https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino3-aarch64-pc-linux-gnu.tar.bz2"
+              "size": "39937165",
+              "checksum": "SHA-256:7c0ee3e6a0e2a69c58f8de17ba3e3c11ea2de691f30c0e9e305bf67dcdc71be6",
+              "host": "i686-mingw32",
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino3-i686-w64-mingw32.tar.bz2",
+              "url": "https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino3-i686-w64-mingw32.tar.bz2"
             },
             {
               "size": "38550688",
