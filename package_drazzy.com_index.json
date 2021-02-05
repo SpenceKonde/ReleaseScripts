@@ -1628,7 +1628,7 @@
             {
               "host": "i686-mingw32",
               "archiveFileName": "micronucleus-2.0a4-win.zip",
-              "url": "https://github.com/ArminJo/DigistumpArduino/raw/master/tools/micronucleus-2.0a4-win.zip",
+              "url": "https://azduino.com/bin/micronucleus-2.0a4-win.zip",
               "checksum": "SHA-256:BA9D4A327FCDEE92B72DDD353EF547FB071110E9EB7BE73F83A685CB76D3F939",
               "size": "1711851"
             },
