@@ -3700,7 +3700,7 @@
               "name": "python3"
             }
           ]
-        },
+        }
         {
           "name": "megaTinyCore",
           "architecture": "megaavr",
@@ -3708,8 +3708,8 @@
           "category": "Contributed",
           "url": "https://SpenceKonde.github.io/megaTinyCore/megaTinyCore-2.2.7.tar.bz2",
           "archiveFileName": "megaTinyCore-2.2.7.tar.bz2",
-          "checksum": "SHA-256:98b6554e69ddcf49ce592fdfa31bb49afd4d85dd604485059f2e8791d0949ff4",
-          "size": "593433",
+          "checksum": "SHA-256:352fd2771212609860c3f68f21104cadcede1562090d25b72be2aa819476436a",
+          "size": "593430",
           "boards": [
             {
               "name": "ATtiny3216/1616/1606/816/806/416/406"
@@ -3726,7 +3726,7 @@
           ],
           "toolsDependencies": [
             {
-              "packager": "arduino",
+              "packager": "DxCore",
               "name": "avr-gcc",
               "version": "7.3.0-atmel3.6.1-azduino3"
             },
