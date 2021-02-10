@@ -3700,7 +3700,7 @@
               "name": "python3"
             }
           ]
-        }
+        },
         {
           "name": "megaTinyCore",
           "architecture": "megaavr",
