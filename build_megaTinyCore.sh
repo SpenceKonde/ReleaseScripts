@@ -41,7 +41,7 @@ rm -rf ${DOWNLOADED_FILE}.tar.bz2 $REPOSITORY-${DOWNLOADED_FILE#"v"}/megaavr
 # Comment out the github/manual installation's tools.pymcuprog.cmd...
 sed -i 's/^tools.pymcuprog.cmd/#tools.pymcuprog.cmd/' $REPOSITORY-${DOWNLOADED_FILE#"v"}/platform.txt
 
-# 
+#
 sed -i 's/^#REMOVE#//' $REPOSITORY-${DOWNLOADED_FILE#"v"}/platform.txt
 
 cp $REPOSITORY-${DOWNLOADED_FILE#"v"}/platform.txt platform.extract
@@ -90,7 +90,7 @@ jq -r                                   \
     {
       "packager": "arduino",
       "name": "avr-gcc",
-      "version": "7.3.0-atmel3.6.1-arduino7"
+      "version": "7.3.0-atmel3.6.1-azduino3"
     },
     {
       "packager": "arduino",
