@@ -2132,7 +2132,7 @@
               "checksum": "SHA-256:8dde3eba569cf4c0fbc9a772f6afb986d37f0f08796dccad08ab9815d4d074c0",
               "host": "x86_64-linux-gnu",
               "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino3-x86_64-pc-linux-gnu.tar.bz2",
-              "url": "https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino3-x86_64-pc-linux-gnu.tar.bz2"
+              "url": "https://github.com/SpenceKonde/megaTinyCore/releases/download/2.2.8/avr-gcc-7.3.0-atmel3.6.1-azduino3-x86_64-pc-linux-gnu.tar.bz2"
             }
           ]
         }
