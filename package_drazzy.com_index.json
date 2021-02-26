@@ -1611,9 +1611,120 @@
               "version": "2.0a4"
             }
           ]
+        },
+        {
+          "name": "ATTinyCore",
+          "architecture": "avr",
+          "version": "1.5.0",
+          "category": "Contributed",
+          "url": "https://SpenceKonde.github.io/ATTinyCore/ATTinyCore-1.5.0.tar.bz2",
+          "archiveFileName": "ATTinyCore-1.5.0.tar.bz2",
+          "checksum": "SHA-256:b43135e55f5b6df0da306cd25d1f7f7f1b27f2636903cb3d94717ed5af72ba19",
+          "size": "343568",
+          "boards": [
+            {
+              "name": "Program via ISP or Serial:"
+            },
+            {
+              "name": "ATtiny841/441, ATtiny85/45/25, ATtiny43"
+            },
+            {
+              "name": "ATtiny84/44/24, ATtiny1634, ATtiny828"
+            },
+            {
+              "name": "ATtiny861/461/261, ATtiny167/87"
+            },
+            {
+              "name": "ATtiny88/48, ATtiny4313/2313"
+            },
+            {
+              "name": "USB (Micronucleus) boards:"
+            },
+            {
+              "name": "DigiSpark (t85), Digispark Pro (t167)"
+            },
+            {
+              "name": "Wattuino Nano (t841), CaliforniaSTEAM (t84)"
+            },
+            {
+              "name": "AzduinoUSB (t84, t841, t861, t1634)"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino7"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino18"
+            },
+            {
+              "packager": "ATTinyCore",
+              "name": "micronucleus",
+              "version": "2.5"
+            }
+          ]
         }
       ],
       "tools": [
+        {
+          "name": "micronucleus",
+          "version": "2.5",
+          "systems": [
+            {
+              "host": "aarch64-linux-gnu",
+              "archiveFileName": "micronucleus-cli-2.5-aarch64-linux-gnu.tar.gz",
+              "url": "https://azduino.com/bin/micronucleus/micronucleus-cli-2.5-aarch64-linux-gnu.tar.gz",
+              "checksum": "SHA-256:ddbbba9d94f8a2b34c7894a0e00ea605f120c8ad40145e569afc78b5e7ba7aac",
+              "size": "325158"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "archiveFileName": "micronucleus-cli-2.5-arm-linux-gnueabihf.tar.gz",
+              "url": "https://azduino.com/bin/micronucleus/micronucleus-cli-2.5-arm-linux-gnueabihf.tar.gz",
+              "checksum": "SHA-256:ed954d7f7bca0b841fed2bccfde065e4dd08321a61fc019872409bb349584ff4",
+              "size": "269397"
+            },
+            {
+              "host": "i686-linux-gnu",
+              "archiveFileName": "micronucleus-cli-2.5-i686-linux-gnu.tar.gz",
+              "url": "https://azduino.com/bin/micronucleus/micronucleus-cli-2.5-i686-linux-gnu.tar.gz",
+              "checksum": "SHA-256:080ec60cdb50246dfe6af0e49baf2fb0bd19d20fd0c548fccec5ec0f269c6b07",
+              "size": "379441"
+            },
+            {
+              "host": "i686-mingw32",
+              "archiveFileName": "micronucleus-cli-2.5-i686-mingw32.zip",
+              "url": "https://azduino.com/bin/micronucleus/micronucleus-cli-2.5-i686-mingw32.zip",
+              "checksum": "SHA-256:9285b6a864d72c63876058205e1584982631b9710d3dff9606fe431f040871a5",
+              "size": "1127648"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "archiveFileName": "micronucleus-2.5-x86_64-apple-darwin.tar.gz",
+              "url": "https://azduino.com/bin/micronucleus/micronucleus-cli-2.5-x86_64-apple-darwin.tar.gz",
+              "checksum": "SHA-256:89a44a5a8ad450abb55561b086e7f9af4f55f396f2e0f74930cd61abe69488ad",
+              "size": "51241"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "micronucleus-cli-2.5-x86_64-linux-gnu.tar.gz",
+              "url": "https://azduino.com/bin/micronucleus/micronucleus-cli-2.5-x86_64-linux-gnu.tar.gz",
+              "checksum": "SHA-256:8e87d4d4d456adae2d352452bc0da221c68f2f9dbd40bbef5fab7d47a208a3a0",
+              "size": "437750"
+            },
+            {
+              "host": "x86_64-mingw32",
+              "archiveFileName": "micronucleus-cli-2.5-x86_64-mingw32.zip",
+              "url": "https://azduino.com/bin/micronucleus/micronucleus-cli-2.5-x86_64-mingw32.zip",
+              "checksum": "SHA-256:358b745bec7217fb0b81c8dfeeee8d4a7d66b59f4f27bfcf977ac42ebb1be7e9",
+              "size": "1133591"
+            }
+          ]
+        },
         {
           "name": "micronucleus",
           "version": "2.0a4",
