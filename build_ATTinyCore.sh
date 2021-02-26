@@ -80,7 +80,7 @@ jq -r                                   \
     {"name": "ATtiny88/48, ATtiny4313/2313"},
     {"name": "USB (Micronucleus) boards:"},
     {"name": "DigiSpark (t85), Digispark Pro (t167)"},
-    {"name": "Wattuino Nano (t841), CaliforniaSTEAM (t84)"},,
+    {"name": "Wattuino Nano (t841), CaliforniaSTEAM (t84)"},
     {"name": "AzduinoUSB (t84, t841, t861, t1634)"}
   ],
   "toolsDependencies": [
