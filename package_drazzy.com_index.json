@@ -1648,6 +1648,9 @@
             },
             {
               "name": "AzduinoUSB (t84, t841, t861, t1634)"
+            },
+            {
+              "name": "If Win USB drivers not already installed, run the post_install.bat manually or DL from https://azduino.com/bin/micronucleus"
             }
           ],
           "toolsDependencies": [
@@ -1664,7 +1667,7 @@
             {
               "packager": "ATTinyCore",
               "name": "micronucleus",
-              "version": "2.5"
+              "version": "2.5-azd1"
             }
           ]
         }
@@ -1672,7 +1675,7 @@
       "tools": [
         {
           "name": "micronucleus",
-          "version": "2.5",
+          "version": "2.5-azd1",
           "systems": [
             {
               "size": "1062391",
