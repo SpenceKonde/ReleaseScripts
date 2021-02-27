@@ -1619,8 +1619,8 @@
           "category": "Contributed",
           "url": "https://SpenceKonde.github.io/ATTinyCore/ATTinyCore-1.5.0.tar.bz2",
           "archiveFileName": "ATTinyCore-1.5.0.tar.bz2",
-          "checksum": "SHA-256:b43135e55f5b6df0da306cd25d1f7f7f1b27f2636903cb3d94717ed5af72ba19",
-          "size": "343568",
+          "checksum": "SHA-256:9ce8b65d4e667687123b737e66ec7a4794c77e1afc23055963f60fb0ca852926",
+          "size": "343547",
           "boards": [
             {
               "name": "Program via ISP or Serial:"
