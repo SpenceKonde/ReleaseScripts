@@ -1675,53 +1675,53 @@
           "version": "2.5",
           "systems": [
             {
-              "host": "aarch64-linux-gnu",
-              "archiveFileName": "micronucleus-cli-2.5-aarch64-linux-gnu.tar.gz",
-              "url": "https://azduino.com/bin/micronucleus/micronucleus-cli-2.5-aarch64-linux-gnu.tar.gz",
-              "checksum": "SHA-256:ddbbba9d94f8a2b34c7894a0e00ea605f120c8ad40145e569afc78b5e7ba7aac",
-              "size": "325158"
-            },
-            {
-              "host": "arm-linux-gnueabihf",
-              "archiveFileName": "micronucleus-cli-2.5-arm-linux-gnueabihf.tar.gz",
-              "url": "https://azduino.com/bin/micronucleus/micronucleus-cli-2.5-arm-linux-gnueabihf.tar.gz",
-              "checksum": "SHA-256:ed954d7f7bca0b841fed2bccfde065e4dd08321a61fc019872409bb349584ff4",
-              "size": "269397"
-            },
-            {
-              "host": "i686-linux-gnu",
-              "archiveFileName": "micronucleus-cli-2.5-i686-linux-gnu.tar.gz",
-              "url": "https://azduino.com/bin/micronucleus/micronucleus-cli-2.5-i686-linux-gnu.tar.gz",
-              "checksum": "SHA-256:080ec60cdb50246dfe6af0e49baf2fb0bd19d20fd0c548fccec5ec0f269c6b07",
-              "size": "379441"
-            },
-            {
-              "host": "i686-mingw32",
-              "archiveFileName": "micronucleus-cli-2.5-i686-mingw32.zip",
-              "url": "https://azduino.com/bin/micronucleus/micronucleus-cli-2.5-i686-mingw32.zip",
-              "checksum": "SHA-256:9285b6a864d72c63876058205e1584982631b9710d3dff9606fe431f040871a5",
-              "size": "1127648"
-            },
-            {
-              "host": "x86_64-apple-darwin",
-              "archiveFileName": "micronucleus-2.5-x86_64-apple-darwin.tar.gz",
-              "url": "https://azduino.com/bin/micronucleus/micronucleus-cli-2.5-x86_64-apple-darwin.tar.gz",
-              "checksum": "SHA-256:89a44a5a8ad450abb55561b086e7f9af4f55f396f2e0f74930cd61abe69488ad",
-              "size": "51241"
-            },
-            {
-              "host": "x86_64-linux-gnu",
-              "archiveFileName": "micronucleus-cli-2.5-x86_64-linux-gnu.tar.gz",
-              "url": "https://azduino.com/bin/micronucleus/micronucleus-cli-2.5-x86_64-linux-gnu.tar.gz",
-              "checksum": "SHA-256:8e87d4d4d456adae2d352452bc0da221c68f2f9dbd40bbef5fab7d47a208a3a0",
-              "size": "437750"
-            },
-            {
+              "size": "1062391",
+              "checksum": "SHA-256:21b8a314b65b5143f1fcf865ec17a256d42894e6e95140b80146b60a779d4585",
               "host": "x86_64-mingw32",
-              "archiveFileName": "micronucleus-cli-2.5-x86_64-mingw32.zip",
-              "url": "https://azduino.com/bin/micronucleus/micronucleus-cli-2.5-x86_64-mingw32.zip",
-              "checksum": "SHA-256:358b745bec7217fb0b81c8dfeeee8d4a7d66b59f4f27bfcf977ac42ebb1be7e9",
-              "size": "1133591"
+              "archiveFileName": "micronucleus-cli-2.5-azd1-x86_64-mingw32.tar.bz2",
+              "url": "https://azduino.com/bin/micronucleus/micronucleus-cli-2.5-azd1-x86_64-mingw32.tar.bz2"
+            },
+            {
+              "size": "1039040",
+              "checksum": "SHA-256:69b7703c12dd0ead6547fd859bbf1a7450aa89d693fa93fc69f7e688cb69a9a6",
+              "host": "i686-mingw32",
+              "archiveFileName": "micronucleus-cli-2.5-azd1-i686-mingw32.tar.bz2",
+              "url": "https://azduino.com/bin/micronucleus/micronucleus-cli-2.5-azd1-i686-mingw32.tar.bz2"
+            },
+            {
+              "size": "325836",
+              "checksum": "SHA-256:c557d5769125f94b82ec2c30b1b68c9fb8a140e06b141aafb794907022f0bf56",
+              "host": "aarch64-linux-gnu",
+              "archiveFileName": "micronucleus-cli-2.5-azd1-aarch64-linux-gnu.tar.bz2",
+              "url":"https://azduino.com/bin/micronucleus/micronucleus-cli-2.5-azd1-aarch64-linux-gnu.tar.bz2"
+            },
+            {
+              "size": "276745",
+              "checksum": "SHA-256:cedf56ab3f2fdaa2ad2e55de26d73b41aa03c3ac9698ab3b719ef86d76487084",
+              "host": "arm-linux-gnueabihf",
+              "archiveFileName": "micronucleus-cli-2.5-azd1-arm-linux-gnueabihf.tar.bz2",
+              "url":"https://azduino.com/bin/micronucleus/micronucleus-cli-2.5-azd1-arm-linux-gnueabihf.tar.bz2"
+            },
+            {
+              "size": "372733",
+              "checksum": "SHA-256:daea74a05671b14f619763dc21168103c9837c56ba84aa88c329979a1eac8bd7",
+              "host": "i686-linux-gnu",
+              "archiveFileName": "micronucleus-cli-2.5-azd1-i686-linux-gnu.tar.bz2",
+              "url":"https://azduino.com/bin/micronucleus/micronucleus-cli-2.5-azd1-i686-linux-gnu.tar.bz2"
+            },
+            {
+              "size": "51607",
+              "checksum": "SHA-256:cf0d268409ba8a5121225aceb5d8a562915b85bc96c270db5fb776a983355d51",
+              "host": "x86_64-apple-darwin",
+              "archiveFileName": "micronucleus-cli-2.5-azd1-x86_64-apple-darwin.tar.bz2",
+              "url":"https://azduino.com/bin/micronucleus/micronucleus-cli-2.5-azd1-x86_64-apple-darwin.tar.bz2"
+            },
+            {
+              "size": "431381",
+              "checksum": "SHA-256:1a9efa50e23fec004bf169579978882db6079b76c52da9188d149d270ded432c",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "micronucleus-cli-2.5-azd1-x86_64-linux-gnu.tar.bz2",
+              "url":"https://azduino.com/bin/micronucleus/micronucleus-cli-2.5-azd1-x86_64-linux-gnu.tar.bz2"
             }
           ]
         },
