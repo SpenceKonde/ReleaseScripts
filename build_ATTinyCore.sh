@@ -73,34 +73,28 @@ jq -r                                   \
   "checksum": $checksum,
   "size": $file_size,
   "boards": [
-    {"name": "Program via ISP or Serial:"},
-    {"name": "ATtiny841/441, ATtiny85/45/25, ATtiny43"},
-    {"name": "ATtiny84/44/24, ATtiny1634, ATtiny828"},
-    {"name": "ATtiny861/461/261, ATtiny167/87"},
-    {"name": "ATtiny88/48, ATtiny4313/2313"},
-    {"name": "USB (Micronucleus) boards:"},
-    {"name": "DigiSpark (t85), Digispark Pro (t167)"},
-    {"name": "Wattuino Nano (t841), CaliforniaSTEAM (t84)"},
-    {"name": "AzduinoUSB (t84, t841, t861, t1634)"}
-  ],
-  "toolsDependencies": [
-    {
-      "packager": "arduino",
-      "name": "avr-gcc",
-      "version": "7.3.0-atmel3.6.1-arduino7"
-    },
-    {
-      "packager": "arduino",
-      "name": "avrdude",
-      "version": "6.3.0-arduino18"
-    },
-    {
-      "packager": "ATTinyCore",
-      "name": "micronucleus",
-      "version": "2.0a4"
-    }
-  ]
-}' "package_drazzy.com_index.json.tmp" > "package_drazzy.com_index.json"
+            {"name": "<b>Program via ISP or Serial:</b> ATtiny841/441, ATtiny85/45/25, ATtiny84/44/24, ATtiny1634, ATtiny861/461/261, ATtiny167/87, ATtiny43, ATtiny828, ATtiny88/48, ATtiny4313/2313"},
+            {"name": "<br/><b>USB (Micronucleus) Support:</b> DigiSpark (t85), Digispark Pro (t167), MH-ET (t88), Wattuino/Nanite/etc (t841), CaliforniaSTEAM (t84)"},
+            {"name": "<br/><b>Windows users:</b> If USB drivers are not already installed, run the post_install.bat manually or DL from <a href='https://azduino.com/bin/micronucleus'>https://azduino.com/bin/micronucleus</a>"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino7"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino18"
+            },
+            {
+              "packager": "ATTinyCore",
+              "name": "micronucleus",
+              "version": "2.5-azd1b"
+            }
+          ]
+        }' "package_drazzy.com_index.json.tmp" > "package_drazzy.com_index.json"
 
 # Remove files that's no longer needed
 rm -rf "$REPOSITORY-${DOWNLOADED_FILE#"v"}" "package_drazzy.com_index.json.tmp"
