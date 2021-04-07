@@ -1734,35 +1734,35 @@
               "checksum": "SHA-256:c557d5769125f94b82ec2c30b1b68c9fb8a140e06b141aafb794907022f0bf56",
               "host": "aarch64-linux-gnu",
               "archiveFileName": "micronucleus-cli-2.5-azd1-aarch64-linux-gnu.tar.bz2",
-              "url":"https://azduino.com/bin/micronucleus/micronucleus-cli-2.5-azd1-aarch64-linux-gnu.tar.bz2"
+              "url": "https://azduino.com/bin/micronucleus/micronucleus-cli-2.5-azd1-aarch64-linux-gnu.tar.bz2"
             },
             {
               "size": "276745",
               "checksum": "SHA-256:cedf56ab3f2fdaa2ad2e55de26d73b41aa03c3ac9698ab3b719ef86d76487084",
               "host": "arm-linux-gnueabihf",
               "archiveFileName": "micronucleus-cli-2.5-azd1-arm-linux-gnueabihf.tar.bz2",
-              "url":"https://azduino.com/bin/micronucleus/micronucleus-cli-2.5-azd1-arm-linux-gnueabihf.tar.bz2"
+              "url": "https://azduino.com/bin/micronucleus/micronucleus-cli-2.5-azd1-arm-linux-gnueabihf.tar.bz2"
             },
             {
               "size": "372733",
               "checksum": "SHA-256:daea74a05671b14f619763dc21168103c9837c56ba84aa88c329979a1eac8bd7",
               "host": "i686-linux-gnu",
               "archiveFileName": "micronucleus-cli-2.5-azd1-i686-linux-gnu.tar.bz2",
-              "url":"https://azduino.com/bin/micronucleus/micronucleus-cli-2.5-azd1-i686-linux-gnu.tar.bz2"
+              "url": "https://azduino.com/bin/micronucleus/micronucleus-cli-2.5-azd1-i686-linux-gnu.tar.bz2"
             },
             {
               "size": "51607",
               "checksum": "SHA-256:cf0d268409ba8a5121225aceb5d8a562915b85bc96c270db5fb776a983355d51",
               "host": "x86_64-apple-darwin",
               "archiveFileName": "micronucleus-cli-2.5-azd1-x86_64-apple-darwin.tar.bz2",
-              "url":"https://azduino.com/bin/micronucleus/micronucleus-cli-2.5-azd1-x86_64-apple-darwin.tar.bz2"
+              "url": "https://azduino.com/bin/micronucleus/micronucleus-cli-2.5-azd1-x86_64-apple-darwin.tar.bz2"
             },
             {
               "size": "431381",
               "checksum": "SHA-256:1a9efa50e23fec004bf169579978882db6079b76c52da9188d149d270ded432c",
               "host": "x86_64-linux-gnu",
               "archiveFileName": "micronucleus-cli-2.5-azd1-x86_64-linux-gnu.tar.bz2",
-              "url":"https://azduino.com/bin/micronucleus/micronucleus-cli-2.5-azd1-x86_64-linux-gnu.tar.bz2"
+              "url": "https://azduino.com/bin/micronucleus/micronucleus-cli-2.5-azd1-x86_64-linux-gnu.tar.bz2"
             }
           ]
         },
@@ -2244,6 +2244,58 @@
               "name": "python3"
             }
           ]
+        },
+        {
+          "name": "DxCore",
+          "architecture": "megaavr",
+          "version": "1.3.3",
+          "category": "Contributed",
+          "url": "https://SpenceKonde.github.io/DxCore/DxCore-1.3.3.tar.bz2",
+          "archiveFileName": "DxCore-1.3.3.tar.bz2",
+          "checksum": "SHA-256:80b56a29af1621b9ad621b578ab420664920143c916e92f51513b2ffbd30ae28",
+          "size": "536738",
+          "boards": [
+            {
+              "name": "AVR128DA28,AVR128DA32,AVR128DA48,AVR128DA64"
+            },
+            {
+              "name": "AVR64DA28,AVR64DA32,AVR64DA48,AVR64DA64"
+            },
+            {
+              "name": "AVR32DA28,AVR32DA32,AVR32DA48"
+            },
+            {
+              "name": "AVR128DB28,AVR128DB32,AVR128DB48,AVR128DB64"
+            },
+            {
+              "name": "AVR64DB28,AVR64DB32,AVR64DB48,AVR6BDA64"
+            },
+            {
+              "name": "AVR32DB28,AVR32DB32,AVR32DB48"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "DxCore",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-azduino4"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino18"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            },
+            {
+              "packager": "megaTinyCore",
+              "version": "3.7.2-post1",
+              "name": "python3"
+            }
+          ]
         }
       ],
       "tools": [
@@ -2359,35 +2411,35 @@
               "checksum": "SHA-256:7a8096b7c40f5759218967649a58ea4b94c04a81cd80327e3b5261c604dc5e24",
               "host": "aarch64-linux-gnu",
               "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino4-aarch64-pc-linux-gnu.tar.bz2",
-              "url":"https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino4-aarch64-pc-linux-gnu.tar.bz2"
+              "url": "https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino4-aarch64-pc-linux-gnu.tar.bz2"
             },
             {
               "size": "34227710",
               "checksum": "SHA-256:671945b8a5e054292603aa2fefa396c09f8044bfff1fd4f3d3cac4e6ce237c57",
               "host": "arm-linux-gnueabihf",
               "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino4-arm-linux-gnueabihf.tar.bz2",
-              "url":"https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino4-arm-linux-gnueabihf.tar.bz2"
+              "url": "https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino4-arm-linux-gnueabihf.tar.bz2"
             },
             {
               "size": "36881116",
               "checksum": "SHA-256:848b79c3463a72e2b6adeeb14acdd7cd44418269eb3a57cb3824e1e2a2861a00",
               "host": "i686-linux-gnu",
               "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino4-i686-pc-linux-gnu.tar.bz2",
-              "url":"https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino4-i686-pc-linux-gnu.tar.bz2"
+              "url": "https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino4-i686-pc-linux-gnu.tar.bz2"
             },
             {
               "size": "37487255",
               "checksum": "SHA-256:9fe776e47f89827522efe88baa5f67ce7150c4cbc0fc3d1d5c159c50ec9b7292",
               "host": "x86_64-apple-darwin14",
               "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino4-x86_64-apple-darwin14.tar.bz2",
-              "url":"https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino4-x86_64-apple-darwin14.tar.bz2"
+              "url": "https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino4-x86_64-apple-darwin14.tar.bz2"
             },
             {
               "size": "37370779",
               "checksum": "SHA-256:2636e68fe57a1e4f98459c4cfa95836e47c150e29d8657b0345cbfada8c5e3e0",
               "host": "x86_64-linux-gnu",
               "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino4-x86_64-pc-linux-gnu.tar.bz2",
-              "url":"https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino4-x86_64-pc-linux-gnu.tar.bz2"
+              "url": "https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino4-x86_64-pc-linux-gnu.tar.bz2"
             }
           ]
         }
