@@ -81,13 +81,13 @@ jq -r                                   \
   "size": $file_size,
   "boards": [
     {
-      "name": "AVR DA-series: AVR128DA28, AVR128DA32, AVR128DA48, AVR128DA64, AVR64DA28, AVR64DA32, AVR64DA48, AVR64DA64, AVR32DA28, AVR32DA32, AVR32DA48 <br\>"
+      "name": "AVR DA-series: AVR128DA28, AVR128DA32, AVR128DA48, AVR128DA64, AVR64DA28, AVR64DA32, AVR64DA48, AVR64DA64, AVR32DA28, AVR32DA32, AVR32DA48 <br/>"
     },
     {
-      "name": "AVR DB-series: AVR128DB28, AVR128DB32, AVR128DB48, AVR128DB64, AVR64DB28, AVR64DB32, AVR64DB48, AVR64DB64, AVR32DB28, AVR32DB32, AVR32DB48 <br\>"
+      "name": "AVR DB-series: AVR128DB28, AVR128DB32, AVR128DB48, AVR128DB64, AVR64DB28, AVR64DB32, AVR64DB48, AVR64DB64, AVR32DB28, AVR32DB32, AVR32DB48 <br/>"
     },
     {
-      "name": "Works with Microchip Curiosity Nano boards via the builtin USB port. <br\>"
+      "name": "Works with Microchip Curiosity Nano boards via the builtin USB port. <br/>"
     },
     {
       "name": "Supported UPDI programmers: jtag2updi, serial+resistor (pymcuprog, like pyupdi), nEDBG, mEDBG, EDBG, SNAP, Atmel-ICE and PICkit4 - or use one of those to load Optiboot (included) for serial programming."
