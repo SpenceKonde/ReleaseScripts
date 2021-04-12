@@ -4256,6 +4256,59 @@
               "name": "python3"
             }
           ]
+        },
+        {
+          "name": "megaTinyCore",
+          "architecture": "megaavr",
+          "version": "2.3.0",
+          "category": "Contributed",
+          "url": "https://SpenceKonde.github.io/megaTinyCore/megaTinyCore-2.3.0.tar.bz2",
+          "archiveFileName": "megaTinyCore-2.3.0.tar.bz2",
+          "checksum": "SHA-256:27fdcbcf7a5d44754d20827ba6addbbf467e92d6b7d3fc1753a5217687cb65cd",
+          "size": "559054",
+          "boards": [
+            {
+              "name": "Initial support for new tinyAVR 2-series parts, with enhanced analog read functions to make use of the capabilities of the new hardware!  Use with caution, this may be buggier than usual... <br/>"
+            },
+            {
+              "name": "24-pin parts: ATtiny3227/3217/1627/1617/1607/827/817/807/427<br/>"
+            },
+            {
+              "name": "20-pin parts: ATtiny3226/3216/1626/1616/1606/826/816/806/426/416/406<br/>"
+            },
+            {
+              "name": "14-pin parts: ATtiny3224/1624/1614/1604/824/814/804/424/414/404/214/204<br/>"
+            },
+            {
+              "name": "8-pin parts: ATtiny412/402/212/202<br/>"
+            },
+            {
+              "name": "Optiboot serial bootloader supported only on 0/1-series currently."
+            }
+
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "DxCore",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-azduino4a"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino18"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            },
+            {
+              "packager": "megaTinyCore",
+              "version": "3.7.2-post1",
+              "name": "python3"
+            }
+          ]
         }
       ],
       "tools": [
