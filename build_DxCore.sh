@@ -97,7 +97,7 @@ jq -r                                   \
     {
       "packager": "DxCore",
       "name": "avr-gcc",
-      "version": "7.3.0-atmel3.6.1-azduino4a"
+      "version": "7.3.0-atmel3.6.1-azduino4b"
     },
     {
       "packager": "arduino",
