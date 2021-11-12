@@ -2516,8 +2516,57 @@
               "name": "AVR DD-series support planned pending availability. Works with Microchip Curiosity Nano boards via the builtin USB port. <br/>"
             },
             {
-              "name": "1.3.9 should fix the bugs that came with 1.3.7/1.3.8 - Please be sure to report any other new bugs before downgrading to 1.3.6. <br/>"
+              "name": "1.3.9 didn't quite fix all the the bugs that came with 1.3.7/1.3.8 - use 1.3.10 or 1.3.6. <br/>"
             },
+            {
+              "name": "Supported UPDI programmers: SerialUPDI (serial adapter w/diode or resistor), jtag2updi, nEDBG, mEDBG, EDBG, SNAP, Atmel-ICE and PICkit4 - or use one of those to load Optiboot (included) for serial programming."
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "DxCore",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-azduino4b"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino18"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            },
+            {
+              "packager": "megaTinyCore",
+              "version": "3.7.2-post1",
+              "name": "python3"
+            }
+          ]
+        },
+        {
+          "name": "DxCore",
+          "architecture": "megaavr",
+          "version": "1.3.10",
+          "category": "Contributed",
+          "url": "https://SpenceKonde.github.io/DxCore/DxCore-1.3.10.tar.bz2",
+          "archiveFileName": "DxCore-1.3.10.tar.bz2",
+          "checksum": "SHA-256:1c908d4a78ccd2fbd959880d06ff29585623dc005ef9cf335d77724c2db81d0c",
+          "size": "629891",
+          "boards": [
+            {
+              "name": "AVR DA-series: AVR128DA28, AVR128DA32, AVR128DA48, AVR128DA64, AVR64DA28, AVR64DA32, AVR64DA48, AVR64DA64, AVR32DA28, AVR32DA32, AVR32DA48 <br/>"
+            },
+            {
+              "name": "AVR DB-series: AVR128DB28, AVR128DB32, AVR128DB48, AVR128DB64, AVR64DB28, AVR64DB32, AVR64DB48, AVR64DB64, AVR32DB28, AVR32DB32, AVR32DB48 <br/>"
+            },
+            {
+              "name": "AVR DD-series support planned pending availability. Works with Microchip Curiosity Nano boards via the builtin USB port. <br/>"
+            },
+            {
+              "name": "1.3.10 should be the last 1.3.x bugfix release! But if I have missed any new bugs, be extra certain to report them before downgrading to the previous stable version 1.3.6."
+            }
             {
               "name": "Supported UPDI programmers: SerialUPDI (serial adapter w/diode or resistor), jtag2updi, nEDBG, mEDBG, EDBG, SNAP, Atmel-ICE and PICkit4 - or use one of those to load Optiboot (included) for serial programming."
             }
