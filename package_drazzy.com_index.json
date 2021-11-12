@@ -2566,7 +2566,7 @@
             },
             {
               "name": "1.3.10 should be the last 1.3.x bugfix release! But if I have missed any new bugs, be extra certain to report them before downgrading to the previous stable version 1.3.6."
-            }
+            },
             {
               "name": "Supported UPDI programmers: SerialUPDI (serial adapter w/diode or resistor), jtag2updi, nEDBG, mEDBG, EDBG, SNAP, Atmel-ICE and PICkit4 - or use one of those to load Optiboot (included) for serial programming."
             }
