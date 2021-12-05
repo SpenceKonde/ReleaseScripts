@@ -2578,9 +2578,9 @@
               "version": "7.3.0-atmel3.6.1-azduino4b"
             },
             {
-              "packager": "arduino",
+              "packager": "DxCore",
               "name": "avrdude",
-              "version": "6.3.0-arduino18"
+              "version": "6.3.0-arduino17or18"
             },
             {
               "packager": "arduino",
@@ -2689,6 +2689,54 @@
               "host": "x86_64-linux-gnu",
               "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino3-x86_64-pc-linux-gnu.tar.bz2",
               "url": "https://github.com/SpenceKonde/megaTinyCore/releases/download/2.2.8/avr-gcc-7.3.0-atmel3.6.1-azduino3-x86_64-pc-linux-gnu.tar.bz2"
+            }
+          ]
+        },
+        {
+          "name": "avrdude",
+          "version": "6.3.0-arduino17or18",
+          "systems": [
+            {
+              "size": "220677",
+              "checksum": "SHA-256:2e25c9e99c255d595a1072679a88ecddfa12c223b18510760bb867039f35efa5",
+              "host": "arm-linux-gnueabihf",
+              "archiveFileName": "avrdude-6.3.0-arduino18-armhf-pc-linux-gnu.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/avrdude-6.3.0-arduino18-armhf-pc-linux-gnu.tar.bz2"
+            },
+            {
+              "size": "231047",
+              "checksum": "SHA-256:4f88bb50d2235182ed7aa9e0a1d08e4bb956378ac9569b8e1141e37ed314fb2d",
+              "host": "aarch64-linux-gnu",
+              "archiveFileName": "avrdude-6.3.0-arduino18-aarch64-pc-linux-gnu.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/avrdude-6.3.0-arduino18-aarch64-pc-linux-gnu.tar.bz2"
+            },
+            {
+              "size": "280072",
+              "checksum": "SHA-256:df1dfd18e2e287c47232605cd4fa41751eb70df8c300aeb7a00a3a09b524a1b8",
+              "host": "x86_64-apple-darwin12",
+              "archiveFileName": "avrdude-6.3.0-arduino18-x86_64-apple-darwin12.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/avrdude-6.3.0-arduino18-x86_64-apple-darwin12.tar.bz2"
+            },
+            {
+              "size": "254460",
+              "checksum": "SHA-256:1ae46972b276b8a54c459f87c4ff326abdad0be2b1a293d73bf86e47765eddc3",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "avrdude-6.3.0-arduino18-x86_64-pc-linux-gnu.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/avrdude-6.3.0-arduino18-x86_64-pc-linux-gnu.tar.bz2"
+            },
+            {
+              "size": "244550",
+              "checksum": "SHA-256:5c8cc6c17db9300e1451fe41cd7178b0442b4490ee6fdbc0aed9811aef96c05f",
+              "host": "i686-linux-gnu",
+              "archiveFileName": "avrdude-6.3.0-arduino17-i686-pc-linux-gnu.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/avrdude-6.3.0-arduino17-i686-pc-linux-gnu.tar.bz2"
+            },
+            {
+              "size": "329515",
+              "checksum": "SHA-256:0781f4183e91a9783c2330035520144ab76b8f75c0a9f7a25877c063bc984c4d",
+              "host": "i686-mingw32",
+              "archiveFileName": "avrdude-6.3.0-arduino18-i686-w64-mingw32.zip",
+              "url": "http://downloads.arduino.cc/tools/avrdude-6.3.0-arduino18-i686-w64-mingw32.zip"
             }
           ]
         },
@@ -4815,9 +4863,9 @@
               "version": "7.3.0-atmel3.6.1-azduino4b"
             },
             {
-              "packager": "arduino",
+              "packager": "DxCore",
               "name": "avrdude",
-              "version": "6.3.0-arduino18"
+              "version": "6.3.0-arduino17or18"
             },
             {
               "packager": "arduino",
