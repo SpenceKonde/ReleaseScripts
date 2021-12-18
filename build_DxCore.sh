@@ -82,18 +82,18 @@ jq -r                                   \
   "checksum": $checksum,
   "size": $file_size,
   "boards": [
-    {
-      "name": "AVR DA-series: AVR128DA28, AVR128DA32, AVR128DA48, AVR128DA64, AVR64DA28, AVR64DA32, AVR64DA48, AVR64DA64, AVR32DA28, AVR32DA32, AVR32DA48 <br/>"
-    },
-    {
-      "name": "AVR DB-series: AVR128DB28, AVR128DB32, AVR128DB48, AVR128DB64, AVR64DB28, AVR64DB32, AVR64DB48, AVR64DB64, AVR32DB28, AVR32DB32, AVR32DB48 <br/>"
-    },
-    {
-      "name": "AVR DD-series support planned pending availability. Works with Microchip Curiosity Nano boards via the builtin USB port. <br/>"
-    },
-    {
-      "name": "Supported UPDI programmers: SerialUPDI (serial adapter w/diode or resistor), jtag2updi, nEDBG, mEDBG, EDBG, SNAP, Atmel-ICE and PICkit4 - or use one of those to load Optiboot (included) for serial programming."
-    }
+      {
+        "name": "AVR DA-series: AVR128DA28, AVR128DA32, AVR128DA48, AVR128DA64, AVR64DA28, AVR64DA32, AVR64DA48, AVR64DA64, AVR32DA28, AVR32DA32, AVR32DA48 <br/>
+        AVR DB-series: AVR128DB28, AVR128DB32, AVR128DB48, AVR128DB64, AVR64DB28, AVR64DB32, AVR64DB48, AVR64DB64, AVR32DB28, AVR32DB32, AVR32DB48 <br/>
+        AVR DD-series support planned pending availability. Works with Microchip Curiosity Nano boards via the builtin USB port. <br/>"
+      },
+      {
+        "name": "1.4.0: A HUGE update bringing the total rewrite of Wire.h with master+slave and dual mode support, major serial improvements (including half-duplex and RS485), and loads of additional features and fixes. See the documentation for the full list!"
+      },
+      {
+        "name": "Supported UPDI programmers: SerialUPDI (serial adapter w/diode or resistor), jtag2updi, nEDBG, mEDBG, EDBG, SNAP, Atmel-ICE and PICkit4 - or use one of those to load Optiboot (included) for serial programming."
+      }
+    ],
   ],
   "toolsDependencies": [
     {
