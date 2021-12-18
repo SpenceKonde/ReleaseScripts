@@ -83,10 +83,10 @@ jq -r                                   \
   "size": $file_size,
   "boards": [
       {
-        "name": "Full Arduino support for the tinyAVR 0-series, 1-series, and the new 2-series! 2-series support is still very new.</br> "
-        24-pin parts: ATtiny3227/3217/1627/1617/1607/827/817/807/427<br/>"
-        20-pin parts: ATtiny3226/3216/1626/1616/1606/826/816/806/426/416/406<br/>"
-        14-pin parts: ATtiny3224/1624/1614/1604/824/814/804/424/414/404/214/204<br/>"
+        "name": "Full Arduino support for the tinyAVR 0-series, 1-series, and the new 2-series! 2-series support is still very new.</br>
+        24-pin parts: ATtiny3227/3217/1627/1617/1607/827/817/807/427<br/>
+        20-pin parts: ATtiny3226/3216/1626/1616/1606/826/816/806/426/416/406<br/>
+        14-pin parts: ATtiny3224/1624/1614/1604/824/814/804/424/414/404/214/204<br/>
         8-pin parts: ATtiny412/402/212/202<br/>"
       },
       {
