@@ -2593,6 +2593,49 @@
               "name": "python3"
             }
           ]
+        },
+        {
+          "name": "DxCore",
+          "architecture": "megaavr",
+          "version": "1.4.1",
+          "category": "Contributed",
+          "url": "https://SpenceKonde.github.io/DxCore/DxCore-1.4.1.tar.bz2",
+          "archiveFileName": "DxCore-1.4.1.tar.bz2",
+          "checksum": "SHA-256:7305695a124e34b6252b2a4e7a1602469c77fc5e4f7c06b5b844805bcc1c98fb",
+          "size": "689982",
+          "boards": [
+            {
+              "name": "AVR DA-series: AVR128DA28, AVR128DA32, AVR128DA48, AVR128DA64, AVR64DA28, AVR64DA32, AVR64DA48, AVR64DA64, AVR32DA28, AVR32DA32, AVR32DA48 <br/>\n      AVR DB-series: AVR128DB28, AVR128DB32, AVR128DB48, AVR128DB64, AVR64DB28, AVR64DB32, AVR64DB48, AVR64DB64, AVR32DB28, AVR32DB32, AVR32DB48 <br/>\n      AVR DD-series support planned pending availability. Works with Microchip Curiosity Nano boards via the builtin USB port. <br/>"
+            },
+            {
+              "name": "1.4.1 (1.4.0 had a critical bug): A HUGE update bringing the total rewrite of Wire.h with master+slave and dual mode support, major serial improvements (including half-duplex and RS485), and loads of additional features and fixes. See the documentation for the full list!"
+            },
+            {
+              "name": "Supported UPDI programmers: SerialUPDI (serial adapter w/diode or resistor), jtag2updi, nEDBG, mEDBG, EDBG, SNAP, Atmel-ICE and PICkit4 - or use one of those to load Optiboot (included) for serial programming."
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "DxCore",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-azduino4b"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino18"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            },
+            {
+              "packager": "megaTinyCore",
+              "version": "3.7.2-post1",
+              "name": "python3"
+            }
+          ]
         }
       ],
       "tools": [
@@ -4866,6 +4909,49 @@
               "packager": "DxCore",
               "name": "avrdude",
               "version": "6.3.0-arduino17or18"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            },
+            {
+              "packager": "megaTinyCore",
+              "version": "3.7.2-post1",
+              "name": "python3"
+            }
+          ]
+        },
+        {
+          "name": "megaTinyCore",
+          "architecture": "megaavr",
+          "version": "2.5.1",
+          "category": "Contributed",
+          "url": "https://SpenceKonde.github.io/megaTinyCore/megaTinyCore-2.5.1.tar.bz2",
+          "archiveFileName": "megaTinyCore-2.5.1.tar.bz2",
+          "checksum": "SHA-256:53d0f5dd009b4fc481de99fcf0c64de1d8841435e6ed87de2fda2f65715c99d0",
+          "size": "680671",
+          "boards": [
+            {
+              "name": "Full Arduino support for the tinyAVR 0-series, 1-series, and the new 2-series! 2-series support is still very new.</br>\n        24-pin parts: ATtiny3227/3217/1627/1617/1607/827/817/807/427<br/>\n        20-pin parts: ATtiny3226/3216/1626/1616/1606/826/816/806/426/416/406<br/>\n        14-pin parts: ATtiny3224/1624/1614/1604/824/814/804/424/414/404/214/204<br/>\n        8-pin parts: ATtiny412/402/212/202<br/>"
+            },
+            {
+              "name": "Optiboot serial bootloader supported on all parts. <br/>"
+            },
+            {
+              "name": "2.5.1 (2.5.0 had a critical bug) - A HUGE update! New Wire implementation with master+slave support, improvements to serial including half-duplex support, a bunch of new features ported from DxCore and more! Be sure to check the documentation for the full details!"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "DxCore",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-azduino4b"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino18"
             },
             {
               "packager": "arduino",
