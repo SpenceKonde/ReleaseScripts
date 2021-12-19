@@ -82,10 +82,19 @@ jq -r                                   \
   "checksum": $checksum,
   "size": $file_size,
   "boards": [
-   {"name": "ATtiny3216/1616/1606/816/806/416/406"},
-   {"name": "ATtiny1614/1604/814/804/414/404/214/204"},
-   {"name": "ATtiny412/402/212/202"},
-   {"name": "ATtiny3217/1617/1607/817/807"}
+      {
+        "name": "Full Arduino support for the tinyAVR 0-series, 1-series, and the new 2-series! 2-series support is still very new.</br>
+        24-pin parts: ATtiny3227/3217/1627/1617/1607/827/817/807/427<br/>
+        20-pin parts: ATtiny3226/3216/1626/1616/1606/826/816/806/426/416/406<br/>
+        14-pin parts: ATtiny3224/1624/1614/1604/824/814/804/424/414/404/214/204<br/>
+        8-pin parts: ATtiny412/402/212/202<br/>"
+      },
+      {
+        "name": "Optiboot serial bootloader supported on all parts. <br/>"
+      },
+      {
+        "name": "2.5.0 - A HUGE update! New Wire implementation with master+slave support, improvements to serial including half-duplex support, a bunch of new features ported from DxCore and more! Be sure to check the documentation for the full details!"
+      }
   ],
   "toolsDependencies": [
     {
