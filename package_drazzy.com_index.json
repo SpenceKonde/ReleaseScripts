@@ -1662,7 +1662,7 @@
             {
               "packager": "arduino",
               "name": "avrdude",
-              "version": "6.3.0-arduino17or18"
+              "version": "6.3.0-arduino18"
             },
             {
               "packager": "ATTinyCore",
@@ -1700,7 +1700,7 @@
             {
               "packager": "arduino",
               "name": "avrdude",
-              "version": "6.3.0-arduino17or18"
+              "version": "6.3.0-arduino18"
             },
             {
               "packager": "ATTinyCore",
@@ -2127,7 +2127,7 @@
             {
               "packager": "arduino",
               "name": "avrdude",
-              "version": "6.3.0-arduino17or18"
+              "version": "6.3.0-arduino18"
             },
             {
               "packager": "arduino",
@@ -2179,7 +2179,7 @@
             {
               "packager": "arduino",
               "name": "avrdude",
-              "version": "6.3.0-arduino17or18"
+              "version": "6.3.0-arduino18"
             },
             {
               "packager": "arduino",
@@ -2231,7 +2231,7 @@
             {
               "packager": "arduino",
               "name": "avrdude",
-              "version": "6.3.0-arduino17or18"
+              "version": "6.3.0-arduino18"
             },
             {
               "packager": "arduino",
@@ -2286,7 +2286,7 @@
             {
               "packager": "arduino",
               "name": "avrdude",
-              "version": "6.3.0-arduino17or18"
+              "version": "6.3.0-arduino18"
             },
             {
               "packager": "arduino",
@@ -2335,7 +2335,7 @@
             {
               "packager": "arduino",
               "name": "avrdude",
-              "version": "6.3.0-arduino17or18"
+              "version": "6.3.0-arduino18"
             },
             {
               "packager": "arduino",
@@ -2384,7 +2384,7 @@
             {
               "packager": "arduino",
               "name": "avrdude",
-              "version": "6.3.0-arduino17or18"
+              "version": "6.3.0-arduino18"
             },
             {
               "packager": "arduino",
@@ -2433,7 +2433,7 @@
             {
               "packager": "arduino",
               "name": "avrdude",
-              "version": "6.3.0-arduino17or18"
+              "version": "6.3.0-arduino18"
             },
             {
               "packager": "arduino",
@@ -2482,7 +2482,7 @@
             {
               "packager": "arduino",
               "name": "avrdude",
-              "version": "6.3.0-arduino17or18"
+              "version": "6.3.0-arduino18"
             },
             {
               "packager": "arduino",
@@ -2531,7 +2531,7 @@
             {
               "packager": "arduino",
               "name": "avrdude",
-              "version": "6.3.0-arduino17or18"
+              "version": "6.3.0-arduino18"
             },
             {
               "packager": "arduino",
@@ -2621,7 +2621,7 @@
               "version": "7.3.0-atmel3.6.1-azduino4b"
             },
             {
-              "packager": "arduino",
+              "packager": "DxCore",
               "name": "avrdude",
               "version": "6.3.0-arduino17or18"
             },
@@ -2664,7 +2664,7 @@
               "version": "7.3.0-atmel3.6.1-azduino4b"
             },
             {
-              "packager": "arduino",
+              "packager": "DxCore",
               "name": "avrdude",
               "version": "6.3.0-arduino17or18"
             },
@@ -2707,7 +2707,7 @@
               "version": "7.3.0-atmel3.6.1-azduino4b"
             },
             {
-              "packager": "arduino",
+              "packager": "DxCore",
               "name": "avrdude",
               "version": "6.3.0-arduino17or18"
             },
@@ -2750,7 +2750,7 @@
               "version": "7.3.0-atmel3.6.1-azduino4b"
             },
             {
-              "packager": "arduino",
+              "packager": "DxCore",
               "name": "avrdude",
               "version": "6.3.0-arduino17or18"
             },
@@ -4360,7 +4360,7 @@
             {
               "packager": "arduino",
               "name": "avrdude",
-              "version": "6.3.0-arduino17or18"
+              "version": "6.3.0-arduino18"
             },
             {
               "packager": "arduino",
@@ -4409,7 +4409,7 @@
             {
               "packager": "arduino",
               "name": "avrdude",
-              "version": "6.3.0-arduino17or18"
+              "version": "6.3.0-arduino18"
             },
             {
               "packager": "arduino",
@@ -4537,7 +4537,7 @@
             {
               "packager": "arduino",
               "name": "avrdude",
-              "version": "6.3.0-arduino17or18"
+              "version": "6.3.0-arduino18"
             },
             {
               "packager": "arduino",
@@ -4578,7 +4578,7 @@
             {
               "packager": "arduino",
               "name": "avrdude",
-              "version": "6.3.0-arduino17or18"
+              "version": "6.3.0-arduino18"
             },
             {
               "packager": "arduino",
@@ -4624,7 +4624,7 @@
             {
               "packager": "arduino",
               "name": "avrdude",
-              "version": "6.3.0-arduino17or18"
+              "version": "6.3.0-arduino18"
             },
             {
               "packager": "arduino",
@@ -4670,7 +4670,7 @@
             {
               "packager": "arduino",
               "name": "avrdude",
-              "version": "6.3.0-arduino17or18"
+              "version": "6.3.0-arduino18"
             },
             {
               "packager": "arduino",
@@ -4716,7 +4716,7 @@
             {
               "packager": "arduino",
               "name": "avrdude",
-              "version": "6.3.0-arduino17or18"
+              "version": "6.3.0-arduino18"
             },
             {
               "packager": "arduino",
@@ -4762,7 +4762,7 @@
             {
               "packager": "arduino",
               "name": "avrdude",
-              "version": "6.3.0-arduino17or18"
+              "version": "6.3.0-arduino18"
             },
             {
               "packager": "arduino",
@@ -4817,7 +4817,7 @@
             {
               "packager": "arduino",
               "name": "avrdude",
-              "version": "6.3.0-arduino17or18"
+              "version": "6.3.0-arduino18"
             },
             {
               "packager": "arduino",
@@ -4872,7 +4872,7 @@
             {
               "packager": "arduino",
               "name": "avrdude",
-              "version": "6.3.0-arduino17or18"
+              "version": "6.3.0-arduino18"
             },
             {
               "packager": "arduino",
@@ -4927,7 +4927,7 @@
             {
               "packager": "arduino",
               "name": "avrdude",
-              "version": "6.3.0-arduino17or18"
+              "version": "6.3.0-arduino18"
             },
             {
               "packager": "arduino",
@@ -4982,7 +4982,7 @@
             {
               "packager": "arduino",
               "name": "avrdude",
-              "version": "6.3.0-arduino17or18"
+              "version": "6.3.0-arduino18"
             },
             {
               "packager": "arduino",
@@ -5078,7 +5078,7 @@
               "version": "7.3.0-atmel3.6.1-azduino4b"
             },
             {
-              "packager": "arduino",
+              "packager": "DxCore",
               "name": "avrdude",
               "version": "6.3.0-arduino17or18"
             },
@@ -5121,7 +5121,7 @@
               "version": "7.3.0-atmel3.6.1-azduino4b"
             },
             {
-              "packager": "arduino",
+              "packager": "DxCore",
               "name": "avrdude",
               "version": "6.3.0-arduino17or18"
             },
@@ -5164,7 +5164,7 @@
               "version": "7.3.0-atmel3.6.1-azduino4b"
             },
             {
-              "packager": "arduino",
+              "packager": "DxCore",
               "name": "avrdude",
               "version": "6.3.0-arduino17or18"
             },
@@ -5207,7 +5207,7 @@
               "version": "7.3.0-atmel3.6.1-azduino4b"
             },
             {
-              "packager": "arduino",
+              "packager": "DxCore",
               "name": "avrdude",
               "version": "6.3.0-arduino17or18"
             },
