@@ -103,7 +103,7 @@ jq -r                                   \
     {
       "packager": "arduino",
       "name": "avrdude",
-      "version": "6.3.0-arduino18"
+      "version": "6.3.0-arduino17or18"
     },
     {
       "packager": "arduino",
