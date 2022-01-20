@@ -83,7 +83,7 @@ jq -r                                   \
   "size": $file_size,
   "boards": [
       {
-        "name": "Full Arduino support for the tinyAVR 0-series, 1-series, and the new 2-series! 2-series support is still very new.</br>
+        "name": "Full Arduino support for the tinyAVR 0-series, 1-series, and the new 2-series! Rejoice tinyAVR fans, for the 32k 2-series has arrived, and... is actally about the only kind you can get... </br>
         24-pin parts: ATtiny3227/3217/1627/1617/1607/827/817/807/427<br/>
         20-pin parts: ATtiny3226/3216/1626/1616/1606/826/816/806/426/416/406<br/>
         14-pin parts: ATtiny3224/1624/1614/1604/824/814/804/424/414/404/214/204<br/>
@@ -93,7 +93,7 @@ jq -r                                   \
         "name": "Optiboot serial bootloader supported on all parts. <br/>"
       },
       {
-        "name": "2.5.0 - A HUGE update! New Wire implementation with master+slave support, improvements to serial including half-duplex support, a bunch of new features ported from DxCore and more! Be sure to check the documentation for the full details!"
+        "name": "2.5.9: The attempted linux fix broke installation due to a boneheaded error in the json file. 2.5,9 changes no code but corrects the json entry. 2.5.8: Fix critical bug impacting non-windows users who were not using Optiboot. Also pulls in further improvement to the same area of the Wire buffer, and fixes support for 32-bit x86 linux. <br/> 2.5.7: This has a more graceful fix to the Wire buffer bug fixed in 2.5.5, fixes a bug reported with SerialUPDI which prevented standalone read (as opposed to verify) from working. This also fixed verbose mode and added tools -> programmer options for people who have problems running at anything but the slowest speed. Unlike previous 2.5.x, these bugs are not considered critical.<br/> 2.5.0: A HUGE update! New Wire implementation with master+slave support, improvements to serial including half-duplex support, a bunch of new features ported from DxCore and more! Be sure to check the documentation for the full details!"
       }
   ],
   "toolsDependencies": [
@@ -103,7 +103,7 @@ jq -r                                   \
       "version": "7.3.0-atmel3.6.1-azduino4b"
     },
     {
-      "packager": "arduino",
+      "packager": "DxCore",
       "name": "avrdude",
       "version": "6.3.0-arduino17or18"
     },
