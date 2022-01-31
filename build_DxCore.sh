@@ -101,7 +101,7 @@ jq -r                                   \
       "version": "7.3.0-atmel3.6.1-azduino4b"
     },
     {
-      "packager": "arduino",
+      "packager": "DxCore",
       "name": "avrdude",
       "version": "6.3.0-arduino17or18"
     },
