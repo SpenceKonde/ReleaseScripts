@@ -83,22 +83,27 @@ jq -r                                   \
   "size": $file_size,
   "boards": [
     {
-      "name": "AVR DA-series: AVR128DA28, AVR128DA32, AVR128DA48, AVR128DA64, AVR64DA28, AVR64DA32, AVR64DA48, AVR64DA64, AVR32DA28, AVR32DA32, AVR32DA48 <br/>
-      AVR DB-series: AVR128DB28, AVR128DB32, AVR128DB48, AVR128DB64, AVR64DB28, AVR64DB32, AVR64DB48, AVR64DB64, AVR32DB28, AVR32DB32, AVR32DB48 <br/>
-      AVR DD-series support planned pending availability.<br/> Works with Microchip Curiosity Nano boards via the builtin USB port. <br/>"
+      "name": "AVR Dx-series: All AVRxxDAyy, AVRxxDByy, and the first release supporting the AVRxxDDyy (where xx = flash size, and yy is pincount <br/>
+      DA and DB come with 128k 64k or 32k flash and 64, 48, 32, or 28 pins. AVR DD comes with 64k, 32k or 16k flash, in pincounts of 32, 28, 20 or 14 pins<br/>
+      Microchip Official boards: Curiosity Nano AVR128DA48, AVR128DB48, and AVR64DD32<br/>"
     },
     {
-      "name": "1.4.7: The latest critical bugfix for 1.4.x issues, this time addressing a pin mapping bug that broke pins PC0, PC1, PD0, PD1, PF0, and PF1 on 28-pin AVR DA amd AVR DB parts. Previous 1.4.x releases addressed issues with the new attachInterrupt() and Wire library implementations. <br/> 1.4.0: A HUGE update bringing the total rewrite of Wire.h with master+slave and dual mode support, major serial improvements (including half-duplex and RS485), and loads of additional features and fixes. See the documentation for the full list!"
+      "name": "1.5.0 contains a large number of fixes and enhancements. Wire wake as slave and Serial SFD should work (see Wire library readme and Ref_Serial), and there is now a <br/>
+      way to do serial autobaud. Also, major fixes to SPI, SerialUPDI on linux, and enhancements to and to Logic and Comparator libraries to support manually defined interrupts.<br/>
+      Serial flash usage is smaller now too, and it can receive properly. What am I forgetting... <br/>
+      Oh right, Double-Ds are in da house and have proper support now. We all love them double-Ds right?<br/>
+      Note: Expect longer download than usual, as this also updates to latest ATpacks with the Azduino5 toolchain package.
     },
     {
-      "name": "Supported UPDI programmers: SerialUPDI (serial adapter w/diode or resistor), jtag2updi, nEDBG, mEDBG, EDBG, SNAP, Atmel-ICE and PICkit4 - or use one of those to load Optiboot (included) for serial programming."
+      "name": "Supported UPDI programmers: SerialUPDI (serial adapter w/diode or resistor), jtag2updi, nEDBG, mEDBG, EDBG, SNAP, Atmel-ICE and PICkit4 - or use one of those to <br/>
+       load Optiboot (included) for serial programming if you determine that it is appropriate for your applicatio. Currently not available for AVR-DD, but will be in first 1.5.x
     }
   ],
   "toolsDependencies": [
     {
       "packager": "DxCore",
       "name": "avr-gcc",
-      "version": "7.3.0-atmel3.6.1-azduino4b"
+      "version": "7.3.0-atmel3.6.1-azduino5"
     },
     {
       "packager": "DxCore",
