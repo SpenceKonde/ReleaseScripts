@@ -2898,7 +2898,7 @@
         {
           "name": "DxCore",
           "architecture": "megaavr",
-          "version": "1.5.0",
+          "version": "1.4.10",
           "category": "Contributed",
           "url": "https://SpenceKonde.github.io/DxCore/DxCore-1.4.10.tar.bz2",
           "archiveFileName": "DxCore-1.4.10.tar.bz2",
