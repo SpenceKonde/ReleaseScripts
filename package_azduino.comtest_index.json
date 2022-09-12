@@ -1,0 +1,721 @@
+{
+  "packages": [
+    {
+      "name": "DxCore_avrgcctest",
+      "maintainer": "Spence Konde",
+      "websiteURL": "https://github.com/SpenceKonde/DxCore",
+      "email": "",
+      "help": {
+        "online": ""
+      },
+      "platforms": [
+        {
+          "name": "DxCore_avrgcctest",
+          "architecture": "megaavr",
+          "version": "1.2.0",
+          "category": "Contributed",
+          "help": {
+            "online": ""
+          },
+          "url": "https://github.com/SpenceKonde/DxCore/archive/1.2.0.tar.gz",
+          "archiveFileName": "DxCore-1.2.0.tar.gz",
+          "checksum": "SHA-256:eb4460db0575af6ec88c95db194a2ebce7cd8d4c5726e2c0c3ead58b9327f5fb",
+          "size": "31260344",
+          "boards": [
+            {
+              "name": "Please test that the compiler runs on linux; DB-series should build, too!"
+            },
+            {
+              "name": "AVR128DA28,AVR128DA32,AVR128DA48,AVR128DA64"
+            },
+            {
+              "name": "AVR64DA28,AVR64DA32,AVR64DA48,AVR64DA64"
+            },
+            {
+              "name": "AVR32DA28,AVR32DA32,AVR32DA48"
+            },
+            {
+              "name": "AVR128DB28,AVR128DB32,AVR128DB48,AVR128DB64"
+            },
+            {
+              "name": "AVR64DB28,AVR64DB32,AVR64DB48,AVR64DB64"
+            },
+            {
+              "name": "AVR32DB28,AVR32DB32,AVR32DB48"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "DxCore_avrgcctest",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-azduino1"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino18"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            }
+          ]
+        },
+        {
+          "name": "DxCore_avrgcctest",
+          "architecture": "megaavr",
+          "version": "1.2.1",
+          "category": "Contributed",
+          "help": {
+            "online": ""
+          },
+          "url": "https://github.com/SpenceKonde/DxCore/archive/1.2.0.tar.gz",
+          "archiveFileName": "DxCore-1.2.1.tar.gz",
+          "checksum": "SHA-256:eb4460db0575af6ec88c95db194a2ebce7cd8d4c5726e2c0c3ead58b9327f5fb",
+          "size": "31260344",
+          "boards": [
+            {
+              "name": "GZip Version - Please test that the compiler runs on linux; DB-series should build, too!"
+            },
+            {
+              "name": "AVR128DA28,AVR128DA32,AVR128DA48,AVR128DA64"
+            },
+            {
+              "name": "AVR64DA28,AVR64DA32,AVR64DA48,AVR64DA64"
+            },
+            {
+              "name": "AVR32DA28,AVR32DA32,AVR32DA48"
+            },
+            {
+              "name": "AVR128DB28,AVR128DB32,AVR128DB48,AVR128DB64"
+            },
+            {
+              "name": "AVR64DB28,AVR64DB32,AVR64DB48,AVR64DB64"
+            },
+            {
+              "name": "AVR32DB28,AVR32DB32,AVR32DB48"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "DxCore_avrgcctest",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-azduino1"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino18"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            }
+          ]
+        },
+        {
+          "name": "DxCore_avrgcctest",
+          "architecture": "megaavr",
+          "version": "1.2.2",
+          "category": "Contributed",
+          "help": {
+            "online": ""
+          },
+          "url": "https://github.com/SpenceKonde/DxCore/archive/1.2.0.tar.gz",
+          "archiveFileName": "DxCore-1.2.2.tar.gz",
+          "checksum": "SHA-256:eb4460db0575af6ec88c95db194a2ebce7cd8d4c5726e2c0c3ead58b9327f5fb",
+          "size": "31260344",
+          "boards": [
+            {
+              "name": "BZip version - Please test that the compiler runs on linux; DB-series should build, too!"
+            },
+            {
+              "name": "AVR128DA28,AVR128DA32,AVR128DA48,AVR128DA64"
+            },
+            {
+              "name": "AVR64DA28,AVR64DA32,AVR64DA48,AVR64DA64"
+            },
+            {
+              "name": "AVR32DA28,AVR32DA32,AVR32DA48"
+            },
+            {
+              "name": "AVR128DB28,AVR128DB32,AVR128DB48,AVR128DB64"
+            },
+            {
+              "name": "AVR64DB28,AVR64DB32,AVR64DB48,AVR64DB64"
+            },
+            {
+              "name": "AVR32DB28,AVR32DB32,AVR32DB48"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "DxCore_avrgcctest",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-azduino2bz"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino18"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            }
+          ]
+        },
+        {
+          "name": "DxCore_avrgcctest",
+          "architecture": "megaavr",
+          "version": "1.2.3",
+          "category": "Contributed",
+          "help": {
+            "online": ""
+          },
+          "url": "https://github.com/SpenceKonde/DxCore/archive/1.2.0.tar.gz",
+          "archiveFileName": "DxCore-1.2.3.tar.gz",
+          "checksum": "SHA-256:eb4460db0575af6ec88c95db194a2ebce7cd8d4c5726e2c0c3ead58b9327f5fb",
+          "size": "31260344",
+          "boards": [
+            {
+              "name": "Just testing if XZip really works - seems too good to be true!"
+            },
+            {
+              "name": "AVR128DA28,AVR128DA32,AVR128DA48,AVR128DA64"
+            },
+            {
+              "name": "AVR64DA28,AVR64DA32,AVR64DA48,AVR64DA64"
+            },
+            {
+              "name": "AVR32DA28,AVR32DA32,AVR32DA48"
+            },
+            {
+              "name": "AVR128DB28,AVR128DB32,AVR128DB48,AVR128DB64"
+            },
+            {
+              "name": "AVR64DB28,AVR64DB32,AVR64DB48,AVR64DB64"
+            },
+            {
+              "name": "AVR32DB28,AVR32DB32,AVR32DB48"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "DxCore_avrgcctest",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-azduino3xz"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino18"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "name": "avr-gcc",
+          "version": "7.3.0-atmel3.6.1-azduino1",
+          "systems":[
+            {
+              "size": "38567582",
+              "checksum": "SHA-256:8c7afb471e5612a7beb9af46147ad1b25cf6d211f2e8a7db4a4cc7bf0b52bfc5",
+              "host": "aarch64-linux-gnu",
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino1-aarch64-pc-linux-gnu.tar.bz2",
+              "url":"https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino1-aarch64-pc-linux-gnu.tar.bz2"
+            },
+            {
+              "size": "46031248",
+              "checksum": "SHA-256:eb3d5e2382172f3d083c59d5c8b2be67dad3b5f05bea8591d9404280a0ac7b78",
+              "host": "arm-linux-gnueabihf",
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino1-arm-linux-gnueabihf.tar.bz2",
+              "url":"https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino1-arm-linux-gnueabihf.tar.bz2"
+            },
+            {
+              "size": "48990269",
+              "checksum": "SHA-256:041f4d84db1c154969c5e05307bcc0920c1cb0c791dc184fb775ed4c9112db78",
+              "host": "i686-linux-gnu",
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino1-i686-pc-linux-gnu.tar.bz2",
+              "url":"https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino1-i686-pc-linux-gnu.tar.bz2"
+            },
+            {
+              "size": "48003516",
+              "checksum": "SHA-256:3116547166e751d61453cdfd2aed8a1c0d7bf4561865c5ccb293f6771c77ce39",
+              "host": "x86_64-apple-darwin14",
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino1-x86_64-apple-darwin14.tar.bz2",
+              "url":"https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino1-x86_64-apple-darwin14.tar.bz2"
+            },
+            {
+              "size": "49270515",
+              "checksum": "SHA-256:1e36a36273316e7822fd6160cad3d2f3b14ecf5ce0bbccaf7001b00843f3a619",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino1-x86_64-pc-linux-gnu.tar.bz2",
+              "url":"https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino1-x86_64-pc-linux-gnu.tar.bz2"
+            },
+            {
+              "size": "39938228",
+              "checksum": "SHA-256:0093ff86a293f7915788a28e9afafec36946cb254a84ac42d52f47d9d4d7ff78",
+              "host": "i686-mingw32",
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino1-i686-w64-mingw32.tar.bz2",
+              "url": "https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino1-i686-w64-mingw32.tar.bz2"
+            }
+          ]
+        },
+        {
+          "name": "avr-gcc",
+          "version": "7.3.0-atmel3.6.1-azduino2gz",
+          "systems":[
+            {
+              "size": "49762089",
+              "checksum": "SHA-256:8eafc75a95c5e77271eec6e33206495fbf81fbef1274f0cadbc3cb06edab4270",
+              "host": "aarch64-linux-gnu",
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino2-aarch64-pc-linux-gnu.tar.gz",
+              "url":"https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino2-aarch64-pc-linux-gnu.tar.gz"
+            },
+            {
+              "size": "46208497",
+              "checksum": "SHA-256:3cc0b11958ae23cae8e7b58b16ae74abff1357230d3a6fa63305449c07cfc1ce",
+              "host": "arm-linux-gnueabihf",
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino2-arm-linux-gnueabihf.tar.gz",
+              "url":"https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino2-arm-linux-gnueabihf.tar.gz"
+            },
+            {
+              "size": "48241449",
+              "checksum": "SHA-256:6d4b5e150403d616ec7c1ed995c8aa6364860115d5db5ad28292af14727c01b1",
+              "host": "x86_64-apple-darwin14",
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino2-x86_64-apple-darwin14.tar.gz",
+              "url":"https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino2-x86_64-apple-darwin14.tar.gz"
+            },
+            {
+              "size": "49140534",
+              "checksum": "SHA-256:7b50672a1f42984c14156b18765b9b43f412e37ebd26891e3f9d68b4eebb1432",
+              "host": "i686-linux-gnu",
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino2-i686-pc-linux-gnu.tar.gz",
+              "url":"https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino2-i686-pc-linux-gnu.tar.gz"
+            },
+            {
+              "size": "49403945",
+              "checksum": "SHA-256:5d57d3fc119cb09f869246ffc7e9bb395c5f9b58d4bacafe306b6a1d78c1cd0e",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino2-x86_64-pc-linux-gnu.tar.gz",
+              "url":"https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino2-x86_64-pc-linux-gnu.tar.gz"
+            }
+          ]
+        },
+        {
+          "name": "avr-gcc",
+          "version": "7.3.0-atmel3.6.1-azduino2bz",
+          "systems":[
+            {
+              "size": "38567582",
+              "checksum": "SHA-256:8c7afb471e5612a7beb9af46147ad1b25cf6d211f2e8a7db4a4cc7bf0b52bfc5",
+              "host": "aarch64-pc-linux-gnu",
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino2-aarch64-pc-linux-gnu.tar.bz2",
+              "url":"https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino2-aarch64-pc-linux-gnu.tar.bz2"
+            },
+            {
+              "size": "35226610",
+              "checksum": "SHA-256:4c424ad89d010187254a5d39bf221cc906d055e8b71d5f500870375065fa730c",
+              "host": "arm-linux-gnueabihf",
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino2-arm-linux-gnueabihf.tar.bz2",
+              "url":"https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino2-arm-linux-gnueabihf.tar.bz2"
+            },
+            {
+              "size": "37297419",
+              "checksum": "SHA-256:2357d16934c835ae64b9d3577fb034e199b15d7c3882ce55e6264993801c37dd",
+              "host": "x86_64-apple-darwin14",
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino2-x86_64-apple-darwin14.tar.bz2",
+              "url":"https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino2-x86_64-apple-darwin14.tar.bz2"
+            },
+            {
+              "size": "37714085",
+              "checksum": "SHA-256:2b00d3d45deeedb665a9dabf982b38ebb6f09be27fd3ce777cdecac99ef39843",
+              "host": "i686-pc-linux-gnu",
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino2-i686-pc-linux-gnu.tar.bz2",
+              "url":"https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino2-i686-pc-linux-gnu.tar.bz2"
+            },
+            {
+              "size": "38171309",
+              "checksum": "SHA-256:39484af1ccc6d596be89546d55f2f6081e65932b5107479953abfd0fab54af60",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino2-x86_64-pc-linux-gnu.tar.bz2",
+              "url":"https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino2-x86_64-pc-linux-gnu.tar.bz2"
+            }
+          ]
+        },
+        {
+          "name": "avr-gcc",
+          "version": "7.3.0-atmel3.6.1-azduino3xz",
+          "systems":[
+            {
+              "size": "13113856",
+              "checksum": "SHA-256:8d0f5e04763756526de91da8c6119fbb9108e1004e314ace20ca928e190dd387",
+              "host": "aarch64-linux-gnu",
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino3-aarch64-pc-linux-gnu.tar.xz",
+              "url":"https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino3-aarch64-pc-linux-gnu.tar.xz"
+            },
+            {
+              "size": "11151992",
+              "checksum": "SHA-256:11eb9dd6265eb22dc351cb323f671b576bf3327f0c208b3a6a03521653d5b83d",
+              "host": "arm-linux-gnueabihf",
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino3-arm-linux-gnueabihf.tar.xz",
+              "url":"https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino3-arm-linux-gnueabihf.tar.xz"
+            },
+            {
+              "size": "13460852",
+              "checksum": "SHA-256:c5b4bda4b8216653bcb949f9e1ccd09080bfeb3c9f55efea2eb2d999b6d697e1",
+              "host": "i686-linux-gnu",
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino3-i686-pc-linux-gnu.tar.xz",
+              "url":"https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino3-i686-pc-linux-gnu.tar.xz"
+            },
+            {
+              "size": "13567140",
+              "checksum": "SHA-256:744627e9826d94a017d93d6da0d96b65d0fe090476e15908876bb2d475fca2fb",
+              "host": "x86_64-apple-darwin14",
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino3-x86_64-apple-darwin14.tar.xz",
+              "url":"https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino3-x86_64-apple-darwin14.tar.xz"
+            },
+            {
+              "size": "14090832",
+              "checksum": "SHA-256:e9273bbb79d1070c9a7a9b8d24cba6bfe7913f86827c0a25012ebc3f65c9482c",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino3-x86_64-pc-linux-gnu.tar.xz",
+              "url":"https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino3-x86_64-pc-linux-gnu.tar.xz"
+            },
+            {
+              "size": "12520256",
+              "checksum": "SHA-256:6437b91514b8a03bc5c132e39429a093b8b4a3aed97e4f4df74e84df41783342",
+              "host": "i686-mingw32",
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino3-i686-w64-mingw32.tar.xz",
+              "url": "https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino3-i686-w64-mingw32.tar.xz"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "megaTinyCore_pmptest",
+      "maintainer": "Spence Konde",
+      "websiteURL": "https://github.com/SpenceKonde/megaTinyCore",
+      "email": "",
+      "help": {
+        "online": ""
+      },
+      "platforms": [
+        {
+          "name": "megaTinyCore_pmptest",
+          "architecture": "megaavr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "help": {
+            "online": ""
+          },
+          "url": "https://azduino.com/bin/megaTinyCore_pmptest-1.0.0.tar.gz",
+          "archiveFileName": "megaTinyCore_pmptest-1.0.0.tar.gz",
+          "checksum": "SHA-256:65eb5531743001415dcb32a0c85c6bbd2a55de430da3e887d883e99d26b15e9f",
+          "size": "824675",
+          "boards": [
+            {"name": "ATtiny3216/1616/1606/816/806/416/406"},
+            {"name": "ATtiny1614/1604/814/804/414/404/214/204"},
+            {"name": "ATtiny412/402/212/202"},
+            {"name": "ATtiny3217/1617/1607/817/807"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino7"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino16"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            },
+            {
+              "packager": "megaTinyCore_pmptest",
+              "version": "3.7.2-post1",
+              "name": "python3"
+            }
+          ]
+        },
+        {
+          "name": "megaTinyCore_pmptest",
+          "architecture": "megaavr",
+          "version": "1.0.1",
+          "category": "Contributed",
+          "help": {
+            "online": ""
+          },
+          "url": "https://azduino.com/bin/megaTinyCore_pmptest-1.0.1.tar.gz",
+          "archiveFileName": "megaTinyCore_pmptest-1.0.1.tar.gz",
+          "checksum": "SHA-256:a0a48b1e434294f12f8a9c36d04f9ea0b020f8672c27a4674f1881ac1edbc548",
+          "size": "824865",
+          "boards": [
+            {"name": "ATtiny3216/1616/1606/816/806/416/406"},
+            {"name": "ATtiny1614/1604/814/804/414/404/214/204"},
+            {"name": "ATtiny412/402/212/202"},
+            {"name": "ATtiny3217/1617/1607/817/807"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino7"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino16"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            },
+            {
+              "packager": "megaTinyCore_pmptest",
+              "version": "3.7.2-post1",
+              "name": "python3"
+            }
+          ]
+        },
+        {
+          "name": "megaTinyCore_pmptest",
+          "architecture": "megaavr",
+          "version": "1.0.2",
+          "category": "Contributed",
+          "help": {
+            "online": ""
+          },
+          "url": "https://azduino.com/bin/megaTinyCore_pmptest-1.0.2.tar.gz",
+          "archiveFileName": "megaTinyCore_pmptest-1.0.2.tar.gz",
+          "checksum": "SHA-256:dbe46c416827fc3543055c89253f3bd36b716b3213f2420e7d0f2766ac5dc836",
+          "size": "824839",
+          "boards": [
+            {"name": "ATtiny3216/1616/1606/816/806/416/406"},
+            {"name": "ATtiny1614/1604/814/804/414/404/214/204"},
+            {"name": "ATtiny412/402/212/202"},
+            {"name": "ATtiny3217/1617/1607/817/807"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino7"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino16"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            },
+            {
+              "packager": "megaTinyCore_pmptest",
+              "version": "3.7.2-post1",
+              "name": "python3"
+            }
+          ]
+        },
+        {
+          "name": "megaTinyCore_pmptest",
+          "architecture": "megaavr",
+          "version": "1.0.3",
+          "category": "Contributed",
+          "help": {
+            "online": ""
+          },
+          "url": "https://azduino.com/bin/megaTinyCore_pmptest-1.0.3.tar.gz",
+          "archiveFileName": "megaTinyCore_pmptest-1.0.3.tar.gz",
+          "checksum": "SHA-256:ea29e3f34649b12ac2681ab8a8872132c47f77899d972ee409e895d829a5fb68",
+          "size": "701400",
+          "boards": [
+            {"name": "ATtiny3216/1616/1606/816/806/416/406"},
+            {"name": "ATtiny1614/1604/814/804/414/404/214/204"},
+            {"name": "ATtiny412/402/212/202"},
+            {"name": "ATtiny3217/1617/1607/817/807"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino7"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino18"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            },
+            {
+              "packager": "megaTinyCore_pmptest",
+              "version": "3.7.2-post1",
+              "name": "python3"
+            }
+          ]
+        },
+        {
+          "name": "megaTinyCore_pmptest",
+          "architecture": "megaavr",
+          "version": "1.0.4",
+          "category": "Contributed",
+          "help": {
+            "online": ""
+          },
+          "url": "https://azduino.com/bin/megaTinyCore_pmptest-1.0.4.tar.gz",
+          "archiveFileName": "megaTinyCore_pmptest-1.0.4.tar.gz",
+          "checksum": "SHA-256:7af9ae867886dd35cff61fedc7bd75d70477728427dbc24838d304627d27f098",
+          "size": "720676",
+          "boards": [
+            {"name": "ATtiny3216/1616/1606/816/806/416/406"},
+            {"name": "ATtiny1614/1604/814/804/414/404/214/204"},
+            {"name": "ATtiny412/402/212/202"},
+            {"name": "ATtiny3217/1617/1607/817/807"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino7"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino18"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            },
+            {
+              "packager": "megaTinyCore_pmptest",
+              "version": "3.7.2-post1",
+              "name": "python3"
+            }
+          ]
+        },
+        {
+          "name": "megaTinyCore_pmptest",
+          "architecture": "megaavr",
+          "version": "1.0.5",
+          "category": "Contributed",
+          "help": {
+            "online": ""
+          },
+          "url": "https://azduino.com/bin/megaTinyCore_pmptest-1.0.5.tar.gz",
+          "archiveFileName": "megaTinyCore_pmptest-1.0.5.tar.gz",
+          "checksum": "SHA-256:57107863e46183dfae27e3d6f7c0390a1f5e7c2e5e93ad6f7ddaa6f439994c0c",
+          "size": "742220",
+          "boards": [
+            {"name": "ATtiny3216/1616/1606/816/806/416/406"},
+            {"name": "ATtiny1614/1604/814/804/414/404/214/204"},
+            {"name": "ATtiny412/402/212/202"},
+            {"name": "ATtiny3217/1617/1607/817/807"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino7"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino18"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            },
+            {
+              "packager": "megaTinyCore_pmptest",
+              "version": "3.7.2-post1",
+              "name": "python3"
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "version": "3.7.2-post1",
+          "name": "python3",
+          "systems": [
+            {
+              "host": "x86_64-mingw32",
+              "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/2.5.0-4/python3-3.7.2.post1-embed-win32v2a.zip",
+              "archiveFileName": "python3-3.7.2.post1-embed-win32v2a.zip",
+              "checksum": "SHA-256:f57cb2daf86176d2929e7c58990c2ac32554e3219d454dcac10e464ddda35bf2",
+              "size": "6428926"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/2.5.0-4/python3-3.7.2.post1-embed-win32v2a.zip",
+              "archiveFileName": "python3-3.7.2.post1-embed-win32va2.zip",
+              "checksum": "SHA-256:f57cb2daf86176d2929e7c58990c2ac32554e3219d454dcac10e464ddda35bf2",
+              "size": "6428926"
+            },
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/2.5.0-4/python3-via-env.tar.gz",
+              "archiveFileName": "python3-via-env.tar.gz",
+              "checksum": "SHA-256:c9237bfe0f62842d7187a39495baa4a7e3ab8b87c0b433614294b023cf0bc0f3",
+              "size": "292"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/2.5.0-4/python3-via-env.tar.gz",
+              "archiveFileName": "python3-via-env.tar.gz",
+              "checksum": "SHA-256:c9237bfe0f62842d7187a39495baa4a7e3ab8b87c0b433614294b023cf0bc0f3",
+              "size": "292"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/2.5.0-4/python3-via-env.tar.gz",
+              "archiveFileName": "python3-via-env.tar.gz",
+              "checksum": "SHA-256:c9237bfe0f62842d7187a39495baa4a7e3ab8b87c0b433614294b023cf0bc0f3",
+              "size": "292"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/2.5.0-4/python3-macosx-portable.tar.gz",
+              "archiveFileName": "python3-macosx-portable.tar.gz",
+              "checksum": "SHA-256:01a5bf1fa264c6f04cfaadf4c6e9f6caaacb6833ef40104dfbe953fcdb9bca1c",
+              "size": "25494144"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/2.5.0-4/python3-via-env.tar.gz",
+              "archiveFileName": "python3-via-env.tar.gz",
+              "checksum": "SHA-256:c9237bfe0f62842d7187a39495baa4a7e3ab8b87c0b433614294b023cf0bc0f3",
+              "size": "292"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

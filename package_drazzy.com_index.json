@@ -2898,7 +2898,7 @@
         {
           "name": "DxCore",
           "architecture": "megaavr",
-          "version": "1.4.10",
+          "version": "1.5.0",
           "category": "Contributed",
           "url": "https://SpenceKonde.github.io/DxCore/DxCore-1.4.10.tar.bz2",
           "archiveFileName": "DxCore-1.4.10.tar.bz2",
@@ -2913,6 +2913,9 @@
             },
             {
               "name": "Supported UPDI programmers: SerialUPDI (serial adapter w/diode or resistor), jtag2updi, nEDBG, mEDBG, EDBG, SNAP, Atmel-ICE and PICkit4 - or use one of those to load Optiboot (included) for serial programming."
+            },
+            {
+              "name": "DxCore 1.5.0 is not yet available, but upon release, it will be auge update adding support for the entire DD product line as well as a shedload of fixes."
             }
           ],
           "toolsDependencies": [
@@ -3238,7 +3241,7 @@
               "host": "x86_64-pc-linux-gnu",
               "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino5-x86_64-pc-linux-gnu.tar.bz2",
               "url": "https://github.com/SpenceKonde/DxCore/raw/gh-pages/avr-gcc-7.3.0-atmel3.6.1-azduino5-x86_64-pc-linux-gnu.tar.bz2"
-            },
+            }
           ]
         }
       ]

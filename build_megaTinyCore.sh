@@ -102,7 +102,9 @@ jq -r                                   \
         "name": "Supported UPDI programmers: SerialUPDI (serial adapter w/diode or resistor), jtag2updi, nEDBG, mEDBG, EDBG, SNAP, Atmel-ICE and PICkit4 - or use one of those to load<br/>
         the Optiboot serial bootloader (included) for serial programming. Which programing method makes more sense depends on your application and requirements. <br/>
          <br/>
-         The full documentation is not included with board manager installations (it is hard to find and the images bloat the download); we recommend viewing it through github at the link above<br/>"
+         The full documentation is not included with board manager installations (it is hard to find and the images bloat the download); we recommend viewing it through github at the link above<br/>
+         "or if it must be read withouht an internet connection by downaloding the manual installation package
+         .
       }
   ],
   "toolsDependencies": [
