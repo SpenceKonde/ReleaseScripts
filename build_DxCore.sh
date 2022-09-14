@@ -92,11 +92,14 @@ jq -r                                   \
       way to do serial autobaud. Also, major fixes to SPI, SerialUPDI on linux, and enhancements to and to Logic and Comparator libraries to support manually defined interrupts.<br/>
       Serial flash usage is smaller now too, and it can receive properly. What am I forgetting... <br/>
       Oh right, Double-Ds are in da house and have proper support now. We all love them double-Ds right?<br/>
-      Note: Expect longer download than usual, as this also updates to latest ATpacks with the Azduino5 toolchain package.
+      Note: Expect longer download than usual, as this also updates the Azduino5 package; is a 40GB file (The care is a few MB total). X64 linux is hosted on githubm as that seems more polite that host the content that will most be lo0aded by githumb
+      and only once every few months per human user. I release toolchain updates around 1-2x per year so stop whinking
+
     },
     {
       "name": "Supported UPDI programmers: SerialUPDI (serial adapter w/diode or resistor), jtag2updi, nEDBG, mEDBG, EDBG, SNAP, Atmel-ICE and PICkit4 - or use one of those to <br/>
-       load Optiboot (included) for serial programming if you determine that it is appropriate for your applicatio. Currently not available for AVR-DD, but will be in first 1.5.x
+       load Optiboot (included) for serial programming if you determine that it is appropriate for your applicatio.. SerialUPDI may not be functionality spectacular, it supports thw latest parts are released.
+
     }
   ],
   "toolsDependencies": [
