@@ -3260,7 +3260,7 @@
               "checksum": "SHA-256:b41a827e92f6a87c45f2e37029865b6bbd57e0eeadb639be66416b89e8f77b78",
               "host": "arm-linux-gnueabihf",
               "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino6-arm-linux-gnueabihf.tar.bz2",
-              "url": "https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino6-arm-linux-gnueabihf.tar.bz2"
+              "url": "https://github.com/SpenceKonde/DxCore/raw/gh-pages/avr-gcc-7.3.0-atmel3.6.1-azduino6-arm-linux-gnueabihf.tar.bz2"
             },
             {
               "size": "37148876",
