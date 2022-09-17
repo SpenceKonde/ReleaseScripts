@@ -3284,8 +3284,8 @@
               "url": "https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino6-x86_64-pc-linux-gnu.tar.bz2"
             },
             {
-              "size": "44755297",
-              "checksum": "SHA-256:9ab759967d45f6808c4308c6157b1ec2b08412e64aabaea995e18f7ca9b32618",
+              "size": "44740781",
+              "checksum": "SHA-256:4b4a25ca7935402998b27befd9439300ad642c4e21b0becb3f945748090c7c74",
               "host": "i686-w64-mingw32",
               "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino6-i686-w64-mingw32.tar.bz2",
               "url": "https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino6-i686-w64-mingw32.tar.bz2"
@@ -5766,7 +5766,7 @@
               "name": "Full Arduino support for the tinyAVR 0-series, 1-series, and the new 2-series!<br/>"
             },
             {
-              "name": "But <b>not in this version</b> which is completely nonfunctional. Use 2.5.9 until 2.6.1 is available"
+              "name": "<b>But don't try to use 2.6.0</b> (not that you can - we have withdrawn it because the volume of inquiries and issues and complaints would have interfered with fixing the problems. <br/> It was an unmitigated disaster. 2.6.1 should be out by the time you read this."
             }
           ],
           "toolsDependencies": [
