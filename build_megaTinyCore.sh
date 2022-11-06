@@ -82,21 +82,21 @@ jq -r                                   \
   "checksum": $checksum,
   "size": $file_size,
   "boards": [
-      {
-        "name": "Full Arduino support for the tinyAVR 0-series, 1-series, and the new 2-series!<br/> 24-pin parts: ATtiny3227/3217/1627/1617/1607/827/817/807/427<br/> 20-pin parts: ATtiny3226/3216/1626/1616/1606/826/816/806/426/416/406<br/> 14-pin parts: ATtiny3224/1624/1614/1604/824/814/804/424/414/404/214/204<br/> 8-pin parts: ATtiny412/402/212/202<br/> Microchip Boards: Curiosity Nano 3217/1627/1607 and Xplained Pro (3217/817), Mini (817) Nano (416). Direct USB uploads may not work on linux, but you can export hex and <br/> upload through the mass storage projection."
-      },
-      {
-        "name": "2.6.0 contains a large number of fixes and enhancements. Wire wake as slave and Serial SFD should work (see Wire library readme and Ref_Serial), and there is now a <br/> way to do serial autobaud. Also, major fixes to Event for 0/1-series, SPI, SerialUPDI on linux, and enhancements to analog functionality on 1-series, and to Logic and <br/> Comparator libraries to support manually defined interrupts <br/> Oh, and despite the added features, serial still uses dramatically less flash! (about 500 bytes, so those working on 4k (or 2k) parts have real reason to celebrate).<br/> Note: Expect longer download than usual, as this also updates to latest ATpacks with the Azduino5 toolchain package."
-      },
-      {
-        "name": "Supported UPDI programmers: SerialUPDI (serial adapter w/diode or resistor), jtag2updi, nEDBG, mEDBG, EDBG, SNAP, Atmel-ICE and PICkit4 - or use one of those to load<br/> the Optiboot serial bootloader (included) for serial programming. Which programing method makes more sense depends on your application and requirements. <br/><br/> The full documentation is not included with board manager installations (it is hard to find and the images bloat the download); we recommend viewing it through github at the link above<br/> or if it must be read withouht an internet connection by downaloding the manual installation package"
-      }
+    {
+      "name": "Full Arduino support for the tinyAVR 0-series, 1-series, and the new 2-series!<br/> 24-pin parts: ATtiny3227/3217/1627/1617/1607/827/817/807/427<br/> 20-pin parts: ATtiny3226/3216/1626/1616/1606/826/816/806/426/416/406<br/> 14-pin parts: ATtiny3224/1624/1614/1604/824/814/804/424/414/404/214/204<br/> 8-pin parts: ATtiny412/402/212/202<br/> Microchip Boards: Curiosity Nano 3217/1627/1607 and Xplained Pro (3217/817), Mini (817) Nano (416). Direct USB uploads may not work on linux, but you can export hex and <br/> upload through the mass storage projection."
+    },
+    {
+      "name": "2.6.3 contains fix for 'burn bootloader' issue, waking from sleep as a Wire slave, half-duplex serial, and more, and corrects an issue with installation of 2.6.2"
+    },
+    {
+      "name": "Supported UPDI programmers: SerialUPDI (serial adapter w/diode or resistor), jtag2updi, nEDBG, mEDBG, EDBG, SNAP, Atmel-ICE and PICkit4 - or use one of those to load<br/> the Optiboot serial bootloader (included) for serial programming. Which programing method makes more sense depends on your application and requirements. <br/><br/> The full documentation is not included with board manager installations (it is hard to find and the images bloat the download); we recommend viewing it through github at the link above<br/> or if it must be read withouht an internet connection by downaloding the manual installation package"
+    }
   ],
   "toolsDependencies": [
     {
       "packager": "DxCore",
       "name": "avr-gcc",
-      "version": "7.3.0-atmel3.6.1-azduino5"
+      "version": "7.3.0-atmel3.6.1-azduino6"
     },
     {
       "packager": "DxCore",
