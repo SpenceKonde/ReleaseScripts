@@ -97,7 +97,7 @@ jq -r                                   \
 
     },
     {
-      "name": "Supported UPDI programmers: SerialUPDI (serial adapter w/diode or resistor), jtag2updi, nEDBG, mEDBG, EDBG, SNAP, AtmelICE and PICkit4 or use one of those to load Optiboot (included) for serial programming if you determine that it is appropriate for your applicatio.. SerialUPDI may not be functionality spectacular, it supports thw latest parts are released.
+      "name": "Supported UPDI programmers: SerialUPDI (serial adapter w/diode or resistor), jtag2updi, nEDBG, mEDBG, EDBG, SNAP, AtmelICE and PICkit4 or use one of those to load Optiboot (included) for serial programming if you determine that it is appropriate for your applicatio.. SerialUPDI may not be functionality spectacular, it supports thw latest parts are released."
 
     }
   ],
