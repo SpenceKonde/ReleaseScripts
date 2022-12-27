@@ -85,28 +85,23 @@ jq -r                                   \
     {
       "name": "AVR Dx-series: All AVRxxDAyy, AVRxxDByy, and the first release supporting the AVRxxDDyy (where xx = flash size, and yy is pincount <br/>
       DA and DB come with 128k 64k or 32k flash and 64, 48, 32, or 28 pins. AVR DD comes with 64k, 32k or 16k flash, in pincounts of 32, 28, 20 or 14 pins<br/>
-      Microchip Official boards: Curiosity Nano AVR128DA48, AVR128DB48, and AVR64DD32<br/>"
+      Microchip Official boards: Curiosity Nano AVR128DA48, AVR128DB48, and AVR64DD32<br/>Treat this version as beta and be on the lookout for PWM provlems and problems with the DD-series"
     },
     {
-      "name": "1.5.0 contains a large number of fixes and enhancements. Wire wake as slave and Serial SFD should work (see Wire library readme and Ref_Serial), and there is now a <br/>
-      way to do serial autobaud. Also, major fixes to SPI, SerialUPDI on linux, and enhancements to and to Logic and Comparator libraries to support manually defined interrupts.<br/>
-      Serial flash usage is smaller now too, and it can receive properly. What am I forgetting... <br/>
-      Oh right, Double-Ds are in da house and have proper support now. We all love them double-Ds right?<br/>
-      Note: Expect longer download than usual, as this also updates the Azduino5 package; is a 40GB file (The care is a few MB total). X64 linux is hosted on githubm as that seems more polite that host the content that will most be lo0aded by githumb
-      and only once every few months per human user. I release toolchain updates around 1-2x per year so stop whinking
-
+      "name": "1.5.1 (there was no 1.5.0) contains a large number of fixes and enhancements. Wire wake as slave and Serial SFD should work (see Wire library readme and Ref_Serial), and there is now a <br/> way to do serial autobaud. Also, major fixes to SPI, SerialUPDI on linux, and enhancements to Logic and Comparator libraries to support manually defined interrupts.<br/> Serial flash usage is smaller now too, and it can receive properly. What am I forgetting... <br/> Oh right, Double-Ds are in da house and have proper support now. We all love them double-Ds right?<br/> Note: Expect longer download than usual, as this also installs the Azduino6 toolchain package (shared with megaTinyCore 2.6.x); is a 40MB file (The core is a few MB total)"
     },
     {
-      "name": "Supported UPDI programmers: SerialUPDI (serial adapter w/diode or resistor), jtag2updi, nEDBG, mEDBG, EDBG, SNAP, Atmel-ICE and PICkit4 - or use one of those to <br/>
-       load Optiboot (included) for serial programming if you determine that it is appropriate for your applicatio.. SerialUPDI may not be functionality spectacular, it supports thw latest parts are released.
-
+      "name": "Known issues: At 24 MHz when TCAn is selected for the millis timer, timing is a mess. Use a different timer (like the default, TCB2) or different system clock speed until this can be rectified."
+    },
+    {
+      "name": "Supported UPDI programmers: SerialUPDI (serial adapter w/diode or resistor), jtag2updi, nEDBG, mEDBG, EDBG, SNAP, Atmel-ICE and PICkit4 - or use one of those to <br/>load Optiboot (included) for serial programming if you determine that it is appropriate for your application.<br\>SerialUPDI may not be functionality spectacular, it supports the latest parts released, and it is fast as all hell, and the adapters cost practically nothing. "
     }
   ],
   "toolsDependencies": [
     {
       "packager": "DxCore",
       "name": "avr-gcc",
-      "version": "7.3.0-atmel3.6.1-azduino5"
+      "version": "7.3.0-atmel3.6.1-azduino6"
     },
     {
       "packager": "DxCore",
