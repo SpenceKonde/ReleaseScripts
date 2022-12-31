@@ -83,15 +83,13 @@ jq -r                                   \
   "size": $file_size,
   "boards": [
     {
-      "name": "AVR Dx-series: All AVRxxDAyy, AVRxxDByy, and the first release supporting the AVRxxDDyy (where xx = flash size, and yy is pincount <br/>
+      "name": "AVR Dx-series: All AVRxxDAyy, AVRxxDByy, AVRxxDDyy (where xx = flash size, and yy is pincount <br/>
       DA and DB come with 128k 64k or 32k flash and 64, 48, 32, or 28 pins. AVR DD comes with 64k, 32k or 16k flash, in pincounts of 32, 28, 20 or 14 pins<br/>
-      Microchip Official boards: Curiosity Nano AVR128DA48, AVR128DB48, and AVR64DD32<br/>Treat this version as beta and be on the lookout for PWM provlems and problems with the DD-series"
+      This core will support the AVRxxEAyy and AVRxxEByy series parts when they become available.
+      Microchip Official boards: Curiosity Nano AVR128DA48, AVR128DB48, and AVR64DD32<br/>While better than 1.5.1, until more is known, treat this version as beta and be on the lookout for PWM problems and problems with the DD-series"
     },
     {
-      "name": "1.5.1 (there was no 1.5.0) contains a large number of fixes and enhancements. Wire wake as slave and Serial SFD should work (see Wire library readme and Ref_Serial), and there is now a <br/> way to do serial autobaud. Also, major fixes to SPI, SerialUPDI on linux, and enhancements to Logic and Comparator libraries to support manually defined interrupts.<br/> Serial flash usage is smaller now too, and it can receive properly. What am I forgetting... <br/> Oh right, Double-Ds are in da house and have proper support now. We all love them double-Ds right?<br/> Note: Expect longer download than usual, as this also installs the Azduino6 toolchain package (shared with megaTinyCore 2.6.x); is a 40MB file (The core is a few MB total)"
-    },
-    {
-      "name": "Known issues: At 24 MHz when TCAn is selected for the millis timer, timing is a mess. Use a different timer (like the default, TCB2) or different system clock speed until this can be rectified."
+      "name": "1.5.2 is a bugfix to 1.5.1 - It corrects issues with analogRead() on 20-pin DD parts, SPI on 14-pin DD parts, timekeeping when TCA0 is used as clock source at certain speeds, issues programming through avrdude, and the event library on DD-series parts.
     },
     {
       "name": "Supported UPDI programmers: SerialUPDI (serial adapter w/diode or resistor), jtag2updi, nEDBG, mEDBG, EDBG, SNAP, Atmel-ICE and PICkit4 - or use one of those to <br/>load Optiboot (included) for serial programming if you determine that it is appropriate for your application.<br/>SerialUPDI may not be functionality spectacular, it supports the latest parts released, and it is fast as all hell, and the adapters cost practically nothing."
