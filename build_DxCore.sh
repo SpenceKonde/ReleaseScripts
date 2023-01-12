@@ -88,7 +88,7 @@ jq -r                                   \
       This core will support the AVRxxEAyy and AVRxxEByy series parts when they become available."
     },
     {
-      "name": "1.5.3 is a CRITICAL BUGFIX. When 1.5.2 was used to "burn bootloader" on non-optiboot AVR DD-series parts, it would always disable UPDI. Parts so configured couid be reprogrammed only with HV UPDI programming. "
+      "name": "1.5.3 is a CRITICAL BUGFIX. When 1.5.2 was used to burn bootloader on non-optiboot AVR DD-series parts, it would always disable UPDI. Parts so configured couid be reprogrammed only with HV UPDI programming."
     },
     {
       "name": "Supported UPDI programmers: SerialUPDI (serial adapter w/diode or resistor), jtag2updi, nEDBG, mEDBG, EDBG, SNAP, Atmel-ICE and PICkit4 - or use one of those to <br/>load Optiboot (included) for serial programming if you determine that it is appropriate for your application.<br/>SerialUPDI may not be functionality spectacular, it supports the latest parts released, and it is fast as all hell, and the adapters cost practically nothing."
