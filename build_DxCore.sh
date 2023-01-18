@@ -85,10 +85,10 @@ jq -r                                   \
     {
       "name": "AVR Dx-series: All AVRxxDAyy, AVRxxDByy, AVRxxDDyy (where xx = flash size, and yy is pincount <br/>
       DA and DB come with 128k 64k or 32k flash and 64, 48, 32, or 28 pins. AVR DD comes with 64k, 32k or 16k flash, in pincounts of 32, 28, 20 or 14 pins<br/>
-      This core will support the AVRxxEAyy and AVRxxEByy series parts when they become available."
+      This core will (despite the name) support the AVRxxEAyy and AVRxxEByy series parts when they become available."
     },
     {
-      "name": "1.5.3 is a CRITICAL BUGFIX. When 1.5.2 was used to burn bootloader on non-optiboot AVR DD-series parts, it would always disable UPDI. Parts so configured couid be reprogrammed only with HV UPDI programming."
+      "name": "1.5.4 picks up a single bugfix from a PR, because that PR was written by someone who has a Microchip logo as their avatar called it critical, it involved the old attach mode not working correctly on PORTC"
     },
     {
       "name": "Supported UPDI programmers: SerialUPDI (serial adapter w/diode or resistor), jtag2updi, nEDBG, mEDBG, EDBG, SNAP, Atmel-ICE and PICkit4 - or use one of those to <br/>load Optiboot (included) for serial programming if you determine that it is appropriate for your application.<br/>SerialUPDI may not be functionality spectacular, it supports the latest parts released, and it is fast as all hell, and the adapters cost practically nothing."
