@@ -3115,6 +3115,49 @@
               "name": "python3"
             }
           ]
+        },
+        {
+          "name": "DxCore",
+          "architecture": "megaavr",
+          "version": "1.5.5",
+          "category": "Contributed",
+          "url": "https://SpenceKonde.github.io/DxCore/DxCore-1.5.5.tar.bz2",
+          "archiveFileName": "DxCore-1.5.5.tar.bz2",
+          "checksum": "SHA-256:9e2f0554d57d5399da1ccb331c79f8ada0ddaf8552940a5a8448fd5cd6292d1b",
+          "size": "891642",
+          "boards": [
+            {
+              "name": "AVR Dx-series: All AVRxxDAyy, AVRxxDByy, AVRxxDDyy (where xx = flash size, and yy is pincount <br/>\n      DA and DB come with 128k 64k or 32k flash and 64, 48, 32, or 28 pins. AVR DD comes with 64k, 32k or 16k flash, in pincounts of 32, 28, 20 or 14 pins<br/>\n      This core will (despite the name) support the AVRxxEAyy and AVRxxEByy series parts when they become available."
+            },
+            {
+              "name": "1.5.5 - Largely a bugfix release, with some fixes to wire, some fixes to board definitions, and addition of 48 MHz crystal option, since that sometimes works at room temp on E-spec parts<br/><b>Supported Parts:</b>AVR128DA64, AVR128DA48, AVR128DA32, AVR128DA28, AVR128DB64, AVR128DB48,<br/> AVR128DB32, AVR128DB28, AVR64DA64, AVR64DA48, AVR64DA32, AVR64DA28,<br/> AVR64DB64, AVR64DB48, AVR64DB32, AVR64DB28, AVR32DA48, AVR32DA32,<br/>AVR32DA28, AVR32DB48, AVR32DB32, AVR32DB28,<br/>AVR64DD32, AVR64DD28, AVR64DD20, AVR64DD14, AVR32DD32, AVR32DD28,<br/>AVR32DD20, AVR32DD14, AVR16DD32, AVR16DD28, AVR16DD20, AVR16DD14<br/>"
+            },
+            {
+              "name": "Supported UPDI programmers: SerialUPDI (serial adapter w/diode or resistor), jtag2updi, nEDBG, mEDBG, EDBG, SNAP, Atmel-ICE and PICkit4 - or use one of those to <br/>load Optiboot (included) for serial programming if you determine that it is appropriate for your application.<br/>SerialUPDI may not be functionality spectacular, it supports the latest parts released, and it is fast as all hell, and the adapters cost practically nothing."
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "DxCore",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-azduino6"
+            },
+            {
+              "packager": "DxCore",
+              "name": "avrdude",
+              "version": "6.3.0-arduino17or18"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            },
+            {
+              "packager": "megaTinyCore",
+              "version": "3.7.2-post1",
+              "name": "python3"
+            }
+          ]
         }
       ],
       "tools": [
