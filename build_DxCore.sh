@@ -88,7 +88,7 @@ jq -r                                   \
       This core will (despite the name) support the AVRxxEAyy and AVRxxEByy series parts when they become available."
     },
     {
-      "name": "1.5.6 - Correction to critical bugs relating to analogWrite(), which was completely busted on most parts.
+      "name": "1.5.6 - Correction to critical bugs relating to analogWrite(), which was completely busted on most parts."
     },
     {
       "name": "Supported UPDI programmers: SerialUPDI (serial adapter w/diode or resistor), jtag2updi, nEDBG, mEDBG, EDBG, SNAP, Atmel-ICE and PICkit4 - or use one of those to <br/>load Optiboot (included) for serial programming if you determine that it is appropriate for your application. <br/>SerialUPDI may not be functionally spectacular, but it supports the latest parts released, and it is fast as all hell, and the adapters cost practically nothing."
