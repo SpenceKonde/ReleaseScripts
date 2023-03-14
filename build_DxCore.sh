@@ -88,10 +88,10 @@ jq -r                                   \
       This core will (despite the name) support the AVRxxEAyy and AVRxxEByy series parts when they become available."
     },
     {
-      "name": "1.5.5 - Largely a bugfix release, with some fixes to wire, some fixes to board definitions, and addition of 48 MHz crystal option, since that sometimes works at room temp on E-spec parts<br/><b>Supported Parts:</b>AVR128DA64, AVR128DA48, AVR128DA32, AVR128DA28, AVR128DB64, AVR128DB48,<br/> AVR128DB32, AVR128DB28, AVR64DA64, AVR64DA48, AVR64DA32, AVR64DA28,<br/> AVR64DB64, AVR64DB48, AVR64DB32, AVR64DB28, AVR32DA48, AVR32DA32,<br/>AVR32DA28, AVR32DB48, AVR32DB32, AVR32DB28,<br/>AVR64DD32, AVR64DD28, AVR64DD20, AVR64DD14, AVR32DD32, AVR32DD28,<br/>AVR32DD20, AVR32DD14, AVR16DD32, AVR16DD28, AVR16DD20, AVR16DD14<br/>"
+      "name": "1.5.6 - Correction to critical bugs relating to analogWrite(), which was completely busted on most parts.
     },
     {
-      "name": "Supported UPDI programmers: SerialUPDI (serial adapter w/diode or resistor), jtag2updi, nEDBG, mEDBG, EDBG, SNAP, Atmel-ICE and PICkit4 - or use one of those to <br/>load Optiboot (included) for serial programming if you determine that it is appropriate for your application.<br/>SerialUPDI may not be functionality spectacular, it supports the latest parts released, and it is fast as all hell, and the adapters cost practically nothing."
+      "name": "Supported UPDI programmers: SerialUPDI (serial adapter w/diode or resistor), jtag2updi, nEDBG, mEDBG, EDBG, SNAP, Atmel-ICE and PICkit4 - or use one of those to <br/>load Optiboot (included) for serial programming if you determine that it is appropriate for your application. <br/>SerialUPDI may not be functionally spectacular, but it supports the latest parts released, and it is fast as all hell, and the adapters cost practically nothing."
     }
   ],
   "toolsDependencies": [
