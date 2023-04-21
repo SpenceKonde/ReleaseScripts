@@ -6267,6 +6267,46 @@
               "name": "python3"
             }
           ]
+        },
+        {
+          "name": "megaTinyCore",
+          "architecture": "megaavr",
+          "version": "2.6.7",
+          "category": "Contributed",
+          "url": "https://SpenceKonde.github.io/megaTinyCore/megaTinyCore-2.6.7.tar.bz2",
+          "archiveFileName": "megaTinyCore-2.6.7.tar.bz2",
+          "checksum": "SHA-256:2282cbf834346b055d24c4a6c90a0f8c9ba1d58984619a7cb34491062715782b",
+          "size": "818325",
+          "boards": [
+            {
+              "name": "This is a critical bugfix release that I thought went out weeks ago, and a  new feature that I had developed in the meantime: A tools menu to choose the pwm pins. This also comes with a bunch of minor fixes"
+            },
+            {
+              "name": "Supported UPDI programmers: SerialUPDI (serial adapter w/diode or resistor), jtag2updi, nEDBG, mEDBG, EDBG, SNAP, Atmel-ICE and PICkit4 - or use one of those to load<br/> the Optiboot serial bootloader (included) for serial programming. Which programing method makes more sense depends on your application and requirements. <br/><br/> The full documentation is not included with board manager installations (it is hard to find and the images bloat the download); we recommend viewing it through github at the link above<br/> or if it must be read withouht an internet connection by downaloding the manual installation package"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "DxCore",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-azduino6"
+            },
+            {
+              "packager": "DxCore",
+              "name": "avrdude",
+              "version": "6.3.0-arduino17or18"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            },
+            {
+              "packager": "megaTinyCore",
+              "version": "3.7.2-post1",
+              "name": "python3"
+            }
+          ]
         }
       ],
       "tools": [
