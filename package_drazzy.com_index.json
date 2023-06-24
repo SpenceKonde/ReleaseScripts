@@ -3201,6 +3201,49 @@
               "name": "python3"
             }
           ]
+        },
+        {
+          "name": "DxCore",
+          "architecture": "megaavr",
+          "version": "1.5.8",
+          "category": "Contributed",
+          "url": "https://SpenceKonde.github.io/DxCore/DxCore-1.5.8.tar.bz2",
+          "archiveFileName": "DxCore-1.5.8.tar.bz2",
+          "checksum": "SHA-256:ceea56c5aba6c5df381bf8dbc86c20b51ae773b4c0fb9c4a9721eb6b6d9e8b04",
+          "size": "918510",
+          "boards": [
+            {
+              "name": "AVR Dx-series: All AVRxxDAyy, AVRxxDByy, AVRxxDDyy (where xx = flash size, and yy is pincount <br/>\n      DA and DB come with 128k 64k or 32k flash and 64, 48, 32, or 28 pins. AVR DD comes with 64k, 32k or 16k flash, in pincounts of 32, 28, 20 or 14 pins<br/>\n      This core will (despite the name) support the AVRxxEAyy and AVRxxEByy series parts when they become available."
+            },
+            {
+              "name": "1.5.8 - BETA EA-series support. A new toolchain package, and a lot of bugfixes. ."
+            },
+            {
+              "name": "Supported UPDI programmers: SerialUPDI (serial adapter w/diode or resistor), jtag2updi, nEDBG, mEDBG, EDBG, SNAP, Atmel-ICE and PICkit4 - or use one of those to <br/>load Optiboot (included) for serial programming if you determine that it is appropriate for your application. <br/>SerialUPDI may not be functionally spectacular, but it supports the latest parts released, and it is fast as all hell, and the adapters cost practically nothing."
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "DxCore",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-azduino7"
+            },
+            {
+              "packager": "DxCore",
+              "name": "avrdude",
+              "version": "6.3.0-arduino17or18"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            },
+            {
+              "packager": "megaTinyCore",
+              "version": "3.7.2-post1",
+              "name": "python3"
+            }
+          ]
         }
       ],
       "tools": [
@@ -3550,6 +3593,54 @@
               "host": "i686-w64-mingw32",
               "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino6-i686-w64-mingw32.tar.bz2",
               "url": "https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino6-i686-w64-mingw32.tar.bz2"
+            }
+          ]
+        },
+        {
+          "name": "avr-gcc",
+          "version": "7.3.0-atmel3.6.1-azduino7",
+          "systems": [
+            {
+              "size": "38110321",
+              "checksum": "SHA-256:856b916885ec085210fbb839a4fc4ce714c7eb3410f8234027ecb89099671a4d",
+              "host": "aarch64-pc-linux-gnu",
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino7-aarch64-pc-linux-gnu.tar.bz2",
+              "url": "https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino7-aarch64-pc-linux-gnu.tar.bz2"
+            },
+            {
+              "size": "34736119",
+              "checksum": "SHA-256:fdeb383d67bac7b7c718b37786763e5feae98e9cd5ff6c22cbc5b9d595f598d7",
+              "host": "arm-linux-gnueabihf",
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino7-arm-linux-gnueabihf.tar.bz2",
+              "url": "https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino7-arm-linux-gnueabihf.tar.bz2"
+            },
+            {
+              "size": "37301408",
+              "checksum": "SHA-256:3aa2882a002f012e555edc996c233738d0094e94ca54ca5bc65169787a152ce7",
+              "host": "i686-pc-linux-gnu",
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino7-i686-pc-linux-gnu.tar.bz2",
+              "url": "https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino7-i686-pc-linux-gnu.tar.bz2"
+            },
+            {
+              "size": "37924393",
+              "checksum": "SHA-256:7e42046b298981e19034bd187f85503a4d80b582fd756403d7b61498013f3f0b",
+              "host": "x86_64-apple-darwin14",
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino7-x86_64-apple-darwin14.tar.bz2",
+              "url": "https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino7-x86_64-apple-darwin14.tar.bz2"
+            },
+            {
+              "size": "37969942",
+              "checksum": "SHA-256:e270ca93f4430b0ad675f6d4cebb6214fc2cd3f293066cdc1b46009abb81cdf6",
+              "host": "x86_64-pc-linux-gnu",
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino7-x86_64-pc-linux-gnu.tar.bz2",
+              "url": "https://github.com/SpenceKonde/DxCore/raw/gh-pages/avr-gcc-7.3.0-atmel3.6.1-azduino7-x86_64-pc-linux-gnu.tar.bz2"
+            },
+            {
+              "size": "45932457",
+              "checksum": "SHA-256:c643dd4657bd1a62438b22cfa05790aaf250f620d6cb2e956d193796ec81d5fc",
+              "host": "i686-w64-mingw32",
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino7-i686-w64-mingw32.tar.bz2",
+              "url": "https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino7-i686-w64-mingw32.tar.bz2"
             }
           ]
         }
