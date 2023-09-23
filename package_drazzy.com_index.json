@@ -3259,7 +3259,7 @@
               "name": "AVR Dx-series: All AVRxxDAyy, AVRxxDByy, AVRxxDDyy, AVRxxEAyy (where xx = flash size, and yy is pincount <br/>\n      DA and DB come with 128k 64k or 32k flash and 64, 48, 32, or 28 pins. AVR DD comes with 64k, 32k or 16k flash, in pincounts of 32, 28, 20 or 14 pins<br/>\n      This core will (despite the name) support the AVRxxEAyy and AVRxxEByy series parts when they become available."
             },
             {
-              "name": "1.5.9 - Correction to a variety of bugs and support for 32k and 16k EA-series parts."
+              "name": "1.5.9 - no good. Use 1.5.10."
             },
             {
               "name": "Supported UPDI programmers: SerialUPDI (serial adapter w/diode or resistor), jtag2updi, nEDBG, mEDBG, EDBG, SNAP, Atmel-ICE and PICkit4 - or use one of those to <br/>load Optiboot (included) for serial programming if you determine that it is appropriate for your application. <br/>SerialUPDI may not be functionally spectacular, but it supports the latest parts released, and it is fast as all hell, and the adapters cost practically nothing."
@@ -3270,6 +3270,49 @@
               "packager": "DxCore",
               "name": "avr-gcc",
               "version": "7.3.0-atmel3.6.1-azduino6"
+            },
+            {
+              "packager": "DxCore",
+              "name": "avrdude",
+              "version": "6.3.0-arduino17or18"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            },
+            {
+              "packager": "megaTinyCore",
+              "version": "3.7.2-post1",
+              "name": "python3"
+            }
+          ]
+        },
+        {
+          "name": "DxCore",
+          "architecture": "megaavr",
+          "version": "1.5.10",
+          "category": "Contributed",
+          "url": "https://SpenceKonde.github.io/DxCore/DxCore-1.5.10.tar.bz2",
+          "archiveFileName": "DxCore-1.5.10.tar.bz2",
+          "checksum": "SHA-256:0d8d56a14337e2c1c6e60a8d875e274c7cffa2e0a080ffa04fcd6178e020ecc2",
+          "size": "1952196",
+          "boards": [
+            {
+              "name": "AVR Dx-series: All AVRxxDAyy, AVRxxDByy, AVRxxDDyy and AVRxxEAyy (where xx = flash size, and yy is pincount <br/>\n      DA and DB come with 128k 64k or 32k flash and 64, 48, 32, or 28 pins. AVR DD comes with 64k, 32k or 16k flash, in pincounts of 32, 28, 20 or 14 pins<br/>\n      This core will (despite the name) support the AVRxxEAyy and AVRxxEByy series parts when they become available."
+            },
+            {
+              "name": "1.5.10 - Correction to a variety of bugs and support for 32k and 16k EA-series parts, and several critical issues added in 1.5.9."
+            },
+            {
+              "name": "Supported UPDI programmers: SerialUPDI (serial adapter w/diode or resistor), jtag2updi, nEDBG, mEDBG, EDBG, SNAP, Atmel-ICE and PICkit4 - or use one of those to <br/>load Optiboot (included) for serial programming if you determine that it is appropriate for your application. <br/>SerialUPDI may not be functionally spectacular, but it supports the latest parts released, and it is fast as all hell, and the adapters cost practically nothing."
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "DxCore",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-azduino7"
             },
             {
               "packager": "DxCore",
