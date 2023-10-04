@@ -38,12 +38,37 @@ rm -rf $REPOSITORY-${DOWNLOADED_FILE#"v"}/extras
 # Delete downloaded file and empty megaavr folder
 rm -rf ${DOWNLOADED_FILE}.tar.bz2 $REPOSITORY-${DOWNLOADED_FILE#"v"}/megaavr
 
-# Comment out the github/manual installation's tools.pymcuprog.cmd...
+# Change: Don't delete extras. We started doing that because of all the bloat from pinout images. But that's also where all of our docs are!
+# So let's just delete the images...
+# Delete the extras png files -
+rm -rf $REPOSITORY-${DOWNLOADED_FILE#"v"}/extras/*.png
+rm -rf $REPOSITORY-${DOWNLOADED_FILE#"v"}/extras/*.jpg
+rm -rf $REPOSITORY-${DOWNLOADED_FILE#"v"}/extras/*.jpeg
+rm -rf $REPOSITORY-${DOWNLOADED_FILE#"v"}/extras/*.gif
+# SVGs are very small and can stay. When we move to all SVG diagrams, we'll actually be able to distribute the pinmapping diagrams :-P
+
+# Delete the extras subfolders. IO headers goes because people will think those are the ones that get used and that they can edit them there
+# They aren't, and editing the Microchip-given headers is a mortal sin anyway.
+# The rest have no purpose outside of core development, so can be left manual only.
+rm -rf $REPOSITORY-${DOWNLOADED_FILE#"v"}/extras/ioheaders
+rm -rf $REPOSITORY-${DOWNLOADED_FILE#"v"}/extras/development
+rm -rf $REPOSITORY-${DOWNLOADED_FILE#"v"}/extras/ci
+rm -rf $REPOSITORY-${DOWNLOADED_FILE#"v"}/extras/GenPinoutSVG
+
+# Delete downloaded file and empty megaavr folder
+rm -rf ${DOWNLOADED_FILE}.tar.bz2 $REPOSITORY-${DOWNLOADED_FILE#"v"}/megaavr
+
+# Comment out the github/manual installation's tools.serialupdi.cmd...
 sed -i 's/^tools.pymcuprog.cmd/#tools.pymcuprog.cmd/' $REPOSITORY-${DOWNLOADED_FILE#"v"}/platform.txt
 
 sed -i 's/^tools.serialupdi.cmd/#tools.serialupdi.cmd/' $REPOSITORY-${DOWNLOADED_FILE#"v"}/platform.txt
-#
+
+#Remove any #REMOVE#'s in the platform.txt to replace them.
 sed -i 's/^#REMOVE#//' $REPOSITORY-${DOWNLOADED_FILE#"v"}/platform.txt
+
+# Guarantee that the version is set to the current version.
+sed -i 's/^version=.*/version=${DOWNLOADED_FILE#"v"}' $REPOSITORY-${DOWNLOADED_FILE#"v"}/platform.txt
+
 
 cp $REPOSITORY-${DOWNLOADED_FILE#"v"}/platform.txt platform.extract
 
@@ -86,7 +111,7 @@ jq -r                                   \
       "name": "Full Arduino support for the tinyAVR 0-series, 1-series, and the new 2-series!<br/> 24-pin parts: ATtiny3227/3217/1627/1617/1607/827/817/807/427<br/> 20-pin parts: ATtiny3226/3216/1626/1616/1606/826/816/806/426/416/406<br/> 14-pin parts: ATtiny3224/1624/1614/1604/824/814/804/424/414/404/214/204<br/> 8-pin parts: ATtiny412/402/212/202<br/> Microchip Boards: Curiosity Nano 3217/1627/1607 and Xplained Pro (3217/817), Mini (817) Nano (416). Direct USB uploads may not work on linux, but you can export hex and <br/> upload through the mass storage projection."
     },
     {
-      "name": "2.6.5 corrects a number of small, mostly minor issues. Reorders the list of chips now that all sizes of all families are shipping, adds new bootloader entry conditions and a menu to tweak optimization settings, but nothing particularly big."
+      "name": "2.6.9 correctly handles a few situations, and corrects the bootloader binaries, updates the toolchain to fix two relatively minor issues.
     },
     {
       "name": "Supported UPDI programmers: SerialUPDI (serial adapter w/diode or resistor), jtag2updi, nEDBG, mEDBG, EDBG, SNAP, Atmel-ICE and PICkit4 - or use one of those to load<br/> the Optiboot serial bootloader (included) for serial programming. Which programing method makes more sense depends on your application and requirements. <br/><br/> The full documentation is not included with board manager installations (it is hard to find and the images bloat the download); we recommend viewing it through github at the link above<br/> or if it must be read withouht an internet connection by downaloding the manual installation package"
@@ -96,7 +121,7 @@ jq -r                                   \
     {
       "packager": "DxCore",
       "name": "avr-gcc",
-      "version": "7.3.0-atmel3.6.1-azduino6"
+      "version": "7.3.0-atmel3.6.1-azduino7b"
     },
     {
       "packager": "DxCore",
