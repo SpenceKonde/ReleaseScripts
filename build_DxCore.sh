@@ -110,7 +110,7 @@ jq -r                                   \
       "name":"<b> Planned pending release</b>: AVR32EB14/20/28/32, AVR16EB14/20/28/32, AVR8EB14/20/28/32, AVR64DU28/32, AVR32DU14/20/28/32, AVR16DU14/20/28/32<br/>"
     },
     {
-      "name":"<b>Release Notes</b>: 1.5.11 - TBD"
+      "name":"<b>Release Notes</b>: 1.5.11 - Critical bugfix for PWM on DA and DB, and a toolchain package update. This also happens to pull in some other very minor stuff."
     },
     {
       "name":"<b>Supported UPDI programmers</b>: SerialUPDI (serial adapter w/diode or resistor), jtag2updi, nEDBG, mEDBG, EDBG, SNAP, Atmel-ICE and PICkit4 - or use one of those to <br/>load Optiboot (included) for serial programming if you determine that it is appropriate for your application. <br/>SerialUPDI may not be functionally spectacular, but it supports the latest parts released, and it is fast as all hell, and the adapters cost practically nothing."
@@ -120,7 +120,7 @@ jq -r                                   \
     {
       "packager": "DxCore",
       "name": "avr-gcc",
-      "version": "7.3.0-atmel3.6.1-azduino7b"
+      "version": "7.3.0-atmel3.6.1-azduino7b1"
     },
     {
       "packager": "DxCore",
