@@ -67,7 +67,7 @@ sed -i 's/^tools.serialupdi.cmd/#tools.serialupdi.cmd/' $REPOSITORY-${DOWNLOADED
 sed -i 's/^#REMOVE#//' $REPOSITORY-${DOWNLOADED_FILE#"v"}/platform.txt
 
 # Guarantee that the version is set to the current version.
-sed -i 's/^version=.*/version=${DOWNLOADED_FILE#"v"}' $REPOSITORY-${DOWNLOADED_FILE#"v"}/platform.txt
+sed -i 's/^version=.*/version=${DOWNLOADED_FILE#"v"}/' $REPOSITORY-${DOWNLOADED_FILE#"v"}/platform.txt
 
 
 cp $REPOSITORY-${DOWNLOADED_FILE#"v"}/platform.txt platform.extract
