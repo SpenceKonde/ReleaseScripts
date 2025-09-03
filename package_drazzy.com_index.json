@@ -3966,7 +3966,7 @@
               "size": "12134767",
               "checksum": "SHA-256:ef4aa45dd729d48bc2f7ecaa2f403f2b065f4aedfb24dd399477c74b2a0f3794",
               "host": "i686-w64-mingw32",
-              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino8-i686-w64-mingw32.tar.bz2",
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino8-i686-w64-mingw32.zip",
               "url": "https://spencekondetoolchains.s3.us-east-1.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino8-i686-w64-mingw32.zip"
             }
           ]
