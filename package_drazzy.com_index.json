@@ -3963,11 +3963,11 @@
               "url": "https://spencekondetoolchains.s3.us-east-1.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino8-x86_64-pc-linux-gnu.tar.bz2"
             },
             {
-              "size": "12134767",
-              "checksum": "SHA-256:ef4aa45dd729d48bc2f7ecaa2f403f2b065f4aedfb24dd399477c74b2a0f3794",
+              "size": "42380541",
+              "checksum": "SHA-256:5552c8ba5e543a5047fd911ec60bcf241351b57498fb5d7b408e4617e174ef0d",
               "host": "i686-w64-mingw32",
-              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino8-i686-w64-mingw32.zip",
-              "url": "https://spencekondetoolchains.s3.us-east-1.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino8-i686-w64-mingw32.zip"
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino8-i686-w64-mingw32.tar.bz2",
+              "url": "https://spencekondetoolchains.s3.us-east-1.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino8-i686-w64-mingw32.tar.bz2"
             }
           ]
         }
