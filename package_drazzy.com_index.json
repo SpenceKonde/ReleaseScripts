@@ -4001,7 +4001,7 @@
               "checksum": "SHA-256:ffce8ce1ef79bd6ec25a1a7154900966bcfdcd1731eb5d1e45c60e914a655e1d",
               "host": "x86_64-pc-linux-gnu",
               "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino8-x86_64-pc-linux-gnu.tar.bz2",
-              "url": "https://github.com/SpenceKonde/DxCore/blob/gh-pages/avr-gcc-7.3.0-atmel3.6.1-azduino8-x86_64-pc-linux-gnu.tar.bz2"
+              "url": "https://spencekondetoolchains.s3.us-east-1.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino8-x86_64-pc-linux-gnu.tar.bz2"
             },
             {
               "size": "44053393",
