@@ -3391,19 +3391,16 @@
           "size": "2945786",
           "boards": [
             {
-              "name": "DxCore: For all non-tinyAVR modern AVR devices: All AVRxxDAyy, AVRxxDByy, AVRxxDDyy (where xx = flash size, and yy is pincount <br/>\n      DA and DB come with 128k 64k or 32k flash and 64, 48, 32, or 28 pins. AVR DD comes with 64k, 32k or 16k flash, in pincounts of 32, 28, 20 or 14 pins<br/>\n      This core also supports the AVR Ex-series AVRxxEAyy and, pending release, will support the AVRxxDUyy and AVRxxEByy parts,"
+              "name": "<b>DxCore</b>: For all modern non-tinyAVR AVR devices: All AVRxxDAyy, AVRxxDByy, AVRxxDDyy, and now AVRxxDUyy (no USB support yet), AVRxxEAyy (now with uploads and burn bootloader fixed) as well as the AVR, and now the Ex-series p AVRxxEByy and AVRxxDUyy. <br/>These parts are available in flash sizes as small as 16k or as large as 128k, 1k to 16k of RAM, and run at up to 24 (Dx) or up to 20 (Ex) MHz. Each family is available in 2 or 3 flash sizes, and each combination of flash size and featureset is usually available on three or four different pincounts ."
             },
             {
-              "name": "<b> Supported</b>: AVR128DA28/32/48/64, AVR128DB28/32/48/64, AVR64DD14/20/28/32, AVR64DA28/32/48/64, AVR64DB28/32/48/64<br/>\n      AVR32DD14/20/28/32, AVR32DA28/32/48, AVR32DB28/32/48, AVR16DD14/20/28/32, AVR64EA28/32/48, AVR32EA28/32/48, AVR16EA28/32/48"
+              "name": "<b>Supported:</b> AVR128DA28/32/48/64, AVR128DB28/32/48/64, AVR64DA28/32/48/64, AVR64DB28/32/48/64, AVR64DD14/20/28/32, AVR64DU28/32<br/>AVR32DA28/32/48, AVR32DB28/32/48,  AVR32DD14/20/28/32, AVR16DD14/20/28/32<br/>AVR64EA28/32/48, AVR32EA28/32/48, AVR16EA28/32/48"
             },
             {
-              "name": "<b> Planned pending release</b>: AVR32EB14/20/28/32, AVR16EB14/20/28/32, AVR8EB14/20/28/32, AVR64DU28/32, AVR32DU14/20/28/32, AVR16DU14/20/28/32<br/>"
+              "name": "<b>Release Notes:</b> 1.6.0 - Experimental release so that automated testing can be run with new toolchain. <b> THIS RELEASE IS NO GOOD! USE 1.6.1 or later! </b>"
             },
             {
-              "name": "<b>Release Notes</b>: 1.5.11 - Critical bugfix for PWM on DA and DB, and a toolchain package update. This also happens to pull in some other very minor stuff."
-            },
-            {
-              "name": "<b>Supported UPDI programmers</b>: SerialUPDI (serial adapter w/diode or resistor), jtag2updi, nEDBG, mEDBG, EDBG, SNAP, Atmel-ICE and PICkit4 - or use one of those to <br/>load Optiboot (included) for serial programming if you determine that it is appropriate for your application. <br/>SerialUPDI may not be functionally spectacular, but it supports the latest parts released, and it is fast as all hell, and the adapters cost practically nothing."
+              "name": "<b>Supported UPDI programmers:</b> SerialUPDI (serial adapter w/diode or resistor), jtag2updi, nEDBG, mEDBG, EDBG, SNAP, Atmel-ICE and PICkit4 - or use one of those to <br/>load Optiboot (included) for serial programming if you determine that it is appropriate for your application. <br/>SerialUPDI may not be functionally spectacular, but it supports the latest parts released, and it is fast as all hell, and the adapters cost practically nothing."
             }
           ],
           "toolsDependencies": [
@@ -3411,6 +3408,52 @@
               "packager": "DxCore",
               "name": "avr-gcc",
               "version": "7.3.0-atmel3.6.1-azduino7b1"
+            },
+            {
+              "packager": "DxCore",
+              "name": "avrdude",
+              "version": "6.3.0-arduino17or18"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            },
+            {
+              "packager": "megaTinyCore",
+              "version": "3.7.2-post1",
+              "name": "python3"
+            }
+          ]
+        },
+        {
+          "name": "DxCore",
+          "architecture": "megaavr",
+          "version": "1.6.1",
+          "category": "Contributed",
+          "url": "https://SpenceKonde.github.io/DxCore/DxCore-1.6.1.tar.bz2",
+          "archiveFileName": "DxCore-1.6.1.tar.bz2",
+          "checksum": "SHA-256:10008d66eb9e3fa79a4cfff728a84db12f28a55316ebccbed6eb01e4e15040c1",
+          "size": "2948620",
+          "boards": [
+            {
+              "name": "<b>DxCore</b>: For all modern non-tinyAVR AVR devices: All AVRxxDAyy, AVRxxDByy, AVRxxDDyy, and now AVRxxDUyy (no USB support yet), AVRxxEAyy (now with uploads and burn bootloader fixed) as well as the AVR, and now the Ex-series p AVRxxEByy and AVRxxDUyy. <br/>These parts are available in flash sizes as small as 16k or as large as 128k, 1k to 16k of RAM, and run at up to 24 (Dx) or up to 20 (Ex) MHz. Each family is available in 2 or 3 flash sizes, and each combination of flash size and featureset is usually available on three or four different pincounts ."
+            },
+            {
+              "name": "<b>Supported:</b> AVR128DA28/32/48/64, AVR128DB28/32/48/64, AVR64DA28/32/48/64, AVR64DB28/32/48/64, AVR64DD14/20/28/32, AVR64DU28/32<br/>AVR32DA28/32/48, AVR32DB28/32/48,  AVR32DD14/20/28/32, AVR16DD14/20/28/32<br/>AVR64EA28/32/48, AVR32EA28/32/48, AVR16EA28/32/48"
+            },
+            {
+              "name": "<b>Release Notes:</b> 1.6.1 - 1.6.0 omitted the new toolchain, and none of the new parts worked as a result. This should correct that. 1.6.0 - Experimental release so that automated testing can be run with new toolchain. Further information will be posted on github when more information about release plans is available. "
+            },
+            {
+              "name": "<b>Supported UPDI programmers:</b> SerialUPDI (serial adapter w/diode or resistor), jtag2updi, nEDBG, mEDBG, EDBG, SNAP, Atmel-ICE and PICkit4 - or use one of those to <br/>load Optiboot (included) for serial programming if you determine that it is appropriate for your application. <br/>SerialUPDI may not be functionally spectacular, but it supports the latest parts released, and it is fast as all hell, and the adapters cost practically nothing."
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "DxCore",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-azduino8"
             },
             {
               "packager": "DxCore",
