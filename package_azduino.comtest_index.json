@@ -78,7 +78,7 @@
             },
             {
               "size": "3331581",
-              "checksum": "SHA-256:df1dfd18e2e287c47232605cd4fa41751eb70df8c300aeb7a00a3a09b524a1b8",
+              "checksum": "SHA-256:d7739fbb5d1fe649511121a695dac3f4ca5ccb348919bf1f45f9bc5a2ea0ce72",
               "host": "x86_64-apple-darwin12",
               "archiveFileName": "avrdude_v8.1_macOS_64bit.tar.gz",
               "url": "https://github.com/avrdudes/avrdude/releases/download/v8.1/avrdude_v8.1_macOS_64bit.tar.gz"
@@ -99,7 +99,7 @@
             },
             {
               "size": "4094555",
-              "checksum": "SHA-256:b863613dd2fe21c45b4da04e4902fe2007a93dff906d770a5221de48eb92b8c6",
+              "checksum": "SHA-256:94016c6b17dd98592f4e50087d4d0fc7d5fd26f471d16b0a9a3e6dc93b154f2a",
               "host": "i686-mingw32",
               "archiveFileName": "avrdude_v8.1_Windows_32bit.tar.gz",
               "url": "https://github.com/avrdudes/avrdude/releases/download/v8.1/avrdude_v8.1_Windows_32bit.tar.gz"
