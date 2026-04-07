@@ -301,7 +301,7 @@
               "checksum": "SHA-256:019ad5eecd79e2e673f07c10311399a570de565cc29389ee798b0539a418336b",
               "host": "i686-w64-mingw32",
               "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino8a-i686-w64-mingw32.tar.bz2",
-              "url": "https://spencekondetoolchains.s3.us-east-1.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino8a-i686-w64-mingw32.zip"
+              "url": "https://spencekondetoolchains.s3.us-east-1.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino8a-i686-w64-mingw32.tar.bz2"
             }
           ]
         }
